@@ -1,0 +1,4100 @@
+...
+pero
+son varias cosas
+como hemos dicho
+cantidad de combustible que consume
+si no hay lo que menciona
+si ya lo han hecho
+si ya lo han hecho
+si ya lo han hecho
+si va a ser más caro
+como lo van a hacer
+Son varias cosas y varios aspectos que tendrías que responder para que podamos ver si es un tema viable para un proyecto de grado y en base a eso definir qué se puede hacer.
+Ahora, ¿sólo el proceso de liquidificación en qué consiste? Si tú agarras y tienes el tanque de gas natural comprimido, ¿cómo lo conviertes en líquido?
+El brillante en la idea es porque se ve un río.
+No fría temperaturas extremas de 1937.
+Ya, claro, sí, ya, ok. Pero me refiero a que mediante qué componentes tú necesitarías que un intercambiador de calor, un radiador, necesitarías jugar con procesos adiabáticos.
+No puedo simplemente colocarlo en el entorno y así ya, o sea, suma el fin.
+No sabría decirte, yo no soy experto en esta parte, pero tendrías que investigar.
+Porque si el proceso de liquidificación sale más caro que lo que ahorraría el camión, no se puede ir como...
+Pero viable, pero si pudiera, digamos, ya que los camiones no tienen el GNL instalado, pero ¿cómo yo lo demostraría en un prototipo?
+A ver, a ver, a ver, aquí los camiones ya tienen el GNL, el gas natural licuado, ¿ya lo tienen instalado?
+No, aquí no. En Bolivia, ¿no? Por eso.
+¿Dónde?
+¿De lo más cercano acá?
+¿Vas a decir en Argentina?
+No, pues pensaba yo hacerlo en el prototipo utilizando el gas, el GNC y el laboratorio o el prototipo de creerlo con el tono en el líquido para que se cumpla en el nivel.
+O sea, eso es lo que se me ocurre ahorita.
+De esa forma, hacer...
+Ya, si cierras el proceso de liquidificación solamente, ¿dónde está la contribución electrónica ahí?
+Sí, en el sistema, porque no está liquidificando todavía.
+Dos áreas de la carrera, ¿cuál sería?
+Automatización, tiene que automatizarse también.
+¿Por qué?
+Porque tiene que tener diferentes sensores y también...
+Bueno, porque tiene que leer diferentes factores y también controlar el flujo de GNL,
+porque no es simplemente soltar una llave.
+Tiene que saber cuánto le va a colocar el GNL,
+en qué procedimiento, ver si hay un overshoot,
+para ver si tiene que controlarlo de primer grado, segundo grado o tercer grado.
+Y de esa manera hay que controlarlo con una válvula que se abra con ciertos grados,
+al igual que hacer lo mismo con el CULAN de arriba.
+Ese es el control.
+Y el otro sería el área de revaloración no mecánico.
+Y el área de instrumentación, porque está llenísimo de instrumentación.
+Vi algunas tesis que lo utilizaban.
+Sensores de temperatura TT, sensores de placas, sensores de apertura, de emergencia...
+A ver, ¿te das cuenta que le estás metiendo un montón de cosas?
+¿Y estás encareciendo más tu proyecto?
+Sí.
+¿Vas a conseguir lo que...?
+Porque ese es uno de los factores que se analiza cuando se entra a una defensa del tema.
+No solamente se analiza que sea interesante ni que sea complejo, sino que sea factible.
+Y dentro de lo que es la factibilidad, se analiza el hecho de que cuántos sensores vas a utilizar,
+que cuánta inversión tú necesitas aplicar a esto para poder culminar de forma exitosa tu proyecto de grado.
+Claro.
+¿Sería costoso?
+No lo pensé bien.
+El sistema no lo pensé muy bien todavía, porque es difícil de implementar y ver qué se puede hacer.
+Pero lo que vi por ahora es que sí necesitaría un sistema de control
+y también un sistema de instrumentación donde se vea la temperatura del gas en diferentes etapas,
+en especial después de tener el gas evaporado y cuando está liquidificado de nuevo.
+Al igual que un sensor de temperatura cuando está en el refrigerante, en el CULAT,
+el 134A, para ver si está la temperatura óptima y se cumple con los requisitos.
+Otro sistema de instrumentación para ver si hay alguna fuga,
+que eso sí o sí se necesita.
+Y eso sería lo básico.
+Lo básico.
+Comentarios, a ver, caballeros.
+Lo mínimo, perdón.
+No lo básico.
+Comentarios, ¿qué opinan?
+Medio.
+¿Ah?
+Medio.
+Medio.
+¿Qué me da piso en la vida, mía?
+Ah, bueno.
+Es interesante, es interesante el proyecto, pero...
+Ahora, ¿cómo sistema de instrumentación a...
+¿Ahora?
+¿Ahora?
+¿Ahora de los datos no nos pondría?
+¿Un proyecto en el 2?
+Está empezando a utilizar...
+¿Tendría que conectarlo al DSU en el auto, no?
+Eh...
+Sí.
+También es colocarse directamente para explorar el...
+A ver, opinan que es un proyecto grande, ¿cierto?
+Sí.
+Sí.
+Básicamente es un proyecto bastante amplio y con muchos factores a considerar.
+Dudo mucho que puedas hacer todo el sistema de refrigeración en un proyecto de grado.
+Porque para empezar, no tienes el componente principal, que sería el gas natural licuado.
+Para...
+Hoy es lunes.
+Para mañana, para mañana, máximo para el miércoles.
+Entonces, investigame, mecanismo para convertir gas natural comprimido en gas natural licuado.
+Forma.
+O sea, más que las formas, es el principio de funcionamiento para liquidificar el gas natural comprimido.
+Ahí vamos a poder analizar cuán complejo o cuán simple pueda ser volverlo líquido ese gas natural comprimido que hay aquí, ¿cierto?
+Para que, en función a eso, intentemos, como un trabajo futuro, hacer lo que es la refrigeración.
+Dependerá mucho de eso para poder trabajar en este...
+Ahora, otra cosa que preocupa, y a eso es más coyuntural del país.
+Actualmente, el país está en problemas de gas, ¿no?
+De gas natural principal, ¿cierto?
+Sí.
+Entonces, los automóviles que son...
+Que utilizan GNC o GNV, gas natural vehicular o comprimido,
+van a tener que incrementar su costo en el uso de ese combustible, ¿cierto?
+Si el país no hace algo para exploraciones o lo que fueran para generar más gas natural,
+ese gas va a estar costando casi en la parte de la gasolina, ¿cierto?
+Y ahí, yo le puedo decir algo muy interesante.
+Que este tipo de combustible se puede importar de cualquier parte del mundo.
+Se puede importar de Indonesia, de China, China, donde usted quiera,
+y en cantidades industriales y a pescas.
+A diferencia de que aquí nosotros compramos de Brasil, Argentina...
+Nosotros antes les importábamos.
+Ahora les compramos.
+Ahora les compramos.
+Entonces, los compramos por tuberías, por viaductos.
+Por las mismas tuberías donde les damos.
+Les damos, exacto.
+Bueno, sería una excelente alternativa.
+Si digamos de alguna forma, algún proyecto a gran escala,
+podríamos convertir todos los automóviles, por lo menos lo que...
+Vi en las noticias hoy, por ejemplo, que les saqué el foto...
+No, no, no, no, no, el saqué el foto que decían en el tele.
+O sea, aumenta el precio del pollo y los productores culpan en 10 el precio del pie.
+Entonces, es una realidad.
+Imagínense que esos camiones fueran por GLP.
+Se puede comprar...
+No, GLP.
+GLN, perdón.
+Les podría importar el gobierno y ser una gran alternativa para bajar el precio del combustible.
+Porque dicen...
+No sé, ahí ya son políticas en las cuales no tenemos injerencia, ¿no?
+Lo malo de esto es que se baja mucho la potencia del motor, pero...
+Ese es otro problema, ¿no?
+Pero ese es en cuanto a desempeño del...
+Del...
+Del...
+Del...
+Automóvil.
+¿Cierto?
+O sea, el camión, auto...
+¿Cierto?
+Desempeño y daño en el motor, etcétera, etcétera.
+Claro.
+Pero, tomando la necesidad de que existen tantos automóviles que usan gas natural comprimido,
+que ya han hecho su transformación, poder utilizar ese gas natural comprimido como sistema
+de refrigeración también, especialmente aquí en Santa Cruz.
+Sí.
+Pero para eso se necesita llevar a un proceso de liquidificación.
+Ahora, si este proceso de liquidificación es muy complejo y solo depende de, por ejemplo,
+la empresa de yacimientos, que solo ellos pueden hacer en un espacio muy controlado,
+ahí no hay mucho que abordar, ¿no?
+¿Entiendes?
+Por eso, eso va a ser muy importante.
+Eh...
+Que lo tengas súper claro.
+Ok.
+Para que así podamos intentar que ese sea tu proyecto.
+Ok.
+Intentar.
+Intentar.
+¿De acuerdo?
+Porque ahorita, todo lo que explicas es muy amplio, muy complejo, y no es realizable
+para nuestro entorno y en el tiempo establecido.
+Ok.
+¿De acuerdo?
+Ok.
+Y luego sobre eso, si queda muy clave y se logra hacer, vamos a tener que buscar un problema
+que se ajuste a esta solución.
+Ok.
+Perfecto.
+Gracias.
+Preguntas, comentarios, ¿algo?
+Tengo que ir a hacer un poco, pero ¿será que van a ser de edad?
+No, voy a revisar de todos.
+Ya en...
+Para mañana, todos.
+Sí, mañana.
+Gracias, señor.
+¿Quién sigue?
+¿Quién sigue?
+Yo.
+¿Quién sigue?
+Voy a plantear tu programa
+Y objetivos
+Permiso alguien
+Ok, don Kevin
+Comparte por favor
+Usa el delantero
+Creo que dentro de esta
+Inhigente de
+Inhigente de contacto
+No, no, no
+No, no
+No, no
+No, no, no
+Acá va de llegar
+Gracias
+Para enviar un grupo de WhatsApp
+Si bien
+¿Cuál es este?
+Este no
+No, no
+No, no es este
+¿Vas este?
+Este no
+¿Se puede decir?
+Este
+¿Sí?
+¿Ahí es bien?
+Sí, sí, sí.
+Sí, sí.
+Sí, sí.
+Sí, sí.
+Sí, sí.
+Sí, sí.
+¿Quieres saborearlo?
+¿Pero qué no le puede?
+¿Ya presentó él?
+No, yo soy el segundo.
+Yo voy a decir después de ello.
+¿Y luego eso vos?
+No, no, luego es Anderson, si quieres.
+Y ya luego si.
+¿Puta?
+Es que ellos no tienen pendiente de su provocación de problemas en sus objetivos.
+Yo sigo acordando proyectos.
+Sí, me ganó rosco de mi nombre.
+No, no.
+¿Cómo no pasará si llena la pared?
+¿Estás haciendo pasantía en una panería?
+¿Tú estás haciendo pasantía por la materia o por la materia o por lo que?
+¿Tú estás haciendo pasantía por la materia o por lo que?
+Yo, por la materia, pero no quería probar.
+¿Vas a quedar ahí?
+No, no, no, no, no.
+Es que no quería guardar mi nombre.
+Sí, me ganó, me ganó.
+Me ganó.
+Yo lo fue intento en levantamiento.
+¿Por qué?
+No me gusta.
+¿Pero qué lo trato?
+¿Ensuciarme?
+No, pero los socios son técnicos de mantenimiento.
+Estos son los trabajos que me ofrecieron.
+¿Qué bien?
+Era para ir al campo a línea de ensuciarme.
+¿Tenés WhatsApp?
+Sí.
+¿En tu campo?
+No puedo pasar un archivo y lo subir.
+¿A dónde?
+¿A dónde me quieres ir?
+Te lo paso.
+¿Tú y yo?
+No, no.
+No, no.
+No, no.
+Ahí está.
+Bueno, antes de hablar de tu problema, quiero que me muestres los antecedentes ya descritos para leer tus antecedentes.
+Quiero que veamos tus antecedentes.
+¿De acuerdo?
+¿De acuerdo?
+¿De acuerdo?
+¿De acuerdo?
+Ok, la empresa Inalclar realiza reconstrucción
+A ver, tu introducción no has hecho todavía, ¿cierto?
+Está incompleto
+Ya, ahí me hablas de la empresa Inalclar
+En la introducción, en eso hemos quedado, ¿cierto?
+Entonces aquí, ya, la empresa Inalclar
+Reconstrucción de los alojamientos de pasadores
+¿A qué se dedica la empresa?
+Eso es, en introducción
+Está ahí
+Ya, no me tienes que volver a repetir
+Porque aquí me dices
+Reconstrucción de los alojamientos de pasadores
+Ah, yo pensé que iba a ir directo al servicio
+O sea, hablando
+Primero, la empresa Inalclar
+Hace todos estos servicios, ¿cierto?
+Sí
+Deben ser unos 4 o 5 servicios, por decir
+Entre ellos está
+Reconstrucción de alojamientos de pasadores
+En la primera vez que está
+Todo eso va en tu introducción
+Y más abajo, en tu misma introducción
+Tienes que indicar
+Que este trabajo
+Se enfoca en la reconstrucción
+En el proceso de reconstrucción de los pasadores
+¿No?
+Va orientado, si quieres
+O en esa área de especialización
+O en esa unidad
+¿Qué sé yo?
+¿De acuerdo?
+Aquí en los antecedentes
+Me tienes que explicar
+En qué consiste
+Ya de forma más apropiada
+Ahí parado
+¿En qué consiste
+El proceso de reconstrucción del pasador?
+¿Cierto?
+¿Lo hago más un para que lo vea?
+Eh, dame un segundo
+Espera
+Ya
+Voy a cerrar bien
+Cierro, por favor
+Ok, explica tu proceso
+Primero inicio con el análisis de de gases
+Que como lo comenté
+Puede tener el gases elíptico
+O de gases uniforme
+El líptico se ve
+Que está un poco más ovalado
+Que justamente
+Perdón
+Esto es cuando ya
+La maquinaria está ahí
+Ya está desmontada
+Sí
+O sea
+Ya está desmontada
+Y tienen que ver la zona
+O sea
+De cómo lo van a tratar
+Por eso se aplica
+Un análisis de de gases
+Cuando hablamos de la zona
+Estamos hablando
+Del alojamiento
+Del pasador
+De un pasador
+En general
+Sí, ok. Analizan el desgaste del alojamiento, luego, y dependiendo de qué tipo de desgaste tiene sus procesos.
+Si es un desgaste lítico o si es un centrado móvil con pernos, o sea que para ponerlo en lo más céntrico posible.
+Yo ya todo esto de aquí, todo este proceso de aquí de cambiar la barra, centrar la barra para desgaste avanzado, centrar la barra para desgaste simple.
+Es un solo proceso, centrar la barra y ya está. Dentro de ese proceso, si es simple, haz esto, si es avanzado, haz esto.
+¿Y si la herramienta fuera diferente?
+¿Cuál herramienta?
+Acá tengo fotografías.
+No, no, solo dime, ¿cuál herramienta?
+Ya.
+No me, no me...
+En simple, si se acuerda, usa los conos.
+Para el alineado.
+Sí.
+Estamos hablando ahí, montar soportes. En ambos casos, tú vas a tener que montar soportes.
+Ah, ya.
+Tu trabajo, ¿nos interesa montar soportes?
+¿Nos interesa centrar la barra para el desgaste?
+Sí, para todo.
+¿Nos interesa?
+¿En la automatización de tu torno?
+Ah, no.
+Entonces, a nosotros sí vale la pena que coloquen lo mismo.
+Y si nos interesara, tú aquí tú puedes tener un solo módulo directo.
+Análisis del desgaste, centrar la barra de desgaste, luego montar los soportes.
+Lo estoy tomando en cuenta debido a que, o sea, con la anterior charla que tuvimos,
+o sea, el otro aporte pudiera ser, hacer, o sea, mejorar su proceso de centrar.
+No sé si se acuerda.
+Por lo cual, he visto que donde más se demora es en el desgaste elíptico.
+Ok.
+Por eso no te lo mantuve así.
+Ya, si tu trabajo va a ser también dar soporte para el centrado de desgaste avanzado,
+que es el elíptico, está bien que lo dejes así.
+Ah, ya.
+Ok.
+Esa es.
+¿Vas a numerarlo?
+Ah, se numera.
+Para poder decir, vamos a trabajar en este proceso, o en este proceso, etc.
+Ah, ya está bien.
+¿De acuerdo?
+O, si no, los números, le pones el nombre.
+¿De acuerdo?
+Ya.
+Después de eso, montar los soportes de la barra, montar el actuador.
+¿Cuál es el actuador?
+El motor.
+Ya.
+O lo pongo ahí, montar el motor, directo.
+Yo pensé que iba a ser mejor el alojador.
+No.
+No.
+Estamos hablando de reconstrucción del alojamiento del pasador.
+Aquí debería venir, montar directamente el torno completo.
+Es decir, montar el torno portátil.
+Y otro proceso tendría que ser como montar el torno, ¿no?
+Ese es todo el proceso de cómo se monta.
+O puede ver, tiene su proceso.
+Ya.
+Ya, pues, tal vez podemos dejarlo así.
+Ejecutar el desbaste está al diámetro ideal.
+No, ejecutar el proceso de desbaste.
+Ejecutar el desbaste, ¿ok?
+Sí, desmontar el torno.
+Y en qué momento, en qué momento hacen el delinado de soldadura.
+Porque este es cuando te llega ya del proceso de soldado.
+O sea, después de soldar.
+Entonces, eso tendrías que aclarar.
+Eso tiene que estar muy claro.
+¿Lo coloco en el diagrama o lo menciono?
+Lo estoy mintiendo.
+Te aconsejo que hagas un diagrama previo a esto.
+Que digas en qué condiciones llega.
+Qué es lo que hacen para más genérico, ¿cierto?
+De más alto nivel.
+¿Cómo hacen el proceso de reconstrucción de un armamento de pastador?
+Sí, porque ahí ya se divide en dos partes.
+Uno, si van a usar los abujes, que hay solo desbaste y directo.
+O sea, lo van a rellenar.
+Ya, ¿eso es en el análisis del desgaste?
+No.
+No, sería un poco más.
+Antes.
+No, más después.
+Es que aquí no rellenan nada.
+No, es que no lo estoy cubriendo.
+Es el de rellenado, sería más o menos por aquí.
+O sea, en medio de estas dos.
+Ahí van a rellenar, encendrar la bala para que desgaste.
+Es que primero analiza qué tipo de desgaste tiene y el tipo de trabajo que van a hacer.
+Si van a usar solo los abujes, que directamente desbaste.
+Y si van a hacer, o sea, rellenarse, que mantenga, o sea, por la tal resistencia que es de lo que ellos usan,
+recién lo, o sea, recién lo rellenan.
+A ver, hazme un proceso completo, ¿ya?
+Y de ese proceso completo vamos a analizar qué cosas vas a dividir, ¿de acuerdo?
+De uno completo.
+Te llega el trabajo, ya lo han desmontado, eso tal vez no lo necesitamos.
+Y a partir de lo que está desmontado, de ahí para adelante hasta que tienen que, ya está listo el desbaste, ya está bien hecho ese pasado, ¿cierto?
+Ese desbaste del pasado, lo que es ese colificio del pasado.
+Hasta ahí es lo completo, ¿ya?
+¿Y los otros procesos?
+Sí, manténgulos así.
+Pero uno completo, no en tu documento, sino aparte me lo vas a mostrar, y sobre eso vamos a ver en qué parte y qué va en lo específico.
+Está bien.
+¿De acuerdo?
+Pues si no, se va a mezclar, no van a entender nada.
+Ok, ¿qué dice ahí?
+Más arriba, más arriba.
+No, no tanto.
+A la tabla, vamos bajando.
+¿Han leído el template?
+Sí.
+¿Sí?
+¿Y esta referencia?
+¿Qué es?
+Tabla de script de F, ¿qué es?
+Ah, sí.
+Así no está el template.
+Sí.
+¿No?
+La frase es que...
+Debería ser la tabla 2.1, ¿cierto?
+Que en realidad es la tabla 1.algo, porque es el capítulo del subítem.
+Sí, intenté ponerlo, o sea, por la leyenda, para que se ajuste todo a su referencia y no me escribo.
+No importa, escribí la tabla 2.1.2, en realidad es 1.1, y la tabla 1.1, tu primera tabla es, ¿no?
+Si es que es la primera tabla.
+Ah, ya.
+Entonces, eso lo va a hacer con esto.
+Sí, sí, sí.
+¿No han leído el template, no ves?
+No, no, lee el template.
+Ahí está todo el detalle.
+Lean el template, señores.
+Lean, lean.
+Ahí está toda la información que necesitan para poder escribir su documento.
+Leanlo.
+Es decir, si no lo leen, ¿cómo lo van a hacer?
+Leanlo.
+Creo que les voy a tomar exámenes de template.
+La tabla se observa más a detalles los procesos de la figura, de la figura 1.1, debería ser, ¿no?
+Así va a ser, ¿no?
+De inicio a la final.
+¿Qué?
+Así está hasta el final, mira, el comentario.
+Ya, ya, ok, pero corrígese eso.
+Sí, lo voy a hacer.
+También existen subprocesos que son centrados de barra para desgaste avanzado,
+centrados de barra para mostrar su porte de barra de barra, las tablas,
+descripción de los procesos de F.
+¿Quién es el F?
+Llegar más duro.
+No.
+Más bien tendrías que poner el nombre de la figura.
+¿Están de acuerdo?
+Sí vas a colocar el nombre de la figura.
+Ok, vamos bajando
+Oh, la figura de uno es computante
+Vamos bajando
+Ahí está todo el proceso
+¿Qué hace cada parte?
+¿De qué sale el tipo de desgaste?
+Geometría original
+Geometría de desgaste
+Geometría de desgaste
+En este caso en el B
+Significa que ha habido mayor desgaste
+Hay que rellenar
+¿Cierto?
+Es igual hay que rellenar
+No, de todo depende
+Si el buje
+Es más grande, o sea, que todo este desgaste
+Ovalado
+Solo te vas
+Pero si sobrepasa un montón
+Porque llegó un caso
+Que esto está muy exagerado
+Incluso más
+Que aparte también con el mismo mantenimiento
+Ahí sí o sí se tuvo que rellenar
+O sea, todo depende
+O sea
+Siempre vas a tener
+El diámetro negro
+Que es el original
+¿Cierto?
+No vas a tener que desgastar
+Más de tu diámetro
+¿O sí?
+Si vos se va a tener un buje
+Por ejemplo, en este de aquí
+En el caso A
+Tienes el diámetro original en negro
+Por fuera
+El diámetro en rojo
+Significa que ha habido más desgaste
+Su diámetro es mayor
+En el rojo
+Que en el negro
+¿Cierto?
+Sí
+En ese caso
+Tendría que haber un rellenado
+Y cuando lo llenas
+Te vas a pasar
+Del diámetro original
+Y ahí vas a tener que hacer
+Tu desgaste
+En este caso
+Para un pivote
+De Kejongatsu
+Solo de pasar
+O se va a ganar
+O no se lo juega
+Para meter ahí
+Para que tenga
+Este diámetro
+Original
+O sea
+Le metieron
+Un buje
+Que cuando nada
+Llegaba completo
+A ver
+Mostrame la foto
+De cuando
+Le ponen
+El buje
+El buje ya es
+Definitivo
+Para que pongan
+El pasador
+¿Cierto?
+¿Sí o no?
+Mostrame eso
+Quiero ver
+Porque si aquí
+Este espacio
+Era para que
+Vaya el pasador
+¿Sí?
+Aquí está con el buje
+Ya puesto
+Lo agrada nomás
+Para que
+Entra el buje
+¿Cuál es el original?
+¿Cuál es el original?
+¿Cuál es el original?
+¿Cuál es el original?
+Aquí va a entrar el pasador
+Entonces esto lo ha agrandado
+Para que entre el buje
+Este de aquí
+¿Cierto?
+Ya
+Antes
+¿Cómo era esto?
+Sigue el buje
+Está detestado
+Se impugió
+Un intermedio
+¿Qué?
+¿Es el original?
+¿Es el original?
+¿Original?
+¿Es el original?
+¿Es donde se ha
+Todo esto más cerrado?
+¿Hasta esta distancia
+Donde pasaba el pasador?
+¿Cierto?
+Que estaba así
+Con holgura
+Como se movía
+Ya
+En lugar de hacer un rellenado
+Le han puesto un buje
+Ajá
+Que por lo cual
+Para que en el buje
+Tuvieron que hacer
+Lo más grande
+El piloteo
+Ajá
+Solo para esos casos
+O sea
+Es un demasio directo
+Ahora
+Que cuando esto
+Está muy extendido
+Ovalado
+O sea
+Que sobre espacio
+Incluyendo
+Los llamados
+Ahí sí lo rellenan
+Ahí sí lo rellenan
+Entonces
+Eso tienes que
+Especificar
+De acuerdo
+De tu diagrama
+Vamos a
+Especificar
+Dependiendo
+De qué tipo
+De trabajo
+Ok
+Continúo
+Todo lo que te estoy pidiendo
+Que me muestres
+Lo vas a colocar
+En tu documento
+Indicando
+Este es
+Este trabajo
+Cuando colocan
+Un buje
+Y este es
+El otro trabajo
+Cuando colocan
+Relleno
+Por ejemplo
+En el caso del buje
+Solo es
+Desbaste
+Y en el caso
+Del
+Otro tipo de trabajo
+Va a tener que ser
+Con relleno
+Y luego desbaste
+Sí
+Y en el diagrama
+General
+Se lo va a hacer
+Igual con fotografías
+No vamos a necesitar
+Mucho de las fotografías
+¿Qué más?
+La figura
+Observa
+Se observa
+Las herramientas
+Descentradas
+De desgaste avanzado
+Se observa
+La herramienta
+Descentrado
+De desgaste avanzado
+Que
+Ahí hay una pequeña descripción
+De cómo es
+Tiene tres pernos
+Para centrar
+La barba
+Del tomo portátil
+Ya vamos a la fotografía
+Centrado cónico
+A ver
+Ya
+Ya
+Ok
+La figura
+De desgaste
+De herramientas
+Descentradas
+No toda esa herramienta
+Que se hace
+¿Accesorio?
+Accesorio
+Puede ser
+Apoyo
+Soporte
+Herramientas
+En la que va a trabajar
+Ah
+Ya
+Desgaste avanzado
+Tiene tres pernos
+Para centrar
+La barba
+Del tomo portátil
+Entonces estoy
+Aquí
+Todo esto
+Me explicas
+Que
+Cómo se hace
+El proceso
+De
+Descentrado
+O sea
+¿Cuáles son esos dos tiros?
+Descentrado
+Ya
+Vamos bajando
+Otra
+Aquí
+Muestro ya
+Cuando pone
+Con el pasador
+O con la barra
+De aquí
+Con el cono
+Doy una pequeña descripción
+O sea
+Que el cono
+Lo posiciona
+Y lo apretas
+O sea
+Con un perno
+Móvil
+Que lo mantiene
+Que lo mantiene
+Firme
+Ya
+Sigue
+Todo
+Muestro
+Aquí
+Aquí
+Muestro
+O sea
+Que
+Cuando colocan
+Los soportes
+Con el anterior
+O sea
+De los dos
+O sea
+El móvil
+Y el otro
+Con el cono
+Ok
+Lo suenan
+Menciono
+De montaje
+Ya del motor
+Del actador
+Sí
+Del actador
+El actador
+Es un poquito
+Más completo
+Con todo
+El herramienta
+Y todo
+Es usar
+Solo motor
+También
+Recalco
+Que se necesitan
+Dos personas
+Para poder
+Remontar
+En la reconstrucción
+Del vaso
+Del brazo
+Cat320
+Presentado
+Un desgracer
+Delicto
+A ver
+Señores
+Cuando hagan
+La redacción
+De su documento
+Que es lo primero
+Que tienen
+Que tomar en cuenta
+Cuando hacen
+La redacción
+De su documento
+Que se entienda
+Que se entienda
+Ok
+Para que se entienda
+Cómo tienen
+Que redactar
+Juan
+Bueno
+Primero de todo
+Referenciando
+Cada proceso
+Que se haga
+Referenciando
+Ok
+Aquí está
+Referenciando
+Con figuras
+¿Qué más?
+A ver
+Lee
+Alessandro
+Lee
+Las
+La frase
+La
+La primera
+Frase
+Lee
+En la reconstrucción
+En la reconstrucción
+Del brazo
+Cat320
+Presentaba
+Un desgaste
+Elíptico
+Que el centrado
+Demora
+35 minutos
+Por dos
+Alojamientos
+Del pasador
+Como se observa
+En la figura
+Cat320
+Son en total
+Cuatro alojamientos
+Con una distancia
+Considerable
+Y que estén
+En paralelas
+Tomas
+Unos 15 minutos
+Sumando un total
+De 50 minutos
+¿Qué has entendido
+Juan?
+No mucho
+¿Qué has entendido
+Juan?
+No, no, no
+Tú deja
+Yo también
+Estaba leyendo
+Y si
+Algunos errores
+Hola
+A mí
+No hay pasador
+¿Cómo se lee esto?
+En la reconstrucción
+Del brazo
+Cat320
+Presentaba
+Un desgaste
+Elíptico
+Que el centrado
+Demora
+35 minutos
+Por dos
+Arranamientos
+Del pasador
+¿Cómo se observa
+La figura
+Cat320
+Son en total
+Cuatro alojamientos
+Con una distancia
+Considerable
+Y que estén
+Paralelas
+Tomas
+Unos 15 mil
+Sumando
+Un total
+De 50 minutos
+¿Qué tal
+Tomas?
+¿Qué falta?
+Uso de comas
+Porque no se entiende
+Segundo
+Tomas
+¿Por qué Tomas
+Está mal?
+Primera persona
+Segundo
+La redacción
+Si te dice
+Tercera persona
+Impersonal
+Y que estén
+Paralelas
+Tomas
+Uno
+Tom
+Mira
+Otro detalle
+Singular
+No, perdón
+Este es plural
+Plural
+Y este
+Singular
+¿Cierto?
+Por eso les digo
+Lean su propio documento
+¿De acuerdo?
+Lean
+Ahora
+¿Qué pasa
+Si no se
+Si no se consideran
+Las comas?
+¿Qué pasa?
+Kevin
+Si no
+Tomamos en cuenta
+Los signos de puntuación
+Las comas
+Principalmente
+No se entiende
+Además de que no se entienda
+¿Qué puede pasar?
+¿Qué puede pasar?
+Puede juntar dos frases
+Que no se entiende
+En alto
+Y lo convierte en una
+¿Y qué más?
+Juntar dos frases
+Convertir
+Así
+No, no
+¿Y qué más?
+¿Qué es lo peor
+Que podría pasar?
+A ver
+Eso es lo menos
+¿Qué es lo peor
+Que podría pasar?
+Una mala interpretación
+Ah
+Una mala interpretación
+¿Cierto?
+Una coma puede cambiar
+Todo el sentido
+De una frase
+¿Correcto?
+Toda la interpretación
+¿Estamos de acuerdo?
+¿Quién tiene algún ejemplo?
+No sé
+¿No te odio?
+No
+Te odio
+Una frase corta
+Muy bien
+La frase
+Si una chica te dice esto
+¿Qué haces?
+Te río
+¿Quedas feliz?
+Feliz, claro
+Y si te escribe así
+Ahí se río
+No, yo me río
+La verdad es la que me dice
+La que estoy empañado con ella
+No, independientemente
+Que te rías o no
+¿Cómo interpretas?
+La interpretación del primero
+Y la interpretación del segundo
+¿Cuál es?
+Que uno niega el otro
+Y el día
+El día del otro
+El día del otro
+El día del otro
+El día del otro
+El día del otro
+¿Cómo lo toma?
+Si la persona
+Quiso decir esto
+Pero te escribió sin esto
+Es más, mejor
+Tú la escribes así
+Pero la odias
+¿Qué va a pasar?
+La odio
+Te quiero
+Para que no sea tan trágico
+Está mejor
+Le escribes esto
+Y tu intención es decir
+La pregunta puede ser aquí
+De la chica
+Escribe
+Te dice
+Estás ocupado
+Te dices
+No te voy a buscar
+¿Qué va a hacer ella?
+O se va a ir
+¿Cierto?
+Pero tú
+¿Qué quisiste decir?
+¿Estás ocupado?
+No
+Te voy a buscar
+Tú vas a ir a buscar
+No te voy a buscar la chica
+¿Qué va a pasar?
+¿Se entiende?
+Entonces
+Una simple coma
+Cambia todo un contexto
+Todo un contexto
+No es solamente
+No es solamente
+Que lo voy a hacer mal
+Cambia
+Toda la forma
+De leer
+Y de interpretar
+¿De acuerdo?
+Por eso es importante
+Colocar
+Adecuadamente
+Las comas
+¿Ok?
+En la reconstrucción
+Del brazo
+Presentaba esta mano
+Se presenta
+Impersonal
+¿No?
+En la reconstrucción
+Del brazo
+Figura
+O catato
+Se presenta
+O presenta
+Un desgaste
+Tendrías que volver
+A reescribir esto
+Está más reescribido
+¿Ok?
+Sí
+Entonces aquí vamos a
+A adicionar
+Continuar
+De nuevo
+Entonces ahí
+Hay que reescribir
+Lo que estás
+¿Cierto?
+Muy bien
+¿Qué sigue?
+Los tiempos de
+Ahí
+Eso es lo que me interesa
+Tiempo
+Centrar la barra
+De desgaste
+Para desgaste simple
+Dos minutos
+No me interesa eso
+Montar los soportes
+De la barra
+Ahí tienes
+Tres
+Quince
+Veinte
+Y ocho minutos
+¿No?
+Estamos hablando
+De treinta y cinco
+Treinta y ocho
+Cuarenta y dos
+Minutos
+Con
+Oh perdón
+Cuarenta y un minutos
+Treinta
+No
+Cuarenta y tres
+Cuarenta y cuatro
+Cuarenta y seis minutos
+Con veinte
+Segundos
+¿Cierto?
+Cuarenta y seis minutos
+Solamente
+En montar los soportes
+¿Cierto?
+Bueno
+Creo que me equivoqué
+En el piano
+Está bien
+Que los coloquen
+Los tiempos
+De montaje
+Todo eso
+Montaje
+Del actuador
+Es decir
+Del motor
+Son
+Nueve minutos
+Con treinta
+Segundos
+Ya
+Ejecutar el desbaste
+Vamos bajando ahí
+Tienes trece minutos
+Repetir el proceso anterior
+Cincuenta y cinco minutos
+Ok
+Desmontar el torno
+Dieciséis minutos
+Y cortar
+¿Qué es?
+¿Otra excelente?
+¿Debe ser parte del desmontador?
+Ah sí
+Sí
+Eso lo pones correcto
+¿No?
+Sí
+Me interesa
+Muy bien
+¿Qué es lo que interesa
+Para nosotros?
+¿Qué es lo que te interesa
+Para el problema?
+El tiempo descentrado
+Y
+¿Dónde está tu tiempo descentrado?
+A ver
+La que voy a revisar
+Acá
+Alquien
+Dentro del montaje
+¿Dónde está tu tiempo descentrado?
+¿Dónde está tu tiempo descentrado?
+Eso es el montaje
+Eso es el montaje
+Ah, sí
+En el caso que usan tonos
+Abajo ya mencionas
+Ya
+¿Dónde está tu tiempo?
+Esto es lo que me interesa
+En conos
+Es más rápido
+Pero cuando utiliza el otro método
+El tiempo que te demora
+Aquí es lo que te interesa
+Va a ser el punto 4
+Que es ejecutar el desbaste
+Esto es cierto
+Vas a tener que reducir esos tiempos
+El desbaste
+Porque esa va a ser tu automatización
+El resto es montaje y desmontaje
+Eso
+Tal vez eso pueda ser
+El proceso de soporte
+Para poder alinear
+Yo creo que van a seguir manteniendo
+Las formas de montaje
+Desde el acuerdo
+Más que el tiempo
+Yo pensaba
+Asegurar el motor
+Que traje con ciertos parámetros
+Y eso es que me asegura
+Un trabajo adecuado
+Y que le pase la vida útil
+¿Cómo asegurar el motor?
+No entendí
+O sea, que traje con ciertos parámetros
+O sea, que traje con la velocidad angular
+Y con la velocidad de avance
+Y más le importa la velocidad angular
+Porque ellos hacen todo
+O sea, al tanteo
+O sea, de cómo se siente
+O sea, que puede ser
+Que alguien en algún trabajo
+Esté sobresigiendo
+Al motor sin darse cuenta
+Eso tienes que también demostrar
+Tienes que demostrar
+¿Cómo vas a demostrar?
+Colocando
+Tenías que ver
+Lo del visor
+También del variador
+¿Has visto lo del visor?
+¿Del variador?
+Sí
+Y
+O sea, he visto
+Que sí se puede configurar
+Estos parámetros
+Pero has podido ver
+Que te dan RPMs
+Y que el motor
+Puede trabajar
+A esa misma velocidad
+¿No?
+Ah, no
+No hice esas pruebas
+Entonces hay que
+Eso hace importante
+Porque si no
+Vamos a tener que irnos
+En este punto de aquí
+Que es el procedimiento
+Tiene que ser el desbaste
+A la altura deseada
+Y avance
+Donde acomoda la herramienta
+Si falla la altura
+Entonces tú te dirías
+Que mantener una herramienta
+El material que va a desbastar
+Ya con configuraciones
+Entonces ahí
+Tú vas a tener que configurar
+Para el tipo de material
+El tipo de herramienta
+Y eso te va a dar
+La velocidad de rotación
+Y la velocidad de traslación
+De tu toro
+¿De acuerdo?
+Entonces vas a tener que
+Minimizar estos tiempos
+El de 13 minutos
+Y el de 55 minutos
+Con tu solución
+Por lo tanto
+El proceso del desbaste
+Con el torno convencional
+Actual
+¿Te demora cuánto?
+Más de una hora
+¿Cuánto?
+68
+Una hora y ocho minutos
+¿Cierto?
+Tú tendrás que hacer
+Mucho menos
+El de 13 es que
+Donde más se demora
+Es cuando mide
+O sea
+Si ya está
+Al diámetro
+El cuadro
+Por eso
+Entonces yo
+Quería
+Atar caro
+O sea
+Que para que
+El torno funcione
+Entonces
+Entrate más al detalle
+De ese aspecto
+¿Cuánto tiempo
+Le tomó
+Desbastar?
+Hacer el proceso
+Del desbaste
+Luego
+Siguiente
+Actividad
+Si quieres
+Medición
+¿Cuánto le tomó?
+Siguiente actividad
+Otra vez
+De esta
+Siguiente actividad
+Otra vez
+Medición
+Tomarte todos
+Esos tiempos
+Ya específicamente
+Porque si no
+Estos valores
+De aquí
+No van a
+No van a ser
+Muy representativos
+Si
+Tengo esos dos valores
+Que no me había puesto
+No me había olvidado
+Acá
+En la velocidad
+O sea
+De 70
+80
+O sea
+Puedo poner
+Llenado
+De alta resistencia
+O sea
+La velocidad
+O sea
+En que
+Digo
+Los tiempos
+Que se demora
+En el avance
+Y otro
+Con acero fundido
+Tengo esas dos tablas
+Pero
+Esa tabla
+En sacada
+De donde
+De lo que también
+O sea
+He grabado
+Todo el proceso
+Y
+Ya, ¿pero en esa grabación del proceso has intervenido tú?
+No.
+¿Solo has filmado?
+Sí. En esa parte, o sea, que de base, ahí solo lo grabé.
+Ya. ¿Y qué representa este tiempo?
+Primero pasa 18 segundos, luego 13, 97, 9, 9, ¿qué representa cada uno de esos?
+Son los tiempos que se demoró.
+¿Qué era?
+¿Cómo se demoró hoy?
+O sea, en dar una vuelta.
+¿Vale? Ahí puedes sacar la velocidad de avance.
+Ya. ¿Y tienes, has medido la distancia entre ríos, si quieres, del perno sin fin?
+¿La distancia?
+Claro, de los, te fijas que los tornillos tienen en sus dientes.
+¿El número de paso?
+El número de paso, exacto.
+Sí, lo tengo.
+Entonces, con eso, tendrías que colocar esta información.
+Entonces, ahí puedes entrar más en el detalle específico.
+¿No?
+Que es lo que realmente nos interesa.
+Para poder aproximar a la velocidad.
+Y lo puedes comparar con lo que dice la normativa.
+Para ese tipo de herramienta, con ese tipo de material y ese desbaste.
+Entonces, si nos vamos a afinar un poquito, que me parece muy adecuado, estos tiempos,
+de este punto aquí, sería que harás todo lo que realmente nos interesa.
+Ya.
+¿Cuál sería tu problema?
+¿Cuál sería tu problema?
+Ahí sí, vamos a usar problemas.
+Aquí, en este caso, veamos.
+Ah, puede estar la parte.
+La del navegador.
+Aquí se le ve.
+Proceso descentrado en desgaste político demora 50 minutos y ausencia de parámetros
+en los parámetros del actuador de la escena angular lineal.
+Ok.
+Análisis del problema central.
+¿Hago solo?
+No, no tengo.
+Análisis.
+Análisis.
+Ahorita.
+¿Claro?
+Ahorita.
+No hay que usar la palabra ausencia.
+Perfecto.
+Primera observación.
+No podemos usar la palabra ausencia.
+¿Qué más?
+Cuando mencionas que demora 50 minutos, no trae a entender si es algo malo o bueno.
+Demora.
+Habla de demora, ¿no?
+Claro.
+Si fuera, toma 50 minutos, sería diferente de demora.
+¿No?
+Sí.
+No hay problema.
+¿Tengo que definir a qué, o sea, algún límite más que para la velocidad angular
+de línea?
+¿O no?
+¿A qué parámetro te refería?
+Muy bien.
+¿A qué parámetros?
+Parámetros del actuador de velocidad angular.
+Pero, ¿cuáles son parámetros?
+Está bajito en velocidad angular y mía.
+Pensé que estaba claro.
+Parámetros, dice.
+No dice parámetros.
+Ah.
+No, yo también entendí que es un actuador de velocidad angular.
+Alessandro, observaciones.
+¿O está perfecto?
+¿O está perfecto?
+Observaciones más de fondo, más que de fondo.
+A ver.
+Ah, tenés esa duda.
+¿El problema central tiene que ser uno en específico o por qué hay veo como otros?
+Uno solo.
+Uno.
+El problema central es único.
+Si ya tienes dos, estás fundido.
+Son dos temas diferentes.
+Entonces, ¿cómo pudiera, o sea, involucrar en la parte del centrado?
+Sería en efecto, supongo.
+Y en causas.
+Depende que quieras colocar como problema central.
+Para empezar, tu problema central no está correcto.
+Sí.
+¿Cómo falta lo...
+Dijir un poco el macro del problema?
+El macro.
+Ya lo hemos visto, el macro.
+A ver.
+Alessandro.
+No tienes idea.
+Había mencionado antes dos desgastes.
+¿Solo vas a trabajar con uno?
+Uno era desgaste lineal, creo, y el otro era eléctrico.
+¿Solo eléctrico va a trabajar?
+Sí, porque...
+¿Tu solución solo va a solucionar un eléctrico?
+¿Solamente?
+Sí, porque con el desgaste es sensible, con el cónico.
+O sea, con ese es suficiente.
+Aquí está el tema de fondo principal.
+¿De qué estamos hablando?
+¿De qué estamos hablando?
+No, el proceso descentral.
+¿De qué?
+Procesos descentrales.
+O sea, ¿qué significa?
+Alineámelo el hueco uno con el hueco dos y ya está.
+Solución.
+Si el proceso descentral te toma 50 minutos, utiliza un láser para centrar.
+¿Cierto?
+O un láser radial, que esté acorde, etcétera, de tantas formas.
+¿Cierto?
+¿Para qué va a automatizar el torno?
+No tiene sentido.
+Centrar herramientas.
+¿Para qué?
+El problema, ¿cuál sería la solución a esto?
+Si el proceso descentrado es tu problema.
+Vas a tener que trabajar sobre el proceso descentrado únicamente.
+¿Cierto?
+Pero si su proyecto es automatizar el torno convencional en velocidad de rotación y velocidad de traslación lineal.
+Ya puede ser automatizado.
+Vamos a ver todavía el término correcto en tu objetivo.
+Pero ahorita estamos analizando.
+Si ese fuera el tema que quiere desarrollar, que es más o menos lo mismo.
+¿No?
+¿Cuál sería el problema central?
+¿Para qué va a ser una automatización, si quieren, o un control de velocidad lineal y velocidad rotacional?
+¿Para qué?
+Reducir el tiempo.
+¿Algo tiempo?
+Bueno, yo me decía pegado lo que dice ahí, ¿no?
+¿Cual tiempo? ¿50 minutos?
+Reducir el tiempo del proceso descentrado.
+¿Podría decir reducir los riesgos?
+Porque, o sea, como todo, o sea, lo hacen a loco, un contacto.
+No. Reducir riesgos son efectos.
+Ah.
+¿Proceso descentrado está correcto para empezar?
+No.
+¿Por qué volvamos a tocar el tema del proceso descentrado?
+¿Cómo te imaginas a tu máquina futura?
+Cuando ya esté listo.
+¿Qué va a ser?
+¿Y qué va a ser manual?
+A ver, ¿cómo lo describirías a tu máquina?
+A ver.
+Mi máquina tendría que tener dos estados.
+Uno funciona así como automatizado.
+Y en caso de que un cliente falle o por causa de emergencia o con una caída, se pasa a manual.
+Ya, pero el centrado, ¿qué vas a hacer con el centrado en tu máquina automática o semi-automática?
+El centrado pensaba eso como un plus esto porque vi, o sea, que es otra problemática, pero no sabía cómo plantearlo ya ahí.
+Porque aquí estás hablando solo del proceso descentrado.
+Ahora, ¿el centrado es un plus?
+Me equivoqué.
+Sí, como un plus.
+Aquí me estás hablando solo del proceso descentrado.
+Sí, me equivoqué.
+Por eso es tu primera frase.
+Entonces, tu máquina automática solamente me trabajaría en el proceso descentrado, según esto.
+Que no es lo que vas a hacer.
+Sí, está mal.
+¿Cierto?
+Entonces, ¿cómo sería el problema central correcto?
+Que no sea ambiguo, que sea específico y que sea claro.
+Como cuando cambias el transistor del celular, tanto de tu lado de tal.
+¿Se acuerdan?
+¿Cuál era el problema?
+¿Dónde está el problema?
+¿Dónde está el problema?
+No sé cómo era el cielo.
+A ver.
+¿Dónde está el problema?
+¿Dónde está el problema en ese trabajo?
+¿De qué tipos no puede ser?
+¿Por qué no?
+¿Tiempos? ¿Pero de qué?
+¿Tiempos de devastos?
+¿Tiempos?
+No, tiempos de devastos.
+¿Tiempos de devastos?
+Sí, pero en lo que más se demora ahí es que es en la parte de la medición.
+¿Dejaste eléctrico?
+¿De qué?
+Es que era como un trabajo extraño que más o menos se pudiera ver como para añadirle.
+No le pongas nada extra para que el jurado después te diga,
+ok, me estás hablando del proceso descentrado.
+A ver, tu máquina, demostrame dónde estás haciendo una mejora en el proceso descentrado.
+Ah, no, es un plus que le estaba poniendo a mi problemática.
+¿Y dónde está? Demóstrame.
+Y luego cuando quieres demostrar y tú dices, solo hice esto, ahí ya te pusiste la soberanía.
+Pero, si es un plus, ¿por qué la primera frase de tu problema central?
+Ah, sí.
+Como problema principal, ¿eh?
+Está mal eso.
+Entonces, el problema es la falta de...
+La falta de...
+No, no, no, como hay cosas ahí, la ausencia, los parámetros de la singular y...
+A pesar de la ausencia.
+Sí, está mal.
+Proceso descentrado también está mal.
+¿Qué más?
+De que no sé qué verbo usar.
+A ver, voy a buscar su idea o se vea.
+No, si es un verbo, que sea, pero quiero que me expliques cuál es el problema central.
+Te di para que lo analices, ya llevas dos semanas con esto.
+Te has ido a perder a la fábrica o a la empresa y...
+Y ya tendrías que haber sacrificado el problema central.
+Ya tendrías que tener claro cuál es el problema central.
+¿Qué cosas vas a automatizar?
+¿O con qué parte vas a trabajar?
+Don Kevin Marino.
+Podría ser los tipos de debate y la calidad del trabajo.
+Calidad. ¿Cómo mides calidad?
+O sea, si avanza el diámetro, o bueno, la longitud requerida y con el desbaste correcto.
+Tendrías que hacer una comparación con lo que dice la normativa.
+Entonces estamos hablando de otra cosa.
+¿Cierto?
+Bueno, comparado con lo que está ahí, sí.
+Correcto.
+Ahora, ¿qué tendría que hacer entonces?
+Tendríamos que hablar y enfocarnos en el proceso del desbaste.
+¿Cuánto tiempo le ha tomado hacer el desbaste?
+Y además, el traslado lineal, ¿cuánto tiempo toma la rotación?
+Si es que es la misma que te dice el variador, etc.
+Y tendrías que compararnos para este tipo de material.
+Para ese tipo de material.
+Exactamente.
+Lo que te dice la normativa, que tendría que avanzar con tanto de velocidad, lineal, y con tanta de rotación, con tal herramienta.
+Tres cosas.
+Y esas tres cosas tendrían que estar en tu problema central, porque eso es lo que vas a mejorar.
+¿Se entendió?
+Sí.
+Sí, pero no, no sé por qué lo complican.
+No, yo me chupé en algo.
+Sí, está, está, pero está.
+Por lo tanto, si el problema central está mal, ya no reviso más nada, porque todo ya está mal.
+¿Cierto?
+Muy bien, para el día miércoles, tu problema central inaugurado.
+¿Le envío por correo o por personal?
+Por correo.
+Mejor si es mañana.
+Sí, sí.
+Pero con los antecedentes principales, no con todo lo que ya nos dejó, con lo que me interesa.
+Ah, bien.
+¿De acuerdo?
+Con el de grabación, todo, todo completo.
+Sí.
+Está bien.
+Ok, siguiente.
+¿De qué, caballero, por qué ando a ver y no tiene clase?
+No puede.
+¿Qué ha pasado?
+¿Retiramos la materia de más?
+Tengo, tengo más, pero no, de documentos todavía, no.
+¿Y qué estamos esperando?
+Esta semana tengo que hacer.
+¿Y qué estamos esperando?
+¿Qué estás esperando?
+¿A qué te estás dedicando?
+¿Qué haces en tu tiempo?
+¿Estás trabajando?
+Sí.
+¿En dónde?
+Cerca de mi casa.
+¿Haciendo qué?
+¿Cómo?
+¿Haciendo qué?
+Armado de bicis eléctricas.
+¿Para alguna empresa?
+¿Para tu familia?
+¿Sí qué?
+No, ahí nomás paro.
+Pero, o te pagan muy bien, o para que te paga.
+¿Para que pierdas esta materia?
+¿O le dedicamos más tiempo a esta materia?
+Por lo menos esta semana.
+Este mes, en realidad.
+No le dedicamos a este mes.
+Mejor, retiramos la materia.
+En realidad, ¿estamos qué fecha?
+Siete.
+Siete.
+Señores.
+Una semana.
+El otro lunes ya tienen que entregar.
+Si no entregan su marco referencial completo, mejor retiremos la materia.
+¿Qué día tiene libre, Ingen?
+En la semana.
+Lunes y viernes que son mis clases.
+Pero, para hacer consultas, no se pueden.
+¿Por qué no vienes a clases?
+Para eso son estas clases, para revisarlas.
+Voy a colgar.
+Ahora es André.
+Estoy perdando.
+Creo que en ti.
+Seguimos.
+Estoy perdido.
+¿Qué del perchicio?
+Sí.
+Voy a colgar.
+No me voy a colgar.
+Soy unaparce shaft.
+Sí.
+Más que el proyecto se enmarca, la parte del proyecto se enmarca, lo vamos a llevar a la finalización de la introducción.
+Al final de la introducción.
+O quizás más abajo. ¿De acuerdo?
+Ahora, ¿qué me hablas? De la empresa en la incorporación, ¿cierto?
+Entidad estratégica que administra gran parte de la cadena eléctrica del país,
+mientras que la operación comercial y técnica de la planta solar fotovoltaica está acá en su filial.
+Ah, ¿dónde está? Me estás hablando de ENDE, que es lo que habíamos analizado.
+¿Y cómo se divide ENDE? ¿Dónde está la división de ENDE?
+Tiene varios filiales, pero lo más importante, lo que importa en este caso es ENDE Huaracachi.
+¿Tengo que mencionar todas?
+¿Cuántas son?
+END Transmisión, END Huaracachi, END Oruro, ENDE casi por cada departamento.
+Ya, ok. ¿Quiénes se dedican a qué cosas?
+¿Qué hace ENDE?
+Prácticamente es el dueño de empresas, de generadoras eléctricas y de las líneas de transmisión.
+Ok, aquí me tienes que explicar qué hace ENDE.
+¿De acuerdo? ENDE de la incorporación se dedica a hacer esto, a hacer tal cosa, tal cosa, tal cosa,
+mediante sus sucursales, no sé si son filiales, sucursales, etc., etc.?
+Entonces, en vez de ponerle, digo, administrar la gran parte de la cadena eléctrica del país,
+digo, administra la generación y distribución de energía eléctrica, ¿no es así?
+Sí.
+¿Y eso de dónde le estás sacando?
+Tiene que tener su referencia.
+De algún lado, ¿qué es ENDE?
+¿De dónde sacas la información?
+De su página oficial, ¿de acuerdo?
+Entonces, eso lo vas a referenciar.
+Ok.
+Luego, ahí tú puedes decir, ENDE se divide en tres grandes grupos,
+y el que fuera el caso, transmisión, generación, ¿te digas?
+Entonces, ahí no vas a mencionar a cada una de sus filiales, sino de forma macro.
+Eso es lo que interesa.
+Luego, entramos a la parte de generación, que es lo que nos está interesando,
+pero también va a estar asociado a lo que es transmisión, ¿cierto?
+Entonces, tal vez con esos dos puntos tenemos que focalizar un poco más, ¿de acuerdo?
+Sin embargo, ahí, ENDE generación, el más grande, tal vez, puedes mencionar,
+entre otros, los más importantes son éstos, y el de transmisión,
+los más importantes son éstos, son los que intervienen en tu proyecto.
+¿De acuerdo?
+Tienen que estar.
+Para que podamos entrar en ese detalle y saber dónde estamos ubicados.
+¿Ok?
+Mientras que la operación comercial técnica de la planta solar flotálica
+entonces, todo eso hay que mejorar.
+¿De acuerdo?
+Como se aprecia en la figura 1.1, el sistema interconectado nacional,
+pues ahí ya me hablas de, eh, el de transmisión.
+¿Vale?
+¿Cuál?
+El sistema interconectado nacional.
+¿Quién está acá con el de SNDC?
+Ok, aquí no me mencionas, por ejemplo, nada de SNDC, ¿no?
+No, yo estoy con eso.
+Hay que mencionar.
+Bolivia interconecta las distintas áreas de generación y demandas del país.
+Vamos bajando.
+Entonces hay que mejorar eso.
+El sistema interconectado.
+Ya.
+Tu leyenda habla más grande, pero no se entiende.
+No se entiende casi nada.
+Uno, dos, haber ampliado a 200%.
+Cuando amplíen a 200%, esto tiene que ser claramente legible.
+Muy legible.
+Así como esto.
+¿Sí?
+Como lo que dice el sistema interconectado nacional.
+Significa que la imagen que están colocando tiene que ser vectorizada.
+No la van a poner como BMP o como imagen simplemente.
+Porque cuando se lo amplíe tiene que poder verse muy bien.
+¿De acuerdo?
+Vectoricen sus imágenes.
+Cosa que si se amplía, se pueda observar de mejor forma.
+Esa es tu cuadro de referencia y que sea más visible, más grande.
+Cosa que nos permita poder analizar.
+¿Ok?
+Vamos.
+Vuelve a la derecha.
+Sí.
+Muy bien.
+Vamos por acá.
+Aquí, en particular.
+Vuelve un poco arriba.
+Ahí.
+¿Cómo se aprende la violencia?
+Estabas en Bolivia.
+Conecta las distintas generaciones y demás del país.
+Ya.
+Ya.
+Tienes que mejorar eso.
+¿Qué más?
+A ver.
+Aquí me pones en particular.
+El área sur conformado por Potosí, subletarica.
+Se vincula con el área central.
+La, cuando me pones en particular, significa que me estás a, me tendrías que hablar en algún
+lado, en general.
+En general era de, conecta las, los fondos del país.
+Y yo te aconsejo, describí mejor la figura.
+La figura del país.
+Así como, ¿te acuerdas que hemos estado peleando con eso?
+Describí mejor esa figura.
+¿De acuerdo?
+¿Qué representa la línea azul?
+¿Qué representa la línea, eh, de, describir?
+Todo lo que está en tu, en tu cuadrito de leyendo, describílo.
+Describílo bastante claro.
+Puedes apuntar.
+Bien escrito.
+No muy corto, ni extremadamente largo.
+Mejor la figura en cuanto al sistema.
+Ahí, por ejemplo, tienes cuantas centrales hidroeléctricas, tantas de, que la puedes
+describir fácilmente, que ese es un buen punto para poder entender.
+Vamos más para arriba.
+¿Se va aquí?
+Bueno, ya, vamos, ahí.
+Ahí es lo mismo, ¿no?
+De particular el área azul, entonces si me describes, ya vamos a saber que todo el
+sistema es conectado y son características, y ahí recién puedes decir, el foco se trata
+del área particular, ¿no?
+Para el particular, se vincula con la central a través de dos líneas principales de transmisión.
+Un vínculo de 230 KB, y un vínculo de menor capacidad del catálogo, con toma, con toma
+figura 2, con toma, con toma, con toma, con toma, con toma, con toma, con toma, con toma, con toma, con toma.
+Esto es lo que te estaba pidiendo, ¿no?
+Esta descripción que sea más detallada, pero con el plano de arriba.
+Bueno, él sí solo quería mostrar esto, pero nada más te dije, esto viene de...
+Exacto.
+Sí, si tú agarras y me permites mostrar esto, o, figura A en el bolido y aquí figura B como que ampliado.
+Esto puede ser C. ¿De acuerdo?
+Vamos bajando.
+La energía generada por la PSFVU.
+Ya, ok.
+Yo cada rato menciono y ocupo arco, si necesariamente.
+Ya, tal vez puedes dar otro denominativo.
+Pero vas a generar un área de apéndices, no, perdón, de acrónimos y de los aviótérminos.
+¿Por qué no cabe A?
+¿Por qué no cabe A?
+Es que dice, mira, eleva la tensión de los inversores de 24.9 KB.
+A veces, no, 250 KB, pero no se habla de la línea.
+No, o sea, es un nivel de potencia.
+Sigo de transición.
+Sigo de la realidad de transición.
+Pero no está claro.
+Porque dice, utilizando un transformador de potencia de 75 Mbps,
+que eleva, eleva la tensión, el transformador eleva la tensión de los inversores de 24.9 KB.
+Estamos hablando del transformador.
+¿Cierto?
+A un nivel de transmisión de 230 KB.
+Estamos hablando del transformador, que va a elevar de 24.9 a 230 KB.
+Entonces, el transformador, ¿creen cabe A?
+¿No?
+No sé, seguro que no se lo saqué.
+A ver, te voy a salir.
+Yo te digo para que no se lo saque.
+Revisar.
+Si es KB o KB.
+Ah, se puede comentar.
+¿Por qué estás hablando del transformador, eso pone A?
+Ok, más abajo
+Sí, pero
+¿Dónde describe la imagen 1.3?
+¿La figura 1.3?
+Eso tienes que describir, tienes que describir la figura, clave, ¿de acuerdo?
+Eso sí, la imagen es la función, ya después es que tiene casi todo escrito, así que puede
+ser una otra reclación de vídeo.
+Ok, las vas a describir, y vamos bajando, la plata solar de Bione tiene una capacidad
+de tratar conformada por 1696 paneles, 1696, perdón.
+Casi 200 paneles de 320 watts cada uno y 21 inversores de 2.8 kilowatts.
+Seguidores de red que toman como referencia el voltaje, la frecuencia, la radio.
+Ok, regulación activa y reactiva de todo el complejo.
+Bueno, en ningún punto me pones referencia, ¿no?
+No hay referencias.
+Hay que poner referencias.
+Uno, dos.
+¿Te acuerdas la imagen que te pedí de cómo estaba estructurada la planta solar de Bione
+para analizarlo y entenderlo?
+Sí.
+¿Para qué crees que andas sirviendo?
+Para identificar todo lo que vamos a hablar, ¿cierto?
+¿Por qué no está aquí?
+A ver, ten en cuenta que cuando yo he empezado a analizar tu trabajo, tu propuesta, yo he tenido
+que situarme en el lugar, ¿cierto?
+Hemos conversado, tú me has ido explicando, tú ya estabas situado en el lugar, ya sabías
+de qué trataba.
+Y he tenido preguntas cosas muy básicas de cómo está esto estipulado, cómo está diseñado,
+cómo está implementado, etc.
+Te he hecho un montón de preguntas, ¿cierto?
+¿Y por qué ha sido eso?
+Eso, ¿para qué lo hice?
+Para entender cómo funciona.
+Para yo entender, ¿sí?
+Lo que tú quieres hacer, ¿correcto?
+Tu documento tiene que hacer lo mismo.
+Para que el jurado pueda entender y no imagine otras cosas, tú tienes que darle lo más detallado
+posible.
+Así como lo hemos analizado.
+Para que el jurado no diga, pero, ¿cómo es su sistema?
+¿Tiene inversores?
+¿Y qué tipo de inversores?
+¿Tienen un PPC?
+¿Cómo están conectados sus PPCs?
+O su propio PPC, etc.
+¿Entiendes?
+Para que ellos puedan entender y todos los que vayan a leer, que puede que no sean especialistas
+en transmisión o generación de energía, puedan comprender su trabajo sin ningún problema.
+¿Entiendes?
+Todo lo que te he hablado, no sé si se resume en esa frase.
+Pero espero que...
+No, no, no, sí, sí, sí, sí, también.
+Porque te vas a salir de aquí, ¿no?
+O sea, te vas a olvidar y otra cosa me vas a hacer como lo que acabas de ver en todo
+tu documento.
+Me vas a poner mi comentario y luego todo mi comentario mental a ese comentario.
+Que por lo visto te olvidas.
+Oh, porque mirá todo lo que te he pedido me has hecho apenas el 10%.
+Su comentario es tranquilo.
+Sí, no, a veces creo que es mejor grabar lo que podamos analizar.
+Sin embargo, ante huecos de tensión.
+¿Qué es un hueco de tensión?
+Un cambio brusco, bueno, una caída brusca.
+Ok, ¿dónde explicas eso?
+Obvio.
+Tu trabajo tiene que ser comprensible para cualquier persona.
+Ya les dije.
+Si no es un tema que todo el mundo pueda conocer, lo tienes que explicar.
+Es como que yo te diga, a ver, la ecuación de la sustentación de un avión viene a través
+de la técnica de Bernoulli.
+¿Ok?
+¿Qué me vas a decir?
+Como jurado.
+¿Qué me vas a preguntar?
+¿Qué es eso?
+Exacto.
+¿Cierto?
+Cuando nosotros ya estamos más inmersos, ya sabemos de qué estamos hablando.
+Y ese es un problema.
+Que como estamos todo el tiempo con esto, asumimos que muchas cosas ya están sobreentendidas.
+Y no es correcto.
+Sí, solo que aquí en la introducción no dice tanto detalle porque, como tal, dije, es la
+inintroducción y luego ya más adelante puedo...
+No, más bien la introducción tiene que darte todo el panorama, de todo el trabajo que
+estás presentando.
+Y aquí en Antecedentes es al foco de los antecedentes, al problema.
+Nos enfocamos en todo el respaldo para el problema.
+¿De acuerdo?
+Todo esto de aquí tiene que estar bien detallado.
+¿De acuerdo?
+Ok.
+Presenta un comportamiento dinámico anómalo caracterizado por la absorción severa de
+potencia activa y reactiva y la desconexión masiva de sus inversores.
+Este comportamiento compromete la estabilidad operativa del sur, generando sobrecargas en
+la línea de transmisión remanentes y colapsos de tensión.
+El presente trabajo propone emplear técnicas de identificación de sistemas sobre el para
+caracterizar los datos de control de la planta, permitiendo rediseñar sus parámetros de
+control y poner a la planta acorde a las exigencias establecidas por normatividad.
+Lo que sí me preocupa es, ¿de dónde vas a conseguir?
+Necesitas estas aseveraciones, necesitas respaldo, todo eso.
+¿De dónde me estás sacando eso?
+Sí, no, no, siempre tengo todo.
+Entonces, respaldo con bibliografía, ¿no?
+De forma bibliográfica.
+¿De dónde has sacado eso?
+Ya, vamos a los antecedentes.
+Señor Filiberto.
+¿Me quiere ir a como de copar?
+No, no, es mío.
+Ok, antecedentes del problema.
+La planta solar de una interconectada al Sistema de Interconexión Nacional presenta desafíos
+operativos relacionados con su respuesta dinámica ante perturbaciones en la red de ley.
+¿Cuáles desafíos operativos?
+Vas a decir que yo quiero decir que no se comportan como deberían.
+No, está bien, pues.
+Desafíos operativos presentes y con...
+¿Basado en qué dices eso?
+¿Y cuál es tu respaldo?
+En las fallas se presentan.
+Pero aquí en antecedentes, recién estás empezando a hablar de la planta.
+¿Cierto?
+Tienes que describir cuáles son esos desafíos, si quieres llamarlo así.
+O cuáles han sido las fallas que han presentado, que se han presentado.
+En tal año ha ocurrido este evento, que ha ocasionado tal cosa, tal cosa, tal cosa.
+En tal fecha, tal cosa, tal cosa.
+Referencia, tal lugar.
+¿Cierto?
+Todo eso hay que colocarlo ahí para...
+¿Por qué hizo eso, eh?
+Porque yo no te conozco, pues.
+Si no me hacen como les estoy pidiendo, voy a hacer llamar a sus papás.
+Ya.
+No, voy a sonar en...
+No quiero volver a leer lo mismo.
+Por eso, si te estoy haciendo esta revisión es para que ya esté perfecto para el miércoles.
+Y ya solo tengo que darles la pasada de que sí han hecho lo que...
+Todo lo que te estoy pidiendo, todo lo que les estoy hablando, todo es importante.
+Porque aquí, en la tomada de apuntes, dice, fecha y lugar de las fallas.
+Espero que no me ponga solamente, fecha y lugar, falló.
+Otávodo, falló.
+Ocurrió esto.
+Coloquen lo que les estoy pidiendo con detalles.
+Falla, pero entonces puede editar la explicación de las fallas.
+Sí.
+Tiene más sentido.
+Y lo mismo en tus otros comentarios.
+Bueno, si no, facilito, vas a poner fecha y listo, ya está, ya.
+Y se lo mando.
+Que lo lean, ¿no, eh?
+Que se mate.
+Como si yo fuera a defender.
+Ya.
+Pero dijo que también nos va a defender a nosotros.
+No, si no me hacen caso, como les estoy pidiendo, yo los voy a...
+No se olviden.
+Aquí yo les estoy pidiendo cosas.
+Y si no, no tan bien, en todo lo que les estoy pidiendo,
+yo mismo les voy a dar pago.
+Así que, mejor hagan bien como les estoy pidiendo.
+Entonces.
+Porque me va a dar vergüenza defenderlos ante el tribunal, si es que no hacen caso.
+Entonces, dije, aquí.
+No sé, ¿puedo entrar más en tiempo, si es?
+Sí, claro.
+Eh...
+Es explicar un poco de sección.
+¿Qué es?
+¿Cómo se origina?
+¿Características?
+¿La falla activa?
+La...
+Perdón.
+¿La potencia activa?
+¿La potencia reactiva?
+Ah, claro.
+¿Qué son los inversores?
+¿Cómo funcionan?
+¿Cómo funciona una planta solar?
+¿Qué diferencia hay con una planta?
+Vamos a llamarle convencional para no mencionar todas.
+Tienen que colocar la imagen de todo lo que es eléctrico, ¿no?
+¿Cómo está instalada la planta?
+Sí.
+Si las imágenes que tengo son manajerías, yo puedo remasterizarlas.
+Puedes.
+¿Y si hay algo que elaboras un proyecto?
+No.
+Ahí le pones adaptado de.
+Si ustedes van a modificar una imagen de otro a otro, le pones adaptado de.
+¿De acuerdo?
+¿Y qué?
+¿Y por posibilidad?
+Oh, perdón.
+Otro detalle.
+Si tu imagen es en inglés, lo conviertes en español y le pones igual adaptado de.
+Ah, ya.
+¿Por qué?
+¿Por qué?
+¿Por qué?
+¿Por qué?
+Si las decías a esto para...
+Ah, no, no te tengo.
+Voy a dedicarme a mañana.
+Gracias.
+Sí, pero te irán conmigo.
+Entonces aquí haciendo...
+Lo último que vamos a revisar va a ser formato, pero lee el template.
+Lean, señores, todos el template.
+¿Ok?
+Ya, ¿qué más?
+Vamos bajando.
+¿Dónde estamos?
+Ahí.
+Los informes de fallas de la planta indican que el sistema actual experimenta...
+¿Los informes de quién?
+¿Informes del CNDC?
+¿Quién ha realizado el informe?
+¿Puedes contar todo lo que me has contado, no?
+El CNDC realizó una evaluación donde se presenta el informe...
+El informe...
+Más o menos como el siguiente párroco, así más específico?
+Mediante las notas CDDC de Mayer...
+Solicitor de Guaracate la instalación del equipo PFM 300...
+No, eso es muy específico.
+Eso no es bueno...
+De entrar al detalle.
+Simplemente puedes mencionar que el CNDC hace la autoridad...
+...
+En tal fecha, ¿desde dónde se toma la cantidad de datos establecidos?
+O desde tal fecha se toman los datos, tales, tales, tales.
+Y ahí entras a los datos.
+¿Ya viste el calor?
+Sí, más.
+¿La se me cuenta?
+No, está fresquito, por eso no saqué solo la chamarra.
+Ok, a ver, ¿qué significa este comentario muy específico, señores?
+Muy específico, dice.
+¿Desde dónde y cuándo se toman los datos?
+Esa es la cosa de comentario de nuestro colega.
+Porque yo me entiendo, David.
+¿No?
+Sí, no importa.
+Muy específico.
+O sea, que tengo que hacerlo muy específico o es que está muy específico.
+Está muy específico.
+Mañana te vas a olvidar cuando lo vayas a hacer.
+Era para ver si estaba en el tema.
+Voy a colgar.
+En serio, creo que voy a llamar a tus padres para que vengan ahí.
+Y no quiero que después, cuando estén aplazando, me vengan a ayudar.
+Claro.
+Ya.
+Ya.
+Ok.
+En la bahía de alta tensión, transformadora de potencia, ahí puedes explicar dónde está
+ubicado, ¿no?
+Registrar la calidad de energía, verificar el desempeño de la planta en condiciones normales
+de operación y de contingencia.
+Vamos.
+¿Hay una imagen donde muestra, en el video nuclear, en qué parte con la torta del marén?
+Sí, correcto.
+Colores.
+Todo eso es importante.
+En fin, la fecha de coordinación de la instalación, todas habíamos dicho que no, ¿no?
+Estaba repitiendo lo mismo de ahí arriba.
+Es que es una persona evitada, está.
+Lea, por favor, antes de traer al análisis.
+Lea en limpio.
+Para el valor de la dinámica de la potencia activa y potencia reactiva y voltaje de la
+subestación solar, en adelante, ppco.com de conexión.
+Ese es el, perdón.
+Ese es el, perdón.
+Ese es el, perdón.
+Se tomaron registratitos de capturado con una tasa de material ajustada a trigo que evidencian
+que ves de progreso por la red de corriente y manteniendo la acción.
+Colomía, colonia, colonia, planta, acero, pues, referencia.
+No, no me gusta ese paro.
+¿Todo esto?
+¿Todo esto?
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+A ver.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+Ajá.
+quiera haber mostrado nada del resultado obtenido por el pfm
+solo que que
+o sea lo has hecho hoy día
+si estamos hoy día lunes
+ahora antes de venir a clase
+lo hice el sábado
+y el domingo me hicieron correcciones
+y me hace eso quise modificar ese mismo
+pero no se que paso con el word que me pasaron a mi
+quien te hizo correcciones
+y al editar no se que
+que toco y no pude configurar
+o sea no pude modificar
+no se que cosas
+hay un mensaje
+decía mensaje bloqueado
+así que no me repetía
+aquí tienes que mostrar
+toda la información
+importante
+para respaldar
+tu problema
+de acuerdo
+y si vas a hacer referencia a anexos
+colocas también en anexos
+y los mencionas
+a ver que le va a poner
+vamos a ver
+en realidad debería ser detallar y colocar toda la información necesaria para evidenciar
+el problema
+al cual se va a llegar
+junto con los gráficos
+y si tienes que hacer un análisis de ese gráfico
+ahí es donde tienes que especificar
+ok
+vamos bajando
+formulación del problema
+y por qué está tan largo
+si es una sola frase
+en la formulación
+formulación ya les dije
+es el problema central
+en una sola frase
+punto
+nada más
+todo lo demás es antecedente
+no sé por qué
+aquí
+mira en eso
+a ver
+a ver
+vamos arriba
+qué dice
+el problema central
+ok señores
+analicen
+el problema central
+radica en la respuesta dinámica
+perjudicial
+que presenta
+que presenta
+el sistema de control
+PPC
+de la
+planta solar
+de UNI
+ante contingencias
+en la red
+ok
+Alessandro
+observaciones
+a su problema central
+yo no necesito
+ya leer el resto
+¿cuál es el problema?
+según dice
+que dice
+el problema central
+radica en la respuesta dinámica
+hasta aquí
+a ver caballeros
+pero acá se veré
+como la respuesta dinámica
+pero
+primera cosa
+perjudicial
+segunda
+¿a qué se refiere
+con respuesta dinámica?
+¿qué más?
+¿en algún lado
+ha mencionado
+el PPC?
+tampoco
+si
+justamente
+de eso
+tengo
+hay una
+tablita
+que son
+la
+adeviación
+si
+se llaman
+acrónimos
+y
+glosarios
+de términos
+que se pone arriba
+si
+para estos casos
+sí
+pero
+aquí
+no
+nunca
+hablado
+del PPC
+en ninguna parte
+yo he visto
+que
+todo lo que hemos leído
+no dice nada
+del PPC
+dice
+el PCC
+que es
+otra cosa
+pero
+del PPC
+no menciona
+absolutamente nada
+ok
+ok
+que
+que tal
+la formulación
+del problema
+el problema
+central
+radica en la
+respuesta dinámica
+perjudicial
+que presenta
+el sistema
+de control
+PPC
+solución
+no
+PPC
+que no
+perjudique
+no sé
+y como
+saber
+que es
+perjudicial
+o que
+perjudica
+que perjudica
+esto solo quiero decir
+que
+es una respuesta
+incorrecta
+y
+respuesta
+dinámica
+Alessandro
+que es
+respuesta
+dinámica
+una señal
+una señal
+de que
+velocidad
+podría ser
+¿no ves?
+aceleración
+podría ser
+respuesta
+dinámica
+de quien
+tasa
+de cambio
+de la glucosa
+de una persona
+en el cuerpo humano
+eso puede ser
+una respuesta
+dinámica
+pero ahora
+antes que también
+por el comentario
+tu proyecto
+se centra
+en corregir
+esa respuesta
+dinámica
+si
+bueno
+eso sería
+un resultado
+de la
+no lo sé
+no lo sé
+para empezar
+a qué le llama
+la respuesta
+dinámica
+porque el problema
+central
+radica
+en la
+claro
+a qué le llama
+la respuesta
+dinámica
+segundo
+¿algo PC
+es uno solo
+o tiene sus
+variedades?
+como puedo decirte
+lo con xiaomi
+xiaomi
+tiene un montón
+de salida
+de versiones
+¿qué dices
+en el mercado?
+sí
+porque
+PPC
+no sé
+si hay
+su modelo
+específico
+o no
+imagina
+que es un
+PLC
+pero
+específicamente
+para inversores
+solares
+pero
+te pregunta
+¿qué marca?
+pre-sum
+no me acuerdo
+la marca
+aquí no le has puesto
+la marca
+pre-sum
+marca
+de los inversores
+tampoco veo
+somos la pre-sum
+y el fabricante
+se llama
+Power Electronics
+es una empresa
+española
+y no
+no se puede
+cambiar así
+como si fuese
+una pieza quemada
+no mencionan
+¿cierto?
+ok
+lo que más me preocupa
+es respuesta
+dinámica
+y arriba
+no me muestra
+nada de respuestas
+dinámicas
+bueno
+quiero decir
+la inyección
+de potencia activa
+y reactiva
+¿adica la inyección
+de potencia activa?
+sí
+es que
+¿pero si me das cuenta?
+cuando hay hueco de tensión
+la planta tiene que
+inyectar potencia reactiva
+a ver
+este problema
+su solución
+es identificar
+a la planta
+para después
+hacer
+sintonización
+de las ganancias
+del controlador
+porque no va a modificar
+el controlador
+solo los va a sintonizar
+para que la respuesta
+ante los huecos
+de tensión
+no sea
+corte
+y siga inyectando
+energía
+esa es su solución
+¿cuál es el problema?
+los huecos
+de tensión
+los huecos
+de tensión
+solamente
+no, no, no
+olvidate de no debería
+lo que ocurre
+lo que estamos describiendo
+es lo que ocurre
+perfecto
+como debería funcionar
+me parece muy bien
+una planta convencional
+si quieres
+y luego
+cómo funciona actualmente
+basado en qué características
+y sus configuraciones
+que no se menciona aquí
+ya
+una planta solar
+fotovoltaica
+tiene la capacidad
+de inyectar potencia
+activa
+y reactiva
+de esta forma
+utilizando tales
+tales cosas
+tales combinaciones
+a los inversores
+etc
+los inversores
+trabajan con esto
+o sea, toda esa descripción
+tiene que estar
+igual
+y luego
+la verdad es que
+el Tugini
+no ocurre eso
+o sea, cuando
+una planta solar
+tiene que inyectar potencia
+reactiva
+para contrarrestar
+su hueco de tensión
+pero el Mugini
+pasa lo opuesto
+no inyecta
+bueno, de hecho
+empieza a inyectar
+pero luego
+cae brúicamente
+y aparte de eso
+empieza a absorber
+potencia activa
+¿absorbe potencia activa
+activa o reactiva?
+activa
+activa, ok
+está claro el problema
+¿no ves?
+está súper claro
+pero ¿cómo lo demuestras
+ahora y cómo lo escribes?
+es que
+se le explica
+y te viene
+y te trae
+otra cosa
+yo lo mato
+está claro
+el problema
+ya tú mismo
+lo acabas de mencionar
+solo que ahora
+necesito que lo escribas
+tal cual
+en tu documento
+pero
+con el respaldo
+¿de dónde me ha sacado
+esa afirmación?
+de los informes
+ok
+¿qué has analizado
+en los informes?
+¿o solo has leído
+que han dicho eso?
+muestra
+las gráficas
+perfecto
+muestrame esas gráficas
+analízame esas gráficas
+y con eso
+planteas el problema
+simple
+no sé por qué
+se complican tanto
+con
+con cosas
+que nada que ver
+perjudican
+por favor
+estamos aprendiendo
+señores
+han llevado
+metodologías
+de la investigación
+por favor
+han llevado
+talleres
+diseños
+superiores
+de ingeniería
+donde también
+hacen esto
+a ese nivel
+no hacemos
+metodologías
+que yo soy
+material libre
+es casi
+conocimiento
+común
+ya
+entonces
+si el problema
+está mal
+todo está mal
+¿objetivos tienes?
+sí
+a ver
+analicemos
+eso más
+específicos
+en general
+proponer
+un ajuste
+proponer
+¿cumple con
+SMART?
+no
+no
+no es medible
+en ese específico
+no eran los
+específicos
+que tenían que ser
+los SMART
+todo
+objetivos
+todo lo que son objetivos
+tiene que ser SMART
+por lo tanto
+chao tu objetivo
+general
+diagnosticar
+diagnosticar
+el comportamiento
+diagnosticar
+SMART
+no
+no
+yo
+que sí
+él dice que sí
+¿por qué?
+¿y tú por qué no?
+ah no
+no es específico
+sí
+es
+es
+es
+explicar
+analizar
+pero hasta dónde
+vas a explicar
+nunca va a acabar
+de explicarse
+tampoco es específico
+tampoco es específico
+analizar
+analizar
+tampoco
+porque voy a mencionar
+el comportamiento
+dinámico
+¿qué tiene que hacer
+aquí en estos casos?
+debería modelar
+¿cierto?
+porque hasta ahorita
+una actividad
+puede ser
+diagnosticar
+de tu modelado
+como actividad
+pero no como objetivo
+porque ¿cómo vas a medir?
+¿cómo vas a decir
+he diagnosticado
+el comportamiento
+dinámico actual?
+te van a preguntar
+a ver
+mostrame tu diagnóstico
+¿qué le vas a mostrar?
+¿el modelo?
+no
+tu diagnóstico
+no tu modelo
+porque otra cosa
+es modelar
+para el diagnóstico
+siempre tendría que
+moderar
+depende
+o sea
+diagnosticas
+¿qué es diagnosticar?
+te digo
+la planta funciona
+así
+así
+así
+así
+X y Z
+pero el jurado
+dice
+¿por qué no has analizado
+estas otras variables
+estos otros parámetros?
+para mí
+eso es
+diagnosticar
+o estos parámetros
+que también deberían ser
+parte de tu diagnóstico
+o simular
+un hueco de tensión
+a ver cómo actúa
+donde se debe aplicar
+debería ir
+en las partes finales
+simulación
+de todo su modelo
+para luego
+validarlo
+con los datos
+del PFM
+¿verdad?
+primero
+quiero sacar
+una representación
+de cómo está
+actualmente
+no pero ya está
+sacando pues
+ahorita
+con todo lo que
+estamos analizando
+arriba
+en la parte
+de la problemática
+ya está sacando
+su estado actual
+eso es lo que
+ya estamos haciendo
+claro
+pero yo me gustaría
+hacer con
+por si
+real
+el sistema
+portal
+no lo hiciste
+con la modelo
+sería modelar
+o representar
+físicamente
+o
+virtualmente
+simular
+simular
+tendrías que tener
+primero
+previo
+un modelado
+ahora eso
+quería preguntarle
+validar
+sería
+mejor
+para validar
+hay que
+modelar
+simular
+y ahí comparar
+no no no
+validar
+si puede ser
+un objetivo
+pero después
+de que ya
+hayas tenido
+otro objetivo
+de modelado
+de modelar
+porque
+son muchas
+actividades
+para modelar
+cierto
+y otra
+va a ser
+validar
+solamente
+que van a ser
+otro tipo
+de actividades
+otras características
+con un modelo
+definido
+y simular
+igual
+también
+simular
+también puede ser
+otro objetivo
+los objetivos
+van a ser
+van a estar
+en función
+a la
+a la cantidad
+de trabajo
+que quieren
+que se puede
+lograr
+porque actividad
+es algo
+más inmediato
+objetivo
+es más
+un logro
+pero que
+tiene que ser
+medible
+¿de acuerdo?
+cosa de que
+modelar
+no lo vas a hacer
+en una tarde
+te va a tomar
+algún tiempo
+un cierto
+grado
+de complejidad
+ahí puedes
+poner
+diagnosticar
+analizar
+tomar datos
+etcétera
+entonces
+por ejemplo
+la actividad
+sería
+encontrar la ecuación
+de la planta
+o sacar
+la ecuación
+de la planta
+eso es
+eso es ya
+una actividad
+es más específica
+eso es lo que sería
+eso
+para la parte
+de modelado
+sí
+correcto
+¿está bien?
+¿se entiende, no?
+sí
+ya no te lo hagas
+porque después
+mañana
+o más tarde
+o saliendo del aula
+ya no se va a acordar
+¿hay alguna palabra
+que se pueda usar
+en vez de explicar
+o diagnosticar
+que sí sea
+estimado?
+pero a ver
+les pasé
+un
+competente
+pero a ver
+¿cómo vas a analizar
+el comportamiento
+dinámico
+si ya lo tienes
+analizado?
+¿porque dedicando
+tiempos de respuesta
+sobre impuestos
+a partir del
+análisis
+de eventos
+registrados
+por el equipo
+PFM?
+¿empezaría
+directo
+con el
+modelado?
+sí
+es que
+o sea
+lo de los informes
+muestra como tal
+el resultado
+¿no?
+de sus pruebas
+de ellos
+lo que yo pensaba hacer
+era
+porque yo tengo
+una base de datos
+y hacerlo yo
+por mi cuenta
+pero
+¿no quieres analizar
+ese comportamiento?
+sí
+porque
+¿no le cuente?
+bueno
+sí le cuente
+en el informe
+que muestra
+¿no?
+del PFM 300
+muestra el comportamiento
+de los antiguos
+de detención
+pero
+antiguos de detención
+pues
+serán vivos
+grandes
+de
+una vida
+más de
+0.95
+pero
+eso está registrado
+por el PFM
+eso
+tú tienes que analizar
+para la problemática
+¿de acuerdo?
+eso está
+¿qué es lo que vas a hacer
+tú a partir de eso?
+de que ya has analizado
+tienes que empezar
+a modelar
+o sea
+no vas a sacar
+caja negra
+o sea
+no vas a sacar
+una vez de caja negra
+porque tienes
+forma de modelar
+los inversores
+tienes forma de modelar
+cada una de las etapas
+que no es tan
+no es nada
+del otro mundo
+¿cierto?
+entonces
+yo te aconsejo
+que lo modeles
+primero
+al modelar
+tú vas a poder
+reproducir
+ante las entradas
+la misma
+la misma salida
+para hacer
+tu validación
+¿me entiendes?
+una vez que tengas
+esa
+reproducir
+los valores de entrada
+realizar ajustes
+hay que ver
+si es como actividad
+o como objetivo
+cuán complejo
+puede ser
+a tu modelo
+para que pueda
+ajustarse
+a tus datos
+reales
+del PCM
+eso sería
+validar
+tu modelo
+matemático
+con los datos
+del PCM
+eso sería
+otro objetivo
+modelas
+validas
+y luego
+que ya has validado
+¿qué haces?
+modificas
+haces simulaciones
+de nuevos eventos
+y sobre esas simulaciones
+recién haces
+modificaciones
+o pruebas
+de control
+solo que ahí
+tu modelado
+es la parte pesada
+la parte compleja
+y este semestre
+tienes que acabar
+con modelado
+claro
+con tus dos objetivos
+tienen que acabar
+piensen bien
+que van a poner
+estos objetivos
+¿no?
+que sean
+fundamentados
+según usted
+¿qué
+dos objetivos
+los primeros
+que puedo poner
+para que sea
+para mí
+sería
+modelar
+para mí
+sería
+modelar
+pero
+eso es lo que
+más trabajo
+te va a tomar
+más tiempo
+te va a tomar
+entonces
+analiza
+a ver
+cuántos
+deberían ser
+tus dos primeros
+objetivos
+cosas que puedas
+cumplir
+en este semestre
+eso por en cuanto
+desarrollamos
+el modelo matemático
+el lazo del control
+de potencia activa
+y reactiva
+ya
+desarrollamos
+el modelo matemático
+el modelo
+sintonizar los parámetros
+no
+aquí te falta
+la validación
+antes de sintonizar
+los parámetros
+del controlador
+tú puedes ir
+por etapas
+puedes modelar
+solo el inversor
+puedes modelar
+solo el panel
+no sé si el panel
+sea un poco pecado
+pues puedes
+dividir
+ese modelador
+que es más grande
+en varias etapas
+que también
+cada uno
+tiene su propio
+¿se puede repetir
+la palabra?
+¿verdad?
+buenísimo
+o sea
+en vez de decir
+modelar la planta
+como objetivo
+como tal
+modelar los inversores
+claro
+modelar el procedimiento
+exactamente
+¿para ti?
+¿proyecto?
+¿está bien?
+gracias
+ok
+ya
+con eso
+acabamos
+con el caballero
+para el día
+¿miernes?
+no miércoles
+ya tengo demasiado
+para el viernes
+tú ya tendrías
+que tenerlo listo
+es el viernes
+yo ya no tendría
+que volverte
+a reclamar
+por lo que
+acabo de reclamar
+hoy día
+¿de acuerdo?
+ya me he tomado
+el tiempo
+está totalmente
+analizado
+entonces
+me entregas
+un documento
+oficial
+y correcto
+¿de acuerdo?
+¿podrías revisar
+mis sarcasas
+ilíneas?
+sí
+rapidísimo
+porfa
+digo que es
+el error
+a ver
+que es
+a ver
+a ver
+a ver
+Alcanza, límites, el proyecto es de carácter analítico y computacional, eso no es necesario que lo pongas porque ya estaría claro, no se realizará ninguna intervención en que modificación física ni reconfiguración de los equipos físicos, eso puedes colocar, no se desarrollará un modelo dinámico completo de todos los componentes electromecánicos y técnicos de la planta, como cuáles?
+Eso ya dije que lo voy a modificar porque tengo que también modelar los inversores, pero sistemas de protección, eso sí, no?
+Tu modelamiento tampoco está, no es la cosa, o sea, tienes que modelar todo porque para poder representar fidedignamente y de forma validada tu modelo, con los datos que tienes tienes que modelar todo lo que hay.
+No hay como no, porque si no, nunca te va a dar tu validación.
+La investigación está condicionada a la calidad y cantidad de los datos históricos proporcionados por el PFM, no se llevará a cabo una de las campañas de medición, ok?
+Está bien.
+Alcances, el análisis del comportamiento dinámico y la validación de la propuesta de ajustes de reacciones exclusivamente mediante simulaciones computacionales.
+Está repitiendo lo mismo que arriba.
+Reblinda.
+¿Mantira, sí?
+Es lo mismo, o sea, no va.
+Entonces, si, en un, por decir, en un límite, digo algo...
+Hasta dónde nos ha llegado, no?
+Ya.
+La sintonización de los parámetros de control se diseñará teniendo como meta única el cumplimiento de los márgenes de estabilidad, tiempos de establecimiento, los firmamientos por las normas operativas y autos.
+La sintonización del modelo matemático se circunscribirá al uso de técnicas de identificación de caja negro-gris aplicadas a los datos transitorios y descartando el modelo analítico.
+No, no, no, no, no, no, nada.
+Tienes que hacer tu modelado analítico.
+Es parte de caja gris.
+Caja gris.
+En realidad, tú deberías hacer modelado, ni siquiera caja gris.
+Porque ahí vas a entender de mejor forma qué está ocurriendo.
+Las pruebas de validación solo serán ante huecos de tensión en la red eléctrica.
+Eso quiero decir porque puede haber variaciones de frecuencia, pero yo no voy a enfocar en frecuencia, es únicamente ante huecos de tensión.
+Sí, por ahí me dicen, ¿y ante esta otra falla cómo reacciona?
+Entonces ahí coloca, las pruebas de validación se realizarán bajo las siguientes condiciones, o en las siguientes condiciones.
+Si hay un proceso normal de operación, en tales fallas, falla tal, falla tal, falla de huecos de tensión, y punto.
+Y arriba, o puedes mencionar, no se realizarán las pruebas de fallas de frecuencia.
+Ahora hay que ver si no te observas.
+Debería funcionar igual tus fallas de frecuencia, ¿no?
+Porque si no, no se ha complicado.
+La red eléctrica del SIM será representado como una barra equivalente.
+¿Dónde está?
+Es decir, tengo aquí mi platante libre, y yo entiendo que está conectado con una subestación,
+y esa subestación está conectada con la red, y la red está todo, pero no voy a sumar todo el sistema,
+sino voy a comprimir todo eso, y en un punto solo daría ser lo vuelco de tensión.
+Pero son, no sé, por ahí me dicen, que simuló una falla, una habitación en Santa Cruz,
+y yo digo, nada que ver, por eso.
+O sea, aquí, blita.
+Ya.
+Entonces, porque de hecho, solamente se trabajará para la zona de tales puntos de corte,
+de falla, más específico, más específico, porque está muy, muy genérico.
+Ok.
+Ya.
+Y si tienes alguna otra, me dices.
+Eso.
+O más bien, si usted tiene alguna otra que le pueda dar.
+No, que va a estar en función de tus objetivos.
+Ya.
+Ok.
+Ya.
+Preguntas, caballeros.
+Tienes que pudieron hacer a todos.
+La pueden ver a punto con mi problemática, el límite de la cáncer.
+Bueno, la idea que le comenté el viernes era mantenimiento proyectivo en los activos críticos de la planta, el centro de distribución de Sofía.
+Analizando con mi jefe, que es el gerente nacional de mantenimiento de todos los centros de Sofía de Bolivia,
+fijamos en algo.
+Bueno, primero hicimos una lista de activos críticos.
+¿Activos críticos?
+Son los activos vitales que el centro no puede funcionar sin ellos.
+Ok, que tienen que estar operativos durante 24-7.
+El más interesante, son un montón, primero, primero son las básculas, por ejemplo,
+ahí pesan los pedidos, que son, es un activo crítico porque siempre entran pedidos a cada rato en camiones.
+Pero el principal, que me gusta su trabajo, son los compresores que usan para el sistema de refrigeración.
+Son compresores que, son para el sistema de refrigeración de armoníaco.
+Funcionan 24 horas, los 7 días a la semana, todo el año.
+¿Es para carne?
+Para pollo, chancho, milanesa, nada, es todos los productos de Sofía.
+¿Para todos los productos de Sofía?
+Todo, todo, todo.
+¿Van a ese almacén que está refrigerado y almacena todo?
+El centro de faena, los mataderos, todo, las grandes lucesadoras, todo va hasta el centro.
+Entonces, ese sistema de refrigeración funciona todo el tiempo y, por lo general, funcionan 5 compresores al tiempo.
+Son 7 compresores en total.
+Son 7 en total y funcionan 5 al mismo tiempo.
+Y 2 en stand-by.
+Ok.
+Pero, los dos que están en stand-by, son los mismos siempre.
+O sea, no se turnan.
+Yo ya les pregunté, digamos, si es un, si, por ejemplo, si tiene conversor 1, 2, 2, hasta el 7.
+Si, por ejemplo, el 6 y el 7 siempre están en stand-by.
+Siempre.
+Siempre.
+Son los mismos siempre.
+O sea, está bien.
+Son los definidos como stand-by.
+Claro, yo pensé que era algo dinámico.
+O sea, que esta semana funciona...
+No.
+Ya.
+Ok.
+Por favor, aquí está la duda.
+¿Y qué vamos a aplicar mantenimiento predictivo a esto?
+¿Mantenimiento predictivo?
+¿A quién?
+A los compresores.
+Ya.
+O sea, a todos los activos críticos, pues yo me voy a enfocar en los compresores.
+Ok.
+Ahora, hablando con ustedes, no pudimos encontrar una combinación de dos áreas.
+De la carrera.
+Porque podría ser, con los datos que van a poner, va a ser software y ahí haces eso.
+Claro, porque no habrá instalación de sensores.
+Se tienen equipos de termografía y violaciones que compraron.
+Pero esa implementación no la es serio.
+No estoy autorizado para hacerlo.
+Correcto.
+Entonces, no.
+Solo serían los datos.
+Ajá.
+Ahora, aquí llegamos con mi jefe.
+Veo una solución interesante.
+Es...
+Uy.
+De los primeros tres compresores, todos son de la misma marca.
+Es el AMC.
+Ya.
+Y es el...
+Es el equipo más viejo que tiene.
+Más viejos.
+Desde 2012.
+Están operando.
+Perfecto.
+El 4-7.
+El compresor 4-5...
+De los...
+De los...
+Del 4 al 7.
+Son...
+No, no es una marca argentina.
+No recuerdo el nombre.
+Pero son...
+Están desde el 2000...
+Y son nuevas.
+Nuevas, más o menos.
+Están desde 2015.
+Más actuales que...
+Claro.
+Están desde Cabriol del Centro.
+Argentina.
+Ya.
+Ya.
+Y...
+Bien, me siguen los nombrados cristianos.
+No divaguen ya.
+Ya, pero...
+Me dijo que...
+Sería interesante.
+Bueno, no sería interesante.
+Pero sería algo...
+Innovador para Sofía.
+Ajá.
+Y algo...
+Un proyecto que...
+Lleva tiempo viéndolo.
+Que es la creación de un gemelo digital de estas compresoras.
+Ok.
+Para...
+Usar apoyo en mantenimiento predictivo.
+Como apoyo en mantenimiento predictivo.
+Bueno, apoyo en la toma de decisiones para mantenimiento predictivo.
+Y su futura aplicación en mantenimiento predictivo.
+Porque al final lo que hace el gemelo digital.
+Es imitar el comportamiento de estas máquinas.
+Correcto.
+En base a los datos de tiempo real que se tomen.
+Ya.
+Y en base a esos datos podemos ver la respuesta de la máquina.
+A...
+A cierta falla.
+A...
+Y podemos ver el estado actual de la máquina.
+Que eso no se tiene.
+Y aquí quiero plantear una curva.
+Que es la curva...
+Esto es un criterio de mantenimiento.
+Que se llama la curva de PF.
+Es una...
+Es la condición de la máquina.
+El tiempo.
+Y que se puede ver...
+Eh...
+Bueno, pero no.
+Ya se están por orador y no saben dibujar una gráfica, ¿no?
+La T de tiempo debería estar al otro lado.
+No, pero...
+Pero, Bruno, es que aquí...
+Así está representada en los libros de mantenimiento.
+La T le ponen a Lorien.
+Con la condición de la máquina.
+A través del tiempo.
+Esto es el...
+Aquí está lo que se llama falla potencial.
+Este punto acá.
+Y está la falla funcional.
+Falla funcional es cuando la máquina ya funciona completamente.
+La falla potencial es una falla que...
+Al ojo no se puede ver.
+O puede salir de algunos sectores, digamos.
+Pero la máquina...
+Esencialmente sigue funcionando.
+Lo que nos interesa es saber el estado actual de la condición.
+Es que la lógica de mantenimiento de preventivo...
+Funcione más a esta curva.
+Es...
+Si yo un cambio...
+Si yo un cambio de rodamiento, digamos, ¿no?
+En este punto de la curva...
+El rodamiento no está muy nuevo.
+¿No?
+O sea...
+Un rodamiento...
+No sé, gigante.
+No sé cuándo.
+Traeamos un rodamiento.
+Y a ese rodamiento aún le quedan por ahí siete meses más de operación antes de cambiarlo.
+Entonces es un gasto...
+Necesario.
+Y ahora si yo me confío...
+Dejamos y le doy.
+O sea, yo...
+Ah, ya hubo un debe de funcionar.
+Ya entra falla funcional.
+Y eso no quiero.
+Porque eso implicaría parar la máquina.
+Pero no por cambiar el rodamiento no va a parar.
+Claro.
+Pero es peor una falla funcional.
+Porque ¿qué puede implicar una falla funcional?
+Digamos.
+Bueno, pero...
+Bueno, pero una falla funcional implica que algo que hacía funcionar el equipo ya no está funcionando.
+No, aparte de que conseguir repuestos específicos puede demorar mucho tiempo.
+Y falla funcional es que la máquina está apagada.
+O sea, que se jodeó algo y ya no está dando la máquina.
+Falla potencial es que algo se está empezando a deshastar.
+Pero sigue funcionando.
+Entonces solo la dejan ver a una cosa como bueno.
+Es interesante lo del mantenimiento.
+Ajá.
+Y esta es la lógica que funciona mantenimiento pre...
+Preventivo.
+Que es lo que se usa actualmente ahí en el centro de distribución.
+Entonces, ¿sabes la condición actual del compresor mediante esos géneros y tal?
+¿De cualquiera de los compresores o de los más antiguos?
+De los más antiguos.
+Ok.
+De un modelo específico.
+Claro, porque estos son del mismo modelo y estos son de otro.
+Ajá.
+Y serían dos proyectos aparte o...
+O sea, funcionan diferente.
+Ya.
+Ok.
+Entonces, eso es lo que vas a hacer.
+Ajá.
+Perfecto.
+Para ello, ¿qué necesitamos?
+Necesitamos que desgloses a la máquina.
+Sí, exacto.
+¿Cómo funciona?
+No.
+Antes de que cómo funciona...
+A su parte.
+¿Cuáles son las partes?
+Uno.
+Dos.
+Tú vas a tener que hacer modelado de cada una de las partes de forma dinámica.
+De sus propios rodamientos.
+Entonces, vas a tener que meterte a realizar modelos dinámicos de comportamiento de también
+los rodamientos.
+¿No?
+De cada componente.
+Sí.
+¿Cierto?
+Entonces, vas a trabajar bastante con lo que es modelamiento de componentes y de la máquina
+propiamente.
+Sí.
+¿De acuerdo?
+Sí.
+Esta parte sí es así con componentes.
+¿No hay una forma de hacerlo cosa a poco con una ecuación más general?
+No, porque...
+O sea, es la copia de la máquina.
+Vas a obtener la ecuación general, pero la mejor forma siempre es dividir todo el problema
+en pequeñas partes, ¿no?
+Cómo éste incide en todo el funcionamiento general, ¿no?
+Ah, bueno, yo lo que iba antes para terminar la ecuación es que al saber el estado de
+la máquina a tiempo real, nos podemos ubicar mejor en esta curva, se pueden tomar mejores
+decisiones de mantenimiento preventivo.
+O sea, justificado, considero que está.
+Primera actividad y empiezo a anotarte.
+Ya, ok.
+Voy a...
+¿En la ecuación?
+Ah, ¿quiénes?
+Sí, ya ahí está.
+No sé dónde quieres anotarte, pero...
+Primera actividad, entonces, ¿qué tienes que hacer?
+Desglosar la máquina.
+O sea, su parte, todo.
+Desvestir a la máquina completa.
+Saber que contiene características, modelo, todo lo que puedas.
+Eso lo puedes obtener con su...
+Su manual.
+El manual del fabricante.
+Eso lo debe tener ahí porque ya es comprado.
+Exacto.
+Entonces, ahí el manual del fabricante te dice, por decir, si usa el rodamiento XR, tantos,
+tantos, entonces tú entras al manual del rodamiento para ver sus características,
+comportamientos dinámicos, que también tiene, ¿no?
+Ok.
+Segunda cosa.
+¿Cuál sería el problema?
+¿El problema?
+¿Para qué vamos a hacer un género digital?
+Los tiempos de parada, ¿pudieres ser?
+Los tiempos de parada.
+¿Cuántos tiempos de parada han tenido esos compresores?
+No tengo ese dato, pero lo puedo tener mañana mismo.
+Ok.
+Segunda cosa.
+Entonces, prepara una entrevista técnica con preguntas bien elaboradas para el jefe, el
+experto, ¿de acuerdo?
+Donde puedas sacar cuántos parones han tenido estos equipos durante un año, dos meses, tres
+meses, etc.
+¿Cuáles han sido las fallas más recurrentes?
+Toda la información que puedas capturar te va a servir.
+¿De acuerdo?
+Sería también clave preguntar cuánto tiempo trae identificar.
+Exacto.
+Ah, sí, ese dato lo tengo, es una variable.
+¿Basado en qué, pero?
+Es el tiempo medido de...
+No, no, no, no, no, eso te dicen los libros.
+No, a ellos físicamente, o sea, cuando hay una caída de tensión, cuánto tiempo les
+ha tomado identificar esas caídas de tensión.
+Si tienen registro de esas caídas, no sé por qué no los estás anotando, eso es el problema.
+No, no, no, no, no.
+No es todo eso debería estar anotándose.
+Otro Andrés.
+No, no, no.
+Sí, está interesante este proyecto.
+¿Verdad que sí?
+Y para que no lo cuenten con la problemática, ¿el ahora cómo atrajo IGE?
+No, va a ser como con la C.
+No, no va a ser como todo IGE.
+Incluso puede ser como tesis, ¿verdad, IGE?
+Podría ser.
+Como un conocimiento nuevo.
+Podría ser.
+Sí, pero depende de cómo se enfoque.
+Sería comparar, por ejemplo, si no...
+Ya, ¿qué más se vas a apuntar?
+Problemática, no es la problemática.
+Mostrar los tiempos de...
+Tiempo de parada.
+Realizar la entrevista.
+¿Cuánto tiempo se tardó en identificar?
+Identificar tiempo de parada.
+Identificar tiempo.
+¿Entrevista técnica, don?
+Sí.
+En serio, o sea...
+Antes de hacer la entrevista técnica, me vas a mandar tus preguntas.
+Ok.
+O mandabas tus preguntas al grupo.
+Vamos a ver si el grupo apoya.
+¿Los repuestos también serían válidos?
+¿El precio de los repuestos?
+Sí, también.
+Sí.
+Anótate.
+Tiempo.
+Costos de repuestos.
+Tiempos de repuestos.
+¿Qué pasó antes en las fallas?
+¿Cuál ha sido la más crítica?
+¿Cuánto tiempo tomaron en descubrir la falla?
+Ya tengo dudas.
+El compañero asoció los primeros tres.
+Y uno de los otros cuatro.
+¿Eso también tiene que estar justificado o...?
+Son dos modelos diferentes.
+O sea, en realidad son dos modelos.
+¿No?
+¿Por qué se está eligiendo el modelo más antiguo?
+¿Y por qué no en la actual?
+Porque, por lo general, con el tiempo de uso, la confiabilidad baja.
+¿Cuál ha sido el modelo más antiguo en la máquina?
+Depende si le hace un buen mantenimiento.
+Esa es una lógica de mantenimiento igual.
+¿Tiene automatización?
+Sí.
+Entonces también puedes ver esos temas, ¿no?
+¿Y por un tipo de video?
+Ah, también.
+Tiempo de video.
+¿Y por qué todas esas preguntas tendrías a estar anotando?
+Sí, estoy anotando.
+¿Puedas plantearlas en la entrevista?
+Ok.
+Y sobre esa base, empiezas a hacer la descripción igual de lo que necesitamos como tercera parte
+y empiezas a describir con la información de la entrevista.
+Ok.
+Ok.
+Parece que lo pueden salvar a este caballero.
+Si se pone las pilas.
+No, su tema está muy bueno.
+Si no, lo matan.
+No sabía que se desplazaba por partes con el modelo matemático para un género dinámico.
+Se puede.
+Se puede.
+Se puede.
+Porque una ecuación te afecta a otra.
+Ah.
+En comportamiento dinámico.
+Llevo un proyecto así, ¿verdad?
+¿Aca o no?
+¿O por dónde hubo?
+Sí.
+¿Cómo comerlos digitales?
+Sí.
+Ok.
+Pero era con otra cosa.
+Era con Cirrus.
+Es otra cosa.
+Aquí lo que tiene que hacer es un simulador de comportamiento dinámico de un motor tanto.
+Es una cosa así.
+Porque siempre tuve esa duda de cómo se trabaja para que menudita.
+Depende de la herramienta que vayas a usar.
+Él lo puede hacer tranquilamente todo en MATLAB.
+En MATLAB.
+O puede hacer algo más visual, más que con algo más elaborado.
+Sí.
+Bienvenido.
+Hay que usen los datos.
+Le ponen un dashboard y hacen una pequeña simulación.
+Sí.
+Incluso puedes hacerlo, ¿cómo se llama esto?
+Sí.
+Animado, ¿no?
+Sí.
+Con la guía pueden hacer maravilloso.
+Sí.
+La obra es que se ayuda.
+Solo que ahí tú tienes que investigar muy bien la parte mecánica, la parte eléctrica,
+entonces ahí involucra todo eso.
+Claro.
+Entonces, ahora una pregunta igual es que yo soy desde la entrada de electricidad, motor,
+el compresor, hasta la salida del amoníaco, ¿no?
+Más arriba ya no modelo nada.
+No sé.
+Hasta la salida del compresor.
+¿Cuál es la salida del compresor?
+Eh...
+Alimenta el sistema amoníaco.
+Sí.
+Listo.
+Ok.
+Ese es tu trabajo.
+Ese es el trabajo del compresor.
+Ok.
+¿Qué más?
+Creo que en tu caso ya hay bastante.
+Sí.
+Yo lo sento ya.
+Voy a ir haciendo más de mañana.
+Para...
+¿Mañana?
+Para mañana tus preguntas bien elaboradas.
+Uno, dos.
+Para mañana...
+Mejor para el miércoles.
+Las dos cosas, sí.
+Tus preguntas bien elaboradas y...
+Eh...
+Problemática.
+No, no, no, no, no.
+El desglose del motor.
+Ok.
+¿Qué tiene?
+¿Cómo está conformado?
+¿Qué modelos tiene?
+¿Cuáles son sus ovas de datos?
+Todo eso.
+¿De acuerdo?
+Sí.
+Sí.
+Tus preguntas bien elaboradas y...
+Eh...
+Problemática.
+No, no, no, no, no.
+El desglose del motor.
+Ok.
+¿Qué tiene?
+¿Cómo está conformado?
+¿Qué modelos tiene?
+¿Cuáles son sus ovas de datos?
+Todo eso.
+¿De acuerdo?
+Ok.
+Digo que iba a subir una tarea en el MS.
+Ah, sí.
+Creo que ya está a la dependencia del problema.
+Ayuda.
+Sí.
+Lo que vamos a subir ahí solo va a revisar o solo es de evidencia de que...
+Lo voy a revisar.
+O sea, ahí tendría que ya estar bien.
+Sí, sí, sí.
+Claro.
+Juan.
+Hola Inares
+Si
+Ya, a ver
+Ahora si
+Alessandro
+Alessandro, paredes, a ver vamos
+Dale, que tienes Alessandro
+Habla fuerte porque no van a interaccionar mi grabación
+¿Estoy grabando?
+Si, estoy grabando todo
+Para, les dije al principio
+Para de ahí sacar y escribir en la pantalla
+¿Cuándo estás con los ojos?
+Sí, sí, sí
+De todo esto he grabado
+Por eso ya tengo más detalles de todo lo que te he pedido
+Entonces, mucho
+Ya no se puede bromear
+Yo voy a hacer que se saque lo irrelevante
+Ya, continúa
+Dale
+Este es el diagrama
+Primero se hace la preparación del recipiente
+De dosificación
+A ver, primero vamos a hablar sobre el proceso de dosificación de harina en una panadería
+¿Cierto?
+Vamos a hablar del proceso de dosificación de harina
+De una panadería de San Miguel
+Antes
+Vamos a pasar un poco
+Te recomiendo
+Haz un curso de oratoria
+Corto, rápido
+Ya nomás inscríbete
+Porque
+Porque
+Si vas a hacer la presentación y me vas a hablar así
+Y nos van a
+Nos van a churar
+Ok, a ver
+Ahora sí explica
+Nada
+Esta es la que sería
+El área de almacenamiento
+Donde colocan
+Las cuatro bolsas de harina y demás ingredientes
+Almidón, azúcar, sal
+Entonces lo colocan en este área
+Y esta sería la distancia en la cual está situada la balanza
+Que está acá
+En una esquina
+Antes se me había recomendado
+¿Por qué no cambiar los áreas de lugar?
+No se puede
+Bueno, lo tienen así destruido
+Pero
+Más que todo
+No se puede mucho cambiar la forma de
+De dónde están los lugares
+Porque aquí en esta zona
+Es donde está dirigida la puerta
+Y aquí también
+También se puede ver que
+Hay como un drift
+Entonces ahí es donde cargan toda el agua
+Y básicamente lo necesitan para
+Para hacer las mezclas ahí directamente
+Entonces esas dos condiciones son como que
+Lo que limitan a no cambiar todo el modelo
+O sea, dónde están ubicadas las cosas
+Mide 4,1 metros
+Todo este largo
+Y lo que recorre
+La persona que se fica
+Es de 3,2 metros
+Vertical
+Y en horizontal 0,9 metros
+Entonces
+Este es el balde
+No, creo que en defensa me digas vertical
+¿No?
+Verticales
+Hacia arriba
+Ah, eso no
+Cuidado que digas vertical
+Ok
+Está el balde de receptor
+La masadora que ellos usan
+Esta es la mesa
+La mesa de acá que está ubicada
+Mesa de enrediente
+Y donde también está la balanza
+Y bueno, estas son las mediciones que hace
+Y después
+Esto más quería mostrarle
+Bueno, este sería el resumen de
+Entonces
+Yo antes me confundí
+Un
+Dryer Rock
+Ellos no hacen 5 por
+Cada pan que hacen
+Hacen 5
+Dividido en los panes que realizan el día
+En el día
+Hacen 2 de pan casero
+2 de pan de riqueta
+Y 1 de pan de riqueta
+Y no hacen 5 de cada pan que antes me cenaron
+Y yo ahí me confundí
+Y entonces aquí
+Como me quedé todo el día
+Y también
+Volver a preguntar
+Pues ya
+Ahí se aclaró
+Las recetas
+Las ganas producidas
+El tiempo de carga total
+Que
+Viviendo todo
+Todo el día
+Que han reunido
+Sería de 304,5 segundos
+Tiempo total
+Por día
+La harina total cargada
+De los diferentes panes
+Y la diferencia
+De kilogramos
+Tiempo total por día
+Tiempo total por día
+De este mismo día
+De mi día
+De un día
+Son 304,5 segundos
+Después
+Se fue el día sábado
+En el cual ellos hacen
+Hacen varias especialidades
+Pero
+De las que
+Yo solo me enfaqué
+Son las que usaban harina
+Que es pan casera
+Y una masa común
+De esta masa común
+Sacan
+Empanadas
+Y rollos de queso
+Entonces
+Ellos no usan
+Separado
+No directamente
+Usan una masa común
+Usan 5 kilos
+Esas
+Enseñadas
+8 rollos
+Y el tiempo de carga
+Se usan
+Para el día sábado
+El 107
+Y también
+Una harina total cargada
+Y la diferencia
+11 kilos
+De diferencia
+0,065
+Harina total cargada
+Allá
+Y cuánto tenía
+11.5
+Y 0,065
+Y sumados todos
+En el día
+Cuánto
+En el día
+Ah
+0,065
+Es en el día
+Entonces
+Aquí
+Hicimos la
+Proyección
+Que
+Habíamos
+Escuchado
+En la primera clase
+Para una semana
+Que solo son
+De lunes a viernes
+Su tiempo
+Es de
+25.22
+25.22
+Segundos
+Y ahí
+Terellentes
+Ahora
+La semana
+Con sábado
+Contando
+Lunes a viernes
+Y sábado
+Contando
+Tiempo de carga
+De todas las harinas
+6.519
+Póngase
+O sea
+Una hora
+Y
+27 minutos
+Por 10 segundos
+Y 0,55
+Y después
+Hicimos
+Las otras
+Proyecciones
+Para el mes
+Que serían
+20 días
+En el mes
+Y cuatro sábados
+Y también
+Para el día
+De septiembre
+Que no son
+20 días
+Serían 22
+De lunes a viernes
+Contando
+Sábado
+Y ahí
+La total
+De una hora
+5.269
+Eso se llama
+9.66
+Por mes
+Por mes
+Ok
+De lunes a viernes
+De lunes a sábado
+Casi
+Casi
+Dos horas
+Solamente
+Para el dosificado
+Para el dosificado
+Al mes
+Al mes
+Muy bien
+¿Problemática?
+¿Cuál es el problema central?
+Ok
+Eso ya me parece
+Y estos son tus antecedentes
+Después ya son
+Las demás tablas
+Que saqué
+¿No?
+Que hemos sacado
+Específicamente
+Desde que preparan
+El desplazamiento
+Para recoger
+Trasladar
+Retornar
+Y realizar
+El ajuste
+Todo eso puede ir
+A tus anexos
+¿No?
+La otra tabla
+Que acabas de mostrar
+Es la que interesa
+Para tu problemática
+Ok
+¿Cuál es tu problema central?
+Me planteaba algo aquí
+Tengo
+Vaya
+Está todo oscuro
+¿Qué está haciendo aquí?
+Aquí dice
+En la panadería San Miguel
+Se destina tiempo de trabajo
+El proceso de losificación de harina
+Mediante la preparación del recipiente
+Cargas sucesivas
+Verificación del peso
+Y ajuste final
+El relevamiento disponible
+Comprende cinco ciclos
+¿Qué está haciendo?
+Me está explicando
+Lo que tendría que explicar
+En la introducción
+Todo esto es
+La introducción
+¿Sí?
+En planteamiento del problema
+Es lo que ya se explicaba
+En la introducción
+De qué es la empresa
+A qué se dedica
+Cuántos panes saca
+Cómo es el proceso
+Todos en la introducción
+Sí
+Ahí al planteamiento del problema
+Vamos a tener
+Todos los antecedentes
+Que me has mostrado
+Cómo es el proceso
+El flujo de datos
+De dónde a dónde va
+Dónde se enfoca
+Ahí
+Y cuánto tiempo
+Le tomas de tal cosa
+A tal cosa
+Y la proyección
+Que has hecho
+¿De acuerdo?
+Eso va en antecedentes
+Dentro del planteamiento
+Del problema
+¿Ok?
+Ya tienes la estructura
+¿No ves?
+¿La qué?
+La estructura
+Del documento
+Del planteamiento
+Ah, sí
+Ok
+Entonces después viene
+La fórmula
+Haciendo el problema
+¿Cuál es tu problema central?
+Eso es lo que quiero ver
+O sea
+En una frase
+Tu formulación
+O tu árbol de problemas
+Así que el día de hoy
+Más
+Más que todo
+El tiempo
+En el que se tarda ahí
+¿Cuánto?
+¿Cuál es tu formulación?
+En la pandemia
+Señor
+Justo no has venido
+A la clase
+Que tenías que haber venido
+Justo no has venido
+A esa clase
+¿A quién lo domino
+Para que le explique
+En otro momento?
+O sea
+Ninguno
+Este caballero
+Me va a hacer barbaridad
+También
+Porque
+Va a ir a lo básico
+Y va a decir
+Así ya funciona
+Tú explica
+¿Yo?
+Sí
+Que te explique
+Cómo plantear
+El problema
+Y el árbol de problemas
+¿De acuerdo?
+Con un lujo de detalles
+Y me lo traes
+Para el día viernes
+¿Ya?
+¿Vas a hacer planteamiento
+Del problema completo
+Árbol de problemas
+¿No?
+Los antecedentes
+Ya los tienes
+Árbol de problemas
+Formulación
+Árbol de problemas
+Y objetivos
+General y específico
+¿Ok?
+Eso para los viernes
+Como tú te pierdes
+Me lo presentas
+El miércoles
+Se lo envío por correo
+Vengo
+Vienes
+Sí
+En la tarde
+Dos en punto
+Ok señores
+Espero que
+Mi tiempo
+Extraordinario
+Regalado
+Les sirva
+Si se aplazan
+Los mato
+Mejor
+Si no van a hacer
+Las cosas
+Mejor retiren
+La materia
+¿No?
+¿Qué hombre
+Me van a hacer
+Renegar
+Si hay afroditos
+Gracias
+Me Like
+De la forma
+iz
+Me
+I
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te
+Te

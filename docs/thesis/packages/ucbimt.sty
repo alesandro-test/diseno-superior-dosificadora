@@ -1,0 +1,418 @@
+%==============================================================================
+% UCB - Template for student projects at the IMT
+% 2021.07
+%==============================================================================
+
+\def\Presentation\@Version{0.1}
+\NeedsTeXFormat{LaTeX2e}[1995/12/01]
+\ProvidesPackage{ucbimt}[2021/17/07, v. \Presentation\@Version]
+\typeout{providing new style definitions and commands ---}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+
+% Customize sections, subsections, chapters
+\usepackage{titlesec}
+\usepackage[spanish, mexico]{babel}
+\usepackage{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% TODO Add more functionalities to the package
+%\newif\ifimt
+%\DeclareOption{imt}{\global\imttrue}
+
+%\newif\ifpdt
+%\newif\ifpdg
+%\newif\td
+%\DeclareOption{pdt}{
+%   \global\pdttrue
+%   \global\pdgfalse
+%   \global\tdfalse
+%}
+%\DeclareOption{pdg}{
+%   \global\pdtfalse
+%   \global\pdgtrue
+%   \global\tdfalse
+%}
+%\DeclareOption{tb}{
+%   \global\pdtfalse
+%   \global\pdgfalse
+%   \global\tdtrue
+%}
+
+%\ExecuteOptions{imt,pdt}
+%\ProcessOptions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Project data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\@titulo}{}
+\newcommand{\titulo}[1]{\gdef\@titulo{#1}}
+
+\newcommand{\@subtitle}{}
+\newcommand{\subtitle}[1]{\gdef\@subtitle{#1}}
+
+% Se conserva por compatibilidad con la plantilla original.
+\newcommand{\@jefedeCarrera}{}
+\newcommand{\jefedeCarrera}[1]{\gdef\@jefedeCarrera{#1}}
+
+% Docente de Taller de Grado I.
+\newcommand{\@docenteTaller}{}
+\newcommand{\docenteTaller}[1]{\gdef\@docenteTaller{#1}}
+
+% Se conserva por compatibilidad con la plantilla original.
+\newcommand{\@relator}{}
+\newcommand{\relator}[1]{\gdef\@relator{#1}}
+
+% Docente invitado.
+\newcommand{\@docenteInv}{}
+\newcommand{\docenteInv}[1]{\gdef\@docenteInv{#1}}
+
+% Tutor.
+\newcommand{\@supervisor}{}
+\newcommand{\supervisor}[1]{\gdef\@supervisor{#1}}
+
+% Estudiante.
+\newcommand{\@estudianteA}{}
+\newcommand{\estudianteA}[1]{\gdef\@estudianteA{#1}}
+
+\newcommand{\@fecha}{}
+\newcommand{\fecha}[2]{\gdef\@fecha{#1 #2}}
+
+\newcommand{\@projectDay}{}
+\newcommand{\projectDay}[1]{\gdef\@projectDay{#1}}
+
+\newcommand{\@projectMonth}{}
+\newcommand{\projectMonth}[1]{%
+    \gdef\@projectMonth{%
+        \ifcase#1
+        \or Enero% 1
+        \or Febrero% 2
+        \or Marzo% 3
+        \or Abril% 4
+        \or Mayo% 5
+        \or Junio% 6
+        \or Julio% 7
+        \or Agosto% 8
+        \or Septiembre% 9
+        \or Octubre% 10
+        \or Noviembre% 11
+        \or Diciembre% 12
+        \fi
+    }%
+}
+
+\newcommand{\@projectYear}{}
+\newcommand{\projectYear}[1]{\gdef\@projectYear{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover and approval page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\maketitle}{
+
+%==============================================================================
+% FIRST PAGE - COVER
+%==============================================================================
+
+\pagestyle{empty}
+
+\begin{center}
+\hspace{0.02\textwidth}
+\parbox[c][\textheight][t]{0.97\textwidth}{
+
+    \begin{center}
+
+        \vspace{-0.5cm}
+
+        \includegraphics[scale=1.0]{images/ucbLogo2.png}\\
+
+        \vspace*{1.6cm}
+
+        {\bfseries \@estudianteA}
+
+        \vspace*{0.5cm}
+
+        {\bfseries \MakeUppercase{\@title}}
+
+        % Texto descriptivo
+		\vspace{3.8cm}
+
+		\noindent
+		\hspace*{7.3cm}%
+		\begin{minipage}{\dimexpr\textwidth-7.3cm\relax}
+			\fontfamily{ptm}\fontsize{10}{10}\selectfont
+			\setlength{\parindent}{0pt}
+			\setlength{\parskip}{0pt}
+			\setlength{\baselineskip}{10pt}
+			\hyphenpenalty=10000
+			\exhyphenpenalty=10000
+			\justifying
+			\noindent
+			Perfil de Proyecto de Grado presentado a la Carrera de
+			Ingeniería Mecatrónica para obtener su habilitación a
+			Taller de Grado I.
+		\end{minipage}
+
+		\vspace{4.6cm}
+
+		{
+			\fontfamily{ptm}\fontsize{10}{10}\selectfont
+			\setlength{\parindent}{0pt}
+			\setlength{\parskip}{0pt}
+
+			Santa Cruz - Bolivia\\[-10pt]
+			\@projectMonth, \@projectYear
+		}
+
+    \end{center}
+
+}
+\end{center}
+
+\clearpage
+
+%==============================================================================
+% SECOND PAGE - APPROVAL / TRIBUNAL
+%==============================================================================
+
+\pagestyle{empty}
+
+\begin{center}
+\hspace{0.02\textwidth}
+\parbox[c][\textheight][t]{0.97\textwidth}{
+
+    \vspace*{-0.4cm}
+
+    %--------------------------------------------------------------------------
+    % Author
+    %--------------------------------------------------------------------------
+
+    \begin{center}
+
+        \textbf{\@estudianteA}
+
+        \vspace{0.55cm}
+
+        %----------------------------------------------------------------------
+        % Project title
+        %----------------------------------------------------------------------
+
+        \parbox{0.92\textwidth}{
+            \centering
+            \textbf{\MakeUppercase{\@title}}
+        }
+
+    \end{center}
+
+    %--------------------------------------------------------------------------
+    % Approval text
+    %--------------------------------------------------------------------------
+    \vspace{0.4cm}
+
+    \vspace{1.15cm}
+
+    \noindent
+    El presente Perfil de Tesis de Grado/Proyecto de Grado/Trabajo Dirigido
+    fue sometido a análisis y defendido ante el tribunal compuesto por:
+
+    %--------------------------------------------------------------------------
+    % Tribunal
+    %--------------------------------------------------------------------------
+
+    \begin{center}
+
+% DOCENTE TALLER DE GRADO I
+	\vspace{2.0cm}
+
+	\rule{180pt}{0.4pt}
+
+	\vspace{-0.25cm}
+
+	\@docenteTaller\\[-8pt]
+	\textbf{\MakeUppercase{Docente De Diseño Superior de ingeniería}}
+
+
+	% TUTOR
+	\vspace{2.25cm}
+
+	\rule{180pt}{0.4pt}
+
+	\vspace{-0.25cm}
+
+	\@supervisor\\[-8pt]
+	\textbf{\MakeUppercase{Tutor}}
+
+
+	% DOCENTE INVITADO
+	\vspace{2.25cm}
+
+	\rule{180pt}{0.4pt}
+
+	\vspace{-0.25cm}
+
+	\@docenteInv\\[-8pt]
+	\textbf{\MakeUppercase{Docente Invitado}}
+
+    %----------------------------------------------------------------------
+    % Fecha
+    %----------------------------------------------------------------------
+
+    \vfill
+
+    Santa Cruz de la Sierra,
+    \@projectDay\ de \@projectMonth\ del \@projectYear
+
+    \vspace{0.80cm}
+
+\end{center}
+
+}
+\end{center}
+
+\cleardoublepage
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand*{\standardChapterStyle}{%
+    \titleformat{\chapter}[display]
+    {\normalfont\LARGE\bfseries}
+    {\chaptertitlename\ \thechapter}
+    {20pt}
+    {\Huge}
+
+    \titlespacing*{\chapter}
+    {0pt}
+    {50pt}
+    {40pt}
+}
+
+\newcommand*{\myChapterStyle}{%
+    \titleformat{\chapter}[display]
+    {\normalfont\LARGE\bfseries \vspace{-1cm}}
+    {
+        \vline height 45pt depth 55pt width 15pt
+        \hspace{1.8cm}
+        \MakeUppercase{\chaptertitlename}\ \thechapter
+    }
+    {-5pt}
+    {
+        \vline depth 45pt width 15pt
+        \hspace{1.8cm}
+        \MakeUppercase
+    }
+
+    \titlespacing*{\chapter}
+    {0pt}
+    {50pt}
+    {40pt}
+}
+
+\newcommand*{\myChapterStyleB}{%
+    \titleformat{\chapter}[display]
+    {\normalfont\fontsize{12}{15}\bfseries}
+    {\chaptertitlename\ \thechapter}
+    {20pt}
+    {}
+
+    \titlespacing*{\chapter}
+    {0pt}
+    {50pt}
+    {40pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\newcommand{\standardSectionStyle}{%
+    \titleformat{\section}
+    {\normalfont\bfseries}
+    {\thesection}
+    {1em}
+    {}
+}
+
+\newcommand{\mySectionStyle}{%
+    \titleformat{\section}
+    {\normalfont\fontsize{12}{15}\bfseries}
+    {\thesection}
+    {1em}
+    {}
+}
+
+\newcommand*{\mySectionStyleB}{%
+    \titleformat{\section}
+    {\normalfont\fontsize{12}{15}\bfseries\centering}
+    {\MakeUppercase{\thesection}}
+    {1em}
+    {\MakeUppercase}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Subsection Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titleformat{\subsection}
+{\normalfont\fontsize{12}{15}\bfseries\itshape}
+{\thesubsection}
+{1em}
+{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Subsubsection Format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titleformat{\subsubsection}[runin]
+{\normalfont\fontsize{12}{15}\bfseries\itshape}
+{\thesubsubsection}
+{1em}
+{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Changing the title in table of contents, tables and figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addto\captionsspanish{%
+    \renewcommand{\contentsname}
+    {\hfill\MakeUppercase{Índice general}\hfill}
+}
+
+\addto\captionsspanish{%
+    \renewcommand{\listtablename}
+    {\MakeUppercase{Índice de tablas}}
+}
+
+\addto\captionsspanish{%
+    \renewcommand{\listfigurename}
+    {\MakeUppercase{Índice de figuras}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Annex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\annexname}{ANEXO}
+
+\newcommand{\annex}{%
+    \par
+    \c@section\z@
+    \c@subsection\z@
+    \let\sectionname\annexname
+    \def\thesection{\@Alph\c@section}
+}

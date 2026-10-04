@@ -1,0 +1,72 @@
+\begin{tikzpicture}[
+    node distance=8mm and 8mm,
+    >=Latex,
+    block/.style={
+        rectangle,
+        draw,
+        minimum height=1.2cm,
+        text width=3.2cm,
+        align=center,
+        font=\small
+    },
+    alcance/.style={
+        block,
+        dashed,
+        very thick,
+        font=\small\bfseries
+    },
+    arrow/.style={
+        -{Latex[width=8pt,length=6pt]},
+        thick
+    }
+]
+
+% -----------------------------------------------------------------
+% Primera fila
+% -----------------------------------------------------------------
+
+\node (preparacion) [block]
+{Preparación de\\ingredientes};
+
+\node (dosificacion) [alcance, right=of preparacion]
+{Dosificación de\\ingredientes\\
+\textit{\footnotesize Alcance: harina}};
+
+\node (mezclado) [block, right=of dosificacion]
+{Mezclado y\\amasado};
+
+\node (formado) [block, right=of mezclado]
+{División y\\formado};
+
+
+% -----------------------------------------------------------------
+% Segunda fila
+% -----------------------------------------------------------------
+
+\node (fermentacion) [block, below=12mm of formado]
+{Fermentación};
+
+\node (horneado) [block, left=of fermentacion]
+{Horneado};
+
+\node (producto) [block, left=of horneado]
+{Producto\\terminado};
+
+
+% -----------------------------------------------------------------
+% Conexiones
+% -----------------------------------------------------------------
+
+\draw [arrow] (preparacion) -- (dosificacion);
+\draw [arrow] (dosificacion) -- (mezclado);
+\draw [arrow] (mezclado) -- (formado);
+
+\draw [arrow]
+    (formado.south)
+    -- ++(0,-5mm)
+    -| (fermentacion.north);
+
+\draw [arrow] (fermentacion) -- (horneado);
+\draw [arrow] (horneado) -- (producto);
+
+\end{tikzpicture}

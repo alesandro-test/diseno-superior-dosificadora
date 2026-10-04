@@ -1,0 +1,77 @@
+# ==========================================================
+# LaTeX - archivos generados
+# ==========================================================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.ilg
+*.ind
+*.idx
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+
+# PDFs bibliográficos descargados
+docs/thesis/bibliography/*.pdf
+
+# PDF generado de las diapositivas
+docs/thesis/slides/perfil.pdf
+docs/thesis/main.pdf
+docs/thesis/slides/guion_presentacion_marco_referencial.md
+docs/thesis/slides/guion_practica_5_minutos.md
+
+# Archivos temporales o de recuperación
+*-SAVE-ERROR
+*.bak
+*.tmp
+
+# ==========================================================
+# Salidas generadas
+# ==========================================================
+build/
+tmp/
+
+# ==========================================================
+# Python / Jupyter
+# ==========================================================
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ==========================================================
+# VS Code
+# ==========================================================
+.vscode/
+
+# ==========================================================
+# Sistema operativo
+# ==========================================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ==========================================================
+# Temporales de editores
+# ==========================================================
+*.swp
+*.swo
+*~

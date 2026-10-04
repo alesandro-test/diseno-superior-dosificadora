@@ -1,0 +1,707 @@
+% Evitar que los bloques de figuras estiren los espacios entre párrafos.
+\raggedbottom
+
+\chapter{Introducción}
+\label{sec:introduction}
+
+La Panadería San Miguel, ubicada en Santa Cruz de la Sierra, constituye
+el caso de estudio del proyecto. Dentro de su proceso de elaboración,
+el estudio se concentra en la dosificación de harina previa al mezclado
+y amasado.
+
+La elaboración de pan comprende la preparación y dosificación de
+ingredientes, el mezclado y amasado, la división y formado de la masa,
+la fermentación y la cocción, con variaciones según el producto y el
+método empleado \parencite{cauvain2015technology}.
+
+La Figura~\ref{fig:proceso_general_pan} presenta las etapas generales de
+elaboración del pan. En la preparación se reúnen los ingredientes requeridos
+para la elaboración. La dosificación establece la cantidad de cada ingrediente
+que ingresa al proceso. Durante el mezclado y amasado, los ingredientes se
+integran para formar la masa. Luego, la masa se divide y se forma según el
+producto elaborado. Posteriormente se realiza la fermentación y, finalmente,
+la cocción. El recuadro de líneas discontinuas delimita la dosificación de
+ingredientes y destaca la harina como la materia prima comprendida en el
+proyecto.
+
+\begin{figure}[htb]
+    \centering
+
+    \resizebox{0.95\textwidth}{!}{%
+        {\setlength{\fboxsep}{10pt}
+        \fbox{%
+            \input{images/marcoref/proceso_general_pan.tex}
+        }}
+    }
+
+    \caption{Proceso general de elaboración del pan.}
+    \label{fig:proceso_general_pan}
+
+    \vspace{0.2em}
+    {\footnotesize Fuente: Adaptado de \textcite{lim2019spc}.}
+
+\end{figure}
+
+En la Panadería San Miguel, la dosificación de harina se realiza de forma
+manual. El operario prepara el pesaje, transporta e incorpora la harina y
+comprueba la cantidad obtenida en cada ciclo. Los registros del caso de
+estudio muestran, además, diferencias entre la cantidad objetivo y la
+cantidad final de harina. La caracterización presentada a continuación
+considera de manera conjunta la intervención y el tiempo asociados al
+procedimiento, así como esta diferencia registrada.
+
+A partir de esta necesidad, el proyecto adopta como concepto de solución
+la dosificación gravimétrica automatizada. Este principio utiliza el
+pesaje para determinar la cantidad suministrada respecto de una cantidad
+objetivo, tal como describe la recomendación OIML R 61-1 para
+instrumentos automáticos de llenado gravimétrico que integran funciones
+de alimentación, pesaje, control y descarga \parencite{oiml2017r61}.
+
+El proyecto aborda el diseño y construcción de un prototipo automatizado
+de dosificación gravimétrica de harina para la Panadería San Miguel. El
+desarrollo se delimita a la dosificación previa al mezclado y amasado y
+comprende la definición de requerimientos, el diseño, la construcción e
+integración del prototipo y su evaluación experimental frente al
+procedimiento manual bajo condiciones comparables.
+
+La sección siguiente presenta la caracterización del procedimiento actual
+de dosificación de harina y la evidencia de campo utilizada para sustentar
+la formulación del problema.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLANTEAMIENTO DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Planteamiento del Problema}
+\label{sec:problema}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ANTECEDENTES DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Antecedentes del Problema}
+\label{subsec:antecedentes_problema}
+
+El levantamiento de campo en la Panadería San Miguel se concentró en el
+procedimiento manual de dosificación de harina. El intervalo analizado
+comprendió desde la preparación del recipiente receptor para el pesaje
+hasta la devolución del recipiente de transporte a la zona de
+almacenamiento. El abastecimiento y la apertura de las bolsas de harina,
+el traslado hacia la amasadora y las operaciones de elaboración siguientes
+quedaron fuera del registro temporal.
+
+La Figura~\ref{fig:dfd_dosificacion} presenta la secuencia del procedimiento
+manual registrado. El diagrama comprende la preparación del recipiente,
+el uso de la función TARE\footnote{TARE: función de la balanza utilizada
+para compensar la masa del recipiente y establecer la indicación de cero
+antes de incorporar la harina.}, la incorporación de harina, la medición
+de la cantidad acumulada y su comparación con la cantidad objetivo. Cuando la cantidad registrada es
+inferior a la cantidad objetivo, se incorpora harina adicional. El bloque
+final comprende la comprobación de la lectura final y la devolución del
+recipiente de transporte.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{0.6\textwidth}{!}{%
+        {\setlength{\fboxsep}{14pt}
+        \fbox{\input{images/marcoref/dfd_dosificacion.tex}}}%
+    }
+    \caption{Diagrama de flujo del procedimiento manual de dosificación de harina.}
+    \label{fig:dfd_dosificacion}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Elaboración propia.}
+\end{figure}
+
+El operario inició el procedimiento colocando el recipiente receptor sobre
+la balanza. A continuación, utilizó la función TARE y comprobó la indicación de cero. Esta lectura estableció la referencia
+inicial para registrar la cantidad de harina incorporada.
+
+Desde el punto de pesaje, el operario se desplazó hacia la zona de
+almacenamiento, recogió una carga de harina con el recipiente de transporte
+y retornó a la balanza. Luego descargó la harina en el recipiente receptor.
+Después de cada descarga, la balanza indicó la cantidad acumulada de harina.
+
+La Figura~\ref{fig:balanza_recipiente} (a) muestra el recipiente utilizado
+para recoger y trasladar la harina, mientras que la
+Figura~\ref{fig:balanza_recipiente} (b) muestra el recipiente receptor
+colocado sobre la balanza durante la dosificación.
+
+\begin{figure}[H]
+    \setstretch{1}
+    \captionsetup{skip=4pt}
+    \centering
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=5.2cm,
+            keepaspectratio
+        ]{images/marcoref/recipiente_transporte.jpg}
+
+        \smallskip
+        {\small (a) Recipiente de transporte.}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=5.2cm,
+            keepaspectratio
+        ]{images/marcoref/balanza_recipiente_vacio.jpg}
+
+        \smallskip
+        {\small (b) Recipiente receptor sobre la balanza.}
+    \end{minipage}
+
+    \caption{Recipientes utilizados durante la dosificación manual de harina.}
+    \label{fig:balanza_recipiente}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Registro fotográfico propio.}
+\end{figure}
+
+La incorporación de harina se desarrolló entre la zona de almacenamiento
+y el punto de pesaje. La Figura~\ref{fig:croquis_panaderia} muestra la
+ubicación de estos sectores dentro del área de trabajo. Las cotas de
+$3{,}20\ \mathrm{m}$ y $0{,}90\ \mathrm{m}$ corresponden a tramos medidos
+en planta relacionados con los desplazamientos realizados durante la
+dosificación. Estas referencias caracterizan la separación física entre
+el almacenamiento de harina y el punto de pesaje.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{0.9\textwidth}{!}{%
+        \input{images/marcoref/croquis_panaderia.tex}%
+    }
+    \caption{Distribución de las zonas de trabajo de la Panadería San Miguel.}
+    \label{fig:croquis_panaderia}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Elaboración propia.}
+\end{figure}
+
+La Figura~\ref{fig:entorno_pesaje} (a) muestra la zona de almacenamiento
+de harina y la Figura~\ref{fig:entorno_pesaje} (b) la mesa de ingredientes
+donde se ubica el punto de pesaje. Ambos registros corresponden a los
+sectores vinculados por los desplazamientos realizados durante la
+dosificación.
+
+\begin{figure}[H]
+    \centering
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=4.3cm,
+            keepaspectratio
+        ]{images/marcoref/ubicacion_bolsas_harina.jpg}
+
+        \smallskip
+        {\small (a) Almacenamiento de harina.}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.51\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=4.3cm,
+            keepaspectratio
+        ]{images/marcoref/mesa_ingredientes_balanza.jpg}
+
+        \smallskip
+        {\small (b) Mesa de ingredientes y punto de pesaje.}
+    \end{minipage}
+
+    \caption{Área de trabajo relacionada con la dosificación de harina.}
+    \label{fig:entorno_pesaje}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Registro fotográfico propio.}
+\end{figure}
+
+Con cada carga principal, el operario comparó la cantidad acumulada con la
+cantidad objetivo de la preparación. Cuando la lectura permaneció por
+debajo de dicha cantidad, el operario retornó a la zona de almacenamiento
+y repitió las operaciones de recogida, traslado y descarga. Esta secuencia
+continuó hasta completar las tres o cuatro cargas principales registradas
+en cada ciclo.
+
+El ajuste final se realizó con la harina remanente en el recipiente de
+transporte, sin un nuevo desplazamiento hacia la zona de almacenamiento.
+El operario incorporó la cantidad restante, comprobó la lectura final de
+la balanza y devolvió el recipiente de transporte. Esta devolución marcó
+el cierre del intervalo analizado.
+
+La Figura~\ref{fig:ajuste_final_harina} (a) muestra el ajuste final realizado
+por el operario y la Figura~\ref{fig:ajuste_final_harina}(b) el recipiente
+receptor con la harina dosificada sobre la balanza. Ambos registros
+corresponden a la etapa final del procedimiento.
+
+\begin{figure}[H]
+    \setstretch{1}
+    \captionsetup{skip=4pt}
+    \centering
+
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=5.2cm,
+            keepaspectratio
+        ]{images/marcoref/ajuste_final_operario.jpg}
+
+        \smallskip
+        {\small (a) Ajuste final realizado por el operario.}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[
+            width=\linewidth,
+            height=5.2cm,
+            keepaspectratio
+        ]{images/marcoref/harina_dosificada.jpg}
+
+        \smallskip
+        {\small (b) Recipiente receptor con harina dosificada.}
+    \end{minipage}
+
+    \caption{Ajuste final y harina dosificada sobre la balanza.}
+    \label{fig:ajuste_final_harina}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Registro fotográfico propio.}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COBERTURA Y RESULTADOS DEL LEVANTAMIENTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Se registraron cinco ciclos de dosificación el 2 de septiembre de 2026
+y dos el 5 de septiembre. En cada ciclo se registraron la cantidad objetivo
+y la cantidad final indicada por la balanza. Además, se midió el tiempo
+desde la preparación del recipiente y el uso de la función TARE hasta la
+devolución del recipiente de transporte, incluidas las cargas, los
+desplazamientos y el ajuste final. La diferencia de harina corresponde
+a la cantidad final menos la cantidad objetivo.
+
+La Tabla~\ref{tab:resumen_dosificacion} resume los resultados de los ciclos
+registrados en cada jornada observada. Para cada jornada se presentan el
+número de ciclos, la cantidad objetivo acumulada de harina, la cantidad
+final indicada por la balanza, la diferencia entre ambas cantidades y el
+tiempo total registrado. El detalle de los registros
+se encuentra en los Apéndices~\ref{ap:registros_campo} y
+\ref{ap:tablas_dosificacion}.
+
+\begin{table}[H]
+    \centering
+    \caption{Resultados consolidados de los ciclos de dosificación manual
+    registrados en cada jornada observada.}
+    \label{tab:resumen_dosificacion}
+    \footnotesize
+    \setstretch{1}
+
+    \setlength{\tabcolsep}{3pt}
+    \renewcommand{\arraystretch}{1.35}
+
+    \begin{tabular}{lccccc}
+        \toprule[1pt]
+
+        \textbf{\shortstack{Jornada\\observada}} &
+        \textbf{\shortstack{Ciclos\\registrados}} &
+        \textbf{\shortstack{Harina objetivo\\(kg)}} &
+        \textbf{\shortstack{Harina final\\(kg)}} &
+        \textbf{\shortstack{Diferencia\\(kg)}} &
+        \textbf{\shortstack{Tiempo total\\(s)}} \\
+        \midrule[1pt]
+
+        \shortstack{Ordinaria\\02/09/2026} &
+        5 &
+        $36{,}500$ &
+        $36{,}578$ &
+        $+0{,}078$ &
+        $304{,}5$ \\
+        \midrule[1pt]
+
+        \shortstack{Sábado\\05/09/2026} &
+        2 &
+        $11{,}500$ &
+        $11{,}565$ &
+        $+0{,}065$ &
+        $107{,}4$ \\
+        \midrule[1pt]
+
+        \textbf{Total de la muestra} &
+        \textbf{7} &
+        $\mathbf{48{,}000}$ &
+        $\mathbf{48{,}143}$ &
+        $\mathbf{+0{,}143}$ &
+        $\mathbf{411{,}9}$ \\
+        \bottomrule[1pt]
+    \end{tabular}
+
+    \vspace{0.5em}
+
+    {\footnotesize
+    Fuente: Elaboración propia.}
+\end{table}
+
+En la jornada ordinaria se registraron cinco ciclos, con un tiempo
+acumulado de $304{,}5\ \mathrm{s}$. En la jornada de sábado se registraron
+dos ciclos, que acumularon $107{,}4\ \mathrm{s}$. En conjunto, los siete
+ciclos observados sumaron $411{,}9\ \mathrm{s}$.
+
+En cuanto a la cantidad de harina, los siete ciclos acumularon
+$48{,}000\ \mathrm{kg}$ como cantidad objetivo y
+$48{,}143\ \mathrm{kg}$ como cantidad final indicada por la balanza.
+La diferencia acumulada fue de $+0{,}143\ \mathrm{kg}$, equivalente a
+$143\ \mathrm{g}$. En los siete ciclos registrados, la cantidad final fue
+superior a la cantidad objetivo.
+
+Las proyecciones se calcularon a partir de los valores registrados en las dos
+jornadas observadas. Para la jornada ordinaria se consideraron
+$304{,}5\ \mathrm{s}$ de tiempo acumulado y una diferencia positiva de harina
+de $0{,}078\ \mathrm{kg}$, para el sábado, $107{,}4\ \mathrm{s}$ y
+$0{,}065\ \mathrm{kg}$, respectivamente.
+
+Para un escenario semanal de cinco jornadas ordinarias y un sábado, el tiempo
+proyectado fue:
+
+\begin{equation*}
+T_{\mathrm{sem}}
+=
+5(304{,}5\ \mathrm{s})
++
+1(107{,}4\ \mathrm{s})
+=
+1\,629{,}9\ \mathrm{s}
+\approx
+27\ \mathrm{min}\ 10\ \mathrm{s}
+\end{equation*}
+
+La diferencia positiva de harina proyectada para el mismo escenario fue:
+
+\begin{equation*}
+\Delta h_{\mathrm{sem}}
+=
+5(0{,}078\ \mathrm{kg})
++
+1(0{,}065\ \mathrm{kg})
+=
+0{,}455\ \mathrm{kg}
+\end{equation*}
+
+Para un escenario mensual de 22 jornadas ordinarias y cuatro sábados, el
+tiempo proyectado fue:
+
+\begin{equation*}
+T_{\mathrm{mes}}
+=
+22(304{,}5\ \mathrm{s})
++
+4(107{,}4\ \mathrm{s})
+=
+7\,128{,}6\ \mathrm{s}
+\approx
+1\ \mathrm{h}\ 59\ \mathrm{min}
+\end{equation*}
+
+La diferencia positiva de harina proyectada para el mismo escenario fue:
+
+\begin{equation*}
+\Delta h_{\mathrm{mes}}
+=
+22(0{,}078\ \mathrm{kg})
++
+4(0{,}065\ \mathrm{kg})
+=
+1{,}976\ \mathrm{kg}
+\end{equation*}
+
+Estos valores corresponden a cálculos derivados de la repetición del patrón
+registrado en las jornadas observadas, no constituyen mediciones realizadas
+durante una semana o un mes completos.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FORMULACIÓN DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Formulación del Problema}
+\label{subsec:formulacion_problema}
+
+En la Panadería San Miguel, el operario destina $1\ \mathrm{h}\ 59\ \mathrm{min}$ al
+procedimiento manual de dosificación de harina, en el cual se acumula una
+diferencia positiva de $1{,}976\ \mathrm{kg}$ respecto de las cantidades
+objetivo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ÁRBOL DE PROBLEMAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Árbol de Problemas}
+\label{subsec:arbol_problemas}
+
+Como se observa en la Figura~\ref{fig:arbol_problemas}, el árbol de problemas se construyó a partir de la caracterización del procedimiento manual de dosificación de harina y de la evidencia obtenida durante el levantamiento de campo. La estructura organiza la problemática en tres niveles: causas, problema central y efectos.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \input{images/marcoref/arbol_problemas.tex}%
+    }
+    \caption{Árbol de problemas.}
+    \label{fig:arbol_problemas}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Elaboración propia.}
+\end{figure}
+
+El tiempo registrado comprendió la preparación inicial, las cargas
+sucesivas, los traslados entre almacenamiento y pesaje, además del ajuste
+con comprobación final. Las cargas principales y los retornos requeridos
+para completar la dosificación acumularon $259{,}7\ \mathrm{s}$,
+equivalentes al $63{,}0\%$ del tiempo total registrado. Este bloque
+incluyó la recogida, el transporte y la descarga de harina. En cada ciclo
+se realizaron tres o cuatro cargas principales.
+
+La diferencia positiva de harina se produjo durante el ajuste final. En
+los siete ciclos registrados, la lectura posterior a la última carga
+principal permaneció por debajo de la cantidad objetivo. El ajuste final
+incorporó una cantidad superior a la restante para alcanzar dicho objetivo,
+por lo que las lecturas finales quedaron entre $+0{,}011$ y
+$+0{,}038\ \mathrm{kg}$ por encima de las cantidades establecidas para
+cada preparación.
+
+Como consecuencia del tiempo dedicado a la dosificación, el operario
+dispone de menor tiempo para realizar otras actividades mientras ejecuta
+el procedimiento. Asimismo, la diferencia positiva modifica la cantidad
+de harina establecida para la preparación respecto de la cantidad objetivo.
+Los registros disponibles no permiten establecer consecuencias sobre
+desperdicio de harina, costo o calidad del producto.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OBJETIVOS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+\subsection{Objetivo General}
+\label{subsec:objetivo_general}
+
+Desarrollar un prototipo automatizado de dosificación gravimétrica de
+harina para la Panadería San Miguel.
+
+\subsection{Objetivos Específicos}
+\label{subsec:objetivos_especificos}
+
+\begin{itemize}
+
+    \item Determinar los requerimientos funcionales y técnicos del
+    prototipo a partir de las condiciones de operación del procedimiento
+    manual de dosificación de harina.
+
+    \item Diseñar los subsistemas mecánico, de medición gravimétrica y de
+    control del prototipo conforme a los requerimientos establecidos.
+
+    \item Implementar un prototipo funcional de dosificación gravimétrica
+    automatizada conforme al diseño del sistema.
+
+    \item Verificar el cumplimiento de los requerimientos funcionales y
+    técnicos del prototipo mediante pruebas de funcionamiento.
+
+    \item Comparar el desempeño del prototipo con el procedimiento manual de dosificación de harina bajo condiciones comparables.
+
+    \item Determinar el costo de construcción e integración del prototipo
+    mediante un desglose documentado de materiales, componentes y procesos
+    de fabricación y montaje.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% JUSTIFICACIÓN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Justificación}
+\label{sec:justificacion}
+
+\subsection{Justificación Tecnológica}
+\label{subsec:justificacion_tecnologica}
+
+El proyecto propone aplicar la dosificación gravimétrica automatizada
+a las condiciones de operación de la Panadería San Miguel. La integración
+del pesaje con el control de alimentación busca reducir la intervención
+requerida para alcanzar la cantidad objetivo de harina.
+
+El aporte consiste en evaluar esta integración frente al procedimiento
+manual, considerando el tiempo de dosificación, la intervención del
+operario, la diferencia respecto de la cantidad objetivo y la
+repetibilidad. Esta comparación aporta evidencia sobre el desempeño de
+la solución en el caso de estudio; las mejoras esperadas requieren
+comprobación experimental.
+
+\subsection{Justificación Social}
+\label{subsec:justificacion_social}
+
+El operario encargado de la dosificación de harina en la Panadería San
+Miguel constituye el beneficiario directo del proyecto. El procedimiento
+registrado requiere su intervención en la preparación del pesaje, las
+cargas y los traslados, así como en el ajuste y la comprobación final.
+La automatización propuesta busca reducir la intervención necesaria
+durante la alimentación y el pesaje, con la expectativa de disponer de
+tiempo para otras actividades del establecimiento.
+
+Este beneficio esperado se limita al caso de estudio y requiere
+comprobación mediante la comparación experimental con el procedimiento
+manual. Los registros actuales no permiten afirmar mejoras en salud
+ocupacional, empleo o calidad de vida.
+
+\subsection{Justificación Económica}
+\label{subsec:justificacion_economica}
+
+El proyecto considera el costo de construcción e integración del prototipo
+frente a soluciones comerciales de funcionalidad comparable. RUICHUAN se
+seleccionó por su principio gravimétrico y control automático, mientras que
+Trust-Long se incluyó por su operación por lotes de harina. La
+Tabla~\ref{tab:comparativa_economica} presenta las características y los
+precios publicados de ambas referencias.
+
+\begin{table}[H]
+    \centering
+    \caption{Referencias comerciales para la evaluación económica del proyecto.}
+    \label{tab:comparativa_economica}
+    \footnotesize
+    \setstretch{1}
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.35}
+
+    \begin{tabularx}{\textwidth}{
+        >{\raggedright\arraybackslash}p{0.28\textwidth}
+        >{\raggedright\arraybackslash}X
+        >{\raggedright\arraybackslash}X}
+        \toprule[1pt]
+
+        \textbf{Criterio} &
+        \textbf{RUICHUAN} &
+        \textbf{Trust-Long} \\
+        \midrule[1pt]
+
+        Modelo publicado &
+        Serie SZC-T &
+        TLP-500 / TLP-5000 \\
+        \midrule
+
+        Tipo de operación &
+        Continua / por lotes &
+        Por lotes \\
+        \midrule
+
+        Material declarado &
+        Harina y polvos de baja fluidez &
+        Harina y otros materiales pulverulentos \\
+        \midrule
+
+        Principio de dosificación &
+        Pérdida de peso con celdas de carga &
+        Pesaje digital y alimentación mediante tornillo \\
+        \midrule
+
+        Rango por lote publicado &
+        No especificado &
+        $0{,}5$--$15\ \mathrm{kg}$\textsuperscript{a} \\
+        \midrule
+
+        Nivel de automatización &
+        Control automático mediante PLC &
+        Operación semiautomática \\
+        \midrule
+
+        Precio publicado para una unidad &
+        USD~$2\,000$ &
+        USD~$2\,600$ para TLP-500 y
+        USD~$3\,800$ para TLP-5000 \\
+        \bottomrule[1pt]
+    \end{tabularx}
+
+    \vspace{0.5em}
+
+    {\footnotesize
+    Fuente: Elaboración propia con base en las publicaciones comerciales de
+    RUICHUAN~\parencite{UnidadDosificadoraGravimetrica} y
+    Trust-Long~\parencite{MaquinaLlenadoPolvo}.}
+\end{table}
+
+La comparación del costo documentado del prototipo con estas referencias,
+junto con sus diferencias funcionales y técnicas, establece el criterio para
+evaluar la condición de bajo costo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DELIMITACIÓN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Delimitación}
+\label{sec:delimitacion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LÍMITES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Límites}
+\label{subsec:limites}
+
+\begin{itemize}
+
+    \item No se realizará la validación del prototipo en otros
+    establecimientos.
+
+    \item No se automatizará la dosificación de ingredientes distintos
+    de la harina.
+
+    \item No se automatizarán el mezclado y amasado, la división y formado,
+    la fermentación ni la cocción del producto.
+
+    \item No se realizará un análisis de rentabilidad del establecimiento,
+    período de recuperación de la inversión ni costos de producción
+    comercial en serie.
+
+    % Exclusión solicitada por el autor; susceptible de revisión posterior.
+    \item No se realizará el modelamiento matemático del sistema de dosificación.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ALCANCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Alcances}
+\label{subsec:alcances}
+
+\begin{itemize}
+
+    \item El prototipo comprende la dosificación gravimétrica automatizada
+    de harina en lotes comprendidos, de manera preliminar, entre
+    $5$ y $15\ \mathrm{kg}$.
+
+    \item La cantidad objetivo de harina es configurable por el operario
+    antes de iniciar cada ciclo de dosificación.
+
+    \item El sistema de pesaje se plantea con una resolución de
+    $5\ \mathrm{g}$ o mejor y una tolerancia preliminar de dosificación
+    de $\pm 0{,}5\%$ respecto de la cantidad objetivo.
+
+    \item La tolva se dimensiona para una capacidad útil aproximada de
+    $50\ \mathrm{kg}$ de harina. El volumen geométrico se establece a
+    partir de la densidad aparente del producto utilizado.
+
+    \item El ciclo comprende el control automático de la alimentación y
+    el pesaje desde el inicio de la dosificación hasta alcanzar la cantidad
+    objetivo. La reposición de harina en la tolva se realiza de forma manual.
+
+\end{itemize}
+
+% Restaurar la composición de los capítulos siguientes.
+\clearpage
+\flushbottom
