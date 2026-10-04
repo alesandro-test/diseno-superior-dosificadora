@@ -9,21 +9,15 @@
 % =========================================================
 
 % Compilar con XeLaTeX para usar Gill Sans MT, como en la referencia visual.
+% En Windows se usa Gill Sans MT; en macOS, la Gill Sans del sistema.
 \usepackage{fontspec}
-\setsansfont{Gill Sans MT}[
-    UprightFont = GIL_____.TTF,
-    BoldFont = GILB____.TTF,
-    ItalicFont = GILI____.TTF,
-    BoldItalicFont = GILBI___.TTF,
-    Path = C:/Windows/Fonts/
-]
-\setmainfont{Gill Sans MT}[
-    UprightFont = GIL_____.TTF,
-    BoldFont = GILB____.TTF,
-    ItalicFont = GILI____.TTF,
-    BoldItalicFont = GILBI___.TTF,
-    Path = C:/Windows/Fonts/
-]
+\IfFontExistsTF{Gill Sans MT}{
+    \setsansfont{Gill Sans MT}
+    \setmainfont{Gill Sans MT}
+}{
+    \setsansfont{Gill Sans}
+    \setmainfont{Gill Sans}
+}
 \usepackage[spanish, mexico]{babel}
 \usepackage{graphicx}
 \usepackage{tikz}
