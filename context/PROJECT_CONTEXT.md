@@ -25,7 +25,10 @@ La Panadería San Miguel presenta mecanización parcial: dispone de equipos como
 amasadora, divisora/cortadora, horno y balanza digital, pero la dosificación de harina
 continúa realizándose manualmente.
 
-El docente indicó completar primero el estudio de San Miguel antes de considerar
+**Documento:** Diseño Superior (docente: Ing. Ivan Mendoza). Mismo proyecto que la tesis de
+Taller de Grado I; documento, estructura y metodología (Modelo en V) propios de DS.
+
+El docente de Taller I indicó completar primero el estudio de San Miguel antes de considerar
 otros establecimientos.
 
 ## 2. Enfoque y alcance
@@ -184,4 +187,4 @@ Reservar **masa** para la masa de panificación cuando corresponda.
 - Estructura académica: `context/THESIS_STRUCTURE.md`
 - Referencias estructurales: `research/referencias_estructurales/`
 - Documento de tesis: `docs/thesis/`
-- Bibliografía: `docs/thesis/bibliography/referencias.bib`
+- Bibliografía: `docs/thesis/bibliography/referencias.bib`

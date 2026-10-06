@@ -1,59 +1,56 @@
-# STATUS
+# STATUS — Diseño Superior
 
-**Última actualización:** 2026-09-16
+**Última actualización:** 2026-10-06
 
 ## Estado actual
 
-Marco Referencial / Capítulo 1 en revisión a partir de las observaciones docentes más recientes.  
-Introducción, diagnóstico, problema/árbol, objetivos, alcance/límites y el criterio de `bajo costo` no están cerrados. Trabajo activo: **Antecedentes del problema / diagnóstico**.
+Documento de Diseño Superior iniciado a partir del contenido de Taller de Grado I.
+Contexto reorganizado para DS el 06/10/2026 según la revisión del docente (Ing. Ivan Mendoza) del 29/09/2026.
+El contenido de `marcoref.tex` se conserva como base y debe reubicarse según `THESIS_STRUCTURE.md` (DS).
+Trabajo activo: **01C — Introducción**.
 
 ## Completado
 
-- Resultados del diagnóstico condensados: tabla consolidada, explicación directa de cantidades y tiempos y proyecciones con repetición de ciclos explícita. Por solicitud del estudiante, se retiró la gráfica de barras y se redujo el texto a cuatro párrafos; sin incorporar tabla por ciclos. PDF compilado y páginas afectadas revisadas el 16/09/2026.
-
-- Fotografías de Antecedentes maquetadas junto a sus explicaciones; diagrama, croquis y tabla ajustados. PDF compilado y páginas afectadas revisadas visualmente el 14/09/2026.
-
-- `PROJECT_CONTEXT.md`, `DECISIONS.md`, `PROFESSOR_NOTES.md` y `THESIS_STRUCTURE.md` consolidados.
-- Relevamiento disponible del 02/09/2026 y 05/09/2026 documentado y centralizado en `research/notes/contexto_tesis_san_miguel.md`.
-- Introducción propuesta en la revisión de redacción incorporada; compilación LaTeX correcta el 13/09/2026.
-- Componentes de Farihin verificados en el artículo original; respaldo y límites de uso registrados en `research/notes/antecedentes_tecnologicos_dosificacion.md`.
-- `redacción.md` depurado como guía reutilizable, con las adaptaciones pertinentes de referencias externas.
+- Revisión escrita del docente (29/09/2026) y extracción de la clase guardadas en `research/docente/`.
+- `PROFESSOR_NOTES.md` reemplazado por criterios de DS; criterios de Taller I archivados en `research/docente/criterios_taller_I.md` como complementarios.
+- `THESIS_STRUCTURE.md` rehecho sobre la plantilla DS (`docs/template/Template_Diseno_Superior.md`, guardada el 06/10/2026); la de Taller I archivada en `research/docente/estructura_taller_I.md`.
+- Heredado de Taller I (vigente como base): relevamiento del 02/09 y 05/09/2026, diagnóstico, proyecciones, figuras de Antecedentes, tabla comparativa RUICHUAN / Trust-Long.
 
 ## En curso
 
-- Organizar **Antecedentes del problema / diagnóstico** con la evidencia existente, mejorar la presentación del impacto y calcular proyecciones acumuladas diaria, semanal y mensual, identificándolas expresamente como proyecciones.
-- Completar la auditoría del respaldo del diagnóstico; la explicación de la tabla consolidada y la distribución temporal ya fueron revisadas.
+- **01C — Introducción, 1.1 y 1.2:** conservar párrafos actuales; agregar bloque macro (rubro panadero, 1–2 párr.) y micro (San Miguel: productos, mercados, datos externos, 1–2 párr.); trasladar el párrafo de registros de campo fuera de la Introducción; redactar 1.1 Metas de la empresa y 1.2 Objetivos de la empresa alineados. Requiere búsqueda de fuentes externas (estudiante: Perplexity, Scopus, Google Scholar → NotebookLM) y datos de la panadería.
 
 ## Próximos pasos
 
-1. **01C — Introducción y antecedentes:** presentar primero la problemática/necesidad y después la solución; trasladar la revisión detallada de dosificadoras al estado del arte; revisar paráfrasis, citas, atribuciones y repeticiones.
-2. **01A — Diagnóstico y problema:** consolidar proceso → DFD → distribución/recorridos → cantidades/tiempos/diferencias → proyecciones → análisis; integrar tiempo/intervención + diferencia/exceso de harina y revisar el árbol con la estructura causas → problema → efectos. Representar el problema central en un único cuadro.
-3. **01B — Objetivos y alcance:** simplificar el objetivo general y el objetivo específico de evaluación; comprobar medibilidad, logro verificable y secuencia; mantener la validación después del desarrollo; volver a revisar el primer OE, cuya aprobación no puede establecerse.
-4. **01B — Alcances y límites:** rehacer los alcances como fronteras funcionales/técnicas y depurar los límites para conservar solo exclusiones reales, sin adoptar `50 kg` ni otro rango sin sustento.
-5. **02 — Investigación:** obtener precios o cotizaciones verificables de soluciones comerciales de funcionalidad comparable y reunir sus prestaciones para sustentar el criterio de `bajo costo`; preparar una comparación explícita de prestaciones y costo, preferentemente mediante tabla.
-6. **03 — Diagramas y tablas:** conectar la descripción del procedimiento manual con el diagrama correspondiente; asegurar contexto, títulos, unidades, leyendas, atribución e interpretación; revisar específicamente la referencia al inciso señalado de la Figura 1.1 y corregir el tamaño de fuente de la tabla de registro de tiempos del apéndice, manteniendo consistencia con las demás tablas.
-7. Verificar que el documento use el template oficial de Taller de Grado I.
+1. **01C — Introducción, 1.1 y 1.2:** búsqueda de fuentes (Bolivia → región → internacional), redacción macro → micro, metas y objetivos de la empresa.
+2. **01A — 1.3 Problema y 4.0 Contextualización:** reubicar Antecedentes en 4.0; descripción textual con la fórmula VI + efecto VD + condiciones + contexto; Ishikawa desde el árbol actual; tabla de inconformidades con especificación de referencia; oración del problema sobre el proceso; justificación económica.
+3. **01B — 1.4 Objetivos, 1.5 Alcance por ejes, 1.6 Metodología:** OE por etapa del Modelo en V (7 etapas); OG con fórmula verbo + qué + para qué + con qué; alcance por ejes solo con valores sustentados.
+4. **04 — 2. Estudios preliminares:** tabla factibilidad / viabilidad / deseabilidad.
+5. **02 — Investigación:** precios puestos en Bolivia; mantenibilidad y eficiencia de competidores; OIML R60 / R76 / R61 y su aplicabilidad; reglamentación municipal citada por el docente (peso de pan); ISO 9126 vs. ISO/IEC 25010.
+6. **03 — Diagramas y presentación:** Ishikawa; figura del Modelo en V; gráfica de tiempo acumulado medición/proyección; láminas con fachada e imágenes agrupadas.
+7. **Portada (`main.tex`):** fecha diciembre; corregir la etiqueta del docente (Ivan Mendoza figura como «Docente de Taller de Grado I», pero es docente de DS).
+8. Después: Estado del arte, Contextualización completa, Requerimientos (caja negra, QFD, RF/RNF).
 
 ## Bloqueos / pendientes de validación
 
-- La formulación y el árbol presentan cifras mensuales sin explicitar su carácter proyectado; revisión pendiente fuera de la edición de resultados. Las notas de campo consideran provisional la asociación entre fechas temporales y lecturas de harina: confirmar trazabilidad sin alterar cifras por suposición.
-
-- Problema, árbol y objetivos presentados el 11/09/2026 aún no tienen aprobación definitiva.
-- `D-004` requiere revisión después de reconstruir `01A`; no debe reemplazarse todavía.
-- El título de `main.tex` usa **“bajo costo / panaderías artesanales”**, pero el título definitivo continúa **NO DECIDIDO** y `bajo costo` aún debe demostrarse mediante un criterio comparativo.
-- La revisión de Introducción no implica aprobación docente del capítulo; debe reestructurarse para presentar primero la problemática.
-- Alcances y límites requieren revisión sustancial: los primeros no deben formularse como objetivos/entregables y los segundos deben contener solo exclusiones reales.
-- Tablas y figuras requieren revisión de contexto, unidades, leyendas, explicación e interpretación; la evidencia principal debe permanecer en el cuerpo.
-- Debe verificarse el uso del template oficial de Taller de Grado I.
-- Persisten los conflictos de estilo sobre títulos con «problema» y límites simultáneos de líneas/palabras registrados en `redacción.md`.
-- Problema, árbol y objetivos aún no cuentan con aprobación definitiva.
-- La situación del primer objetivo específico permanece pendiente de validación; la evidencia disponible no permite establecer su aprobación o rechazo definitivo.
-- Debe confirmarse con el docente el tipo de diagrama requerido; no asumir que la expresión `flujo de datos` exige formalmente un DFD.
+- Título: la sugerencia del docente («ingredientes secos», «en cumplimiento de OIML R60/R76») choca con D-002 (solo harina) y con afirmar cumplimiento sin verificación (A-001, A-005, A-006).
+- Los valores numéricos de la revisión (1000/800 und/h, recipientes 50 L = 200 und, 60 g por pieza, −200 und) no provienen del relevamiento; no usarlos como datos del caso sin verificación con la panadería o fuente.
+- Las no conformidades requieren una especificación de referencia (receta, tolerancia, norma); la tolerancia de aceptación sigue abierta (A-004).
+- El límite actual «no se realizará el modelamiento matemático» contradice la etapa de diseño detallado que pide el docente (A-007).
+- Alcances actuales de `marcoref.tex` (5–15 kg, 5 g, ±0,5 %, 50 kg) contradicen D-009 / A-004.
+- Contextualización pide tamaño de grano, densidad y proporciones de receta: no medidos ni documentados; requieren fuente o relevamiento.
+- La duración de la jornada no está registrada; un porcentaje respecto de la jornada requiere nuevo dato.
+- 1.1 Metas de la empresa requiere información de la Panadería San Miguel (no documentada aún).
+- Ubicación de Contextualización (4.0 propuesto) por confirmar: la plantilla no la incluye y la revisión sí.
+- Bibliografía en ISO 690 según la plantilla: verificar compatibilidad con el estilo biblatex actual.
+- Estado del arte: la plantilla pide 30 elementos con criterios de inclusión/exclusión.
+- Formulación y diapositiva presentan 1 h 59 min sin explicitar que es proyección.
 
 ## Archivos activos
 
 - `docs/thesis/chapters/marcoref.tex`
 - `docs/thesis/main.tex`
-- `research/notes/contexto_tesis_san_miguel.md`
-- `context/DECISIONS.md`
 - `context/PROFESSOR_NOTES.md`
+- `context/THESIS_STRUCTURE.md`
+- `docs/template/Template_Diseno_Superior.md`
+- `research/docente/revision_DS_2026-09-29.md`

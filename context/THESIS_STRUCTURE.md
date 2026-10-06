@@ -1,148 +1,145 @@
-# THESIS_STRUCTURE
+# THESIS_STRUCTURE — Diseño Superior
 
-> Estructura de referencia para el Marco Referencial / Capítulo 1.  
-> Define qué función debe cumplir cada apartado, no su redacción final.
+> Lectura aplicada al proyecto de la plantilla DS (`docs/template/Template_Diseno_Superior.md`).
+> Complementos: revisión del docente del 29/09/2026 (`research/docente/revision_DS_2026-09-29.md`)
+> y ejemplo completo `research/referencias_estructurales/04_Referencia_Microsistema_Hidrostatico.md`.
+> Estructura de Taller I archivada en `research/docente/estructura_taller_I.md`.
+>
+> Principio: **mismo proyecto, otra organización** (DS-001). El contenido de `marcoref.tex`
+> se reubica y adapta; no se reescribe desde cero ni se descarta evidencia.
+> Etiquetas: **[P]** plantilla · **[R]** revisión del docente · **[A]** adaptación propuesta, por confirmar.
 
-## 1. Introducción
-
-- **Propósito:** permitir que un lector externo comprenda el contexto general y ubique claramente la etapa estudiada.
-- **Contenido:** caso de estudio, actividad, productos principales, proceso general de panificación, participación de la harina, ubicación de la dosificación y enfoque del proyecto.
-- **Evidencia:** bibliografía de contexto; esquema general del proceso, figura o fotografía únicamente si facilita la comprensión.
-- **Conexión:** pasar del proceso general a la caracterización detallada de la situación actual.
-- **Profundidad:** media.
-
-## 2. Planteamiento del problema
-
-### 2.1 Antecedentes del problema
-
-- **Propósito:** caracterizar el procedimiento actual y reunir la evidencia necesaria para demostrar la problemática antes de formularla.
-- **Contenido:** seguir preferentemente la secuencia:
-
-  **proceso actual → DFD → distribución física → recorridos → ciclos → cantidades → tiempos → diferencias → resumen → proyecciones → análisis**
-
-  Presentar primero hechos y resultados; después interpretarlos. Diferenciar siempre mediciones, cálculos derivados, proyecciones e hipótesis.
-- **Evidencia:** mediciones de campo, registros, tabla resumen, DFD, croquis, fotografías, recorridos, cantidades, tiempos, diferencias y proyecciones claramente identificadas. Los registros extensos pueden quedar en anexos.
-- **Conexión:** el análisis debe conducir de manera natural hacia un único problema central.
-- **Profundidad:** alta.
-
-### 2.2 Formulación del problema
-
-- **Propósito:** condensar la evidencia anterior en una sola formulación clara, específica y demostrable.
-- **Contenido:** problema central expresado brevemente, sin describir la solución ni introducir variables que el proyecto no pueda evaluar posteriormente.
-- **Evidencia:** no incorporar evidencia nueva; utilizar únicamente lo ya demostrado en los antecedentes.
-- **Conexión:** convertirse en el elemento central del árbol de problemas.
-- **Profundidad:** baja, pero estructuralmente crítica.
-
-### 2.3 Árbol de problemas
-
-- **Propósito:** organizar causalmente la problemática ya demostrada.
-- **Contenido:** causas y, cuando corresponda, subcausas → problema central → efectos. Mantener un único problema central.
-- **Evidencia:** relaciones sustentadas por la caracterización previa; no introducir causas o efectos sin respaldo.
-- **Conexión:** servir de base para comprobar la coherencia entre problema, solución y objetivos.
-- **Profundidad:** media-alta.
-
-## 3. Objetivos
-
-### 3.1 Objetivo general
-
-- **Propósito:** expresar el resultado principal que deberá alcanzar el proyecto frente al problema identificado.
-- **Contenido:** un objetivo verificable y coherente con el problema central y con aquello que posteriormente podrá evaluarse.
-- **Evidencia:** no requiere evidencia nueva.
-- **Conexión:** descomponerse en objetivos específicos verificables.
-- **Profundidad:** baja.
-
-### 3.2 Objetivos específicos
-
-- **Propósito:** convertir el objetivo general en etapas lógicas y demostrables del desarrollo.
-- **Contenido:** secuencia orientada a resultados, por ejemplo:
-
-  **determinar/requerimientos → diseñar → implementar/construir → evaluar/validar**
-
-  Evitar redactarlos como simples actividades de recopilación o revisión.
-- **Evidencia:** cada objetivo debe permitir identificar posteriormente un entregable, prueba o criterio de cumplimiento.
-- **Conexión:** establecer la ruta de desarrollo que deberá reflejarse posteriormente en metodología, resultados y alcances.
-- **Profundidad:** baja.
-
-## 4. Motivación
-
-- **Propósito:** explicar brevemente por qué resulta pertinente desarrollar el proyecto.
-- **Contenido:** importancia práctica o académica del problema y razón para abordar la etapa seleccionada.
-- **Evidencia:** apoyarse en el contexto y problemática ya establecidos; no repetir la demostración del problema ni introducir beneficios no comprobados.
-- **Conexión:** conducir hacia la justificación de los aportes esperados.
-- **Profundidad:** baja.
-
-## 5. Justificación
-
-- **Propósito:** establecer por qué el desarrollo propuesto resulta pertinente y qué aporte puede generar.
-- **Contenido:** aportes directamente relacionados con el proyecto; separar dimensiones académica, tecnológica, práctica o social únicamente cuando aporten información real.
-- **Evidencia:** bibliografía, datos previamente demostrados, documentación técnica o normativa cuando corresponda.
-- **Conexión:** pasar de la pertinencia del proyecto a la definición precisa de sus fronteras.
-- **Profundidad:** baja-media.
-
-## 6. Delimitación
-
-### 6.1 Límites
-
-- **Propósito:** dejar explícito qué condiciones, funciones o aspectos quedan restringidos o fuera del proyecto.
-- **Contenido:** exclusiones, condiciones de operación, restricciones experimentales y fronteras del desarrollo.
-- **Evidencia:** decisiones vigentes, condiciones reales del caso de estudio y restricciones justificadas.
-- **Conexión:** preparar la definición de lo que sí deberá entregar el proyecto.
-- **Profundidad:** baja-media.
-
-### 6.2 Alcances
-
-- **Propósito:** definir concretamente hasta dónde llegará el proyecto y qué resultados deberán obtenerse.
-- **Contenido:** entregables verificables coherentes con los objetivos: desarrollo, prototipo, integración, pruebas y evaluación según corresponda.
-- **Evidencia:** correspondencia directa con los objetivos y decisiones vigentes. No cerrar parámetros técnicos que todavía permanezcan abiertos.
-- **Conexión:** cerrar el capítulo dejando claras las fronteras y compromisos del trabajo.
-- **Profundidad:** baja-media.
-
----
-
-## Orden recomendado del capítulo
+## Índice del documento
 
 ```text
-1. Introducción
-
-2. Planteamiento del problema
-   2.1 Antecedentes del problema
-   2.2 Formulación del problema
-   2.3 Árbol de problemas
-
-3. Objetivos
-   3.1 Objetivo general
-   3.2 Objetivos específicos
-
-4. Motivación
-
-5. Justificación
-
-6. Delimitación
-   6.1 Límites
-   6.2 Alcances
+Portada ............................................ fecha: diciembre [R]
+1. Introducción .................................... ¿qué? ¿quién? ¿con qué? ¿para qué? [P]; macro → micro [R]
+   1.1 Metas de la empresa
+   1.2 Objetivos de la empresa alineados al proyecto (problemática de solución)
+   1.3 Problema y justificación del proyecto
+   1.4 Objetivos del proyecto
+       1.4.1 Objetivo general
+       1.4.2 Objetivos específicos (Modelo en V)
+   1.5 Alcance del proyecto (por ejes)
+   1.6 Metodología de desarrollo del proyecto
+2. Estudios preliminares (factibilidad, viabilidad, deseabilidad)
+3. Estado del arte
+4. Diseño y desarrollo técnico mecatrónico
+   4.0 Contextualización del sistema actual [R][A]
+   4.1 Árbol de objetivos del producto
+   4.2 Diagrama de caja negra y caja transparente
+   4.3 Requerimientos del producto (4.3.1 RF · 4.3.2 RNF)
+5. Diseño de alto nivel
+   5.1 Casa de calidad · 5.2 Matriz morfológica · 5.3 Diagrama de bloques
+   5.4 Estudio de alternativas · 5.5 Definición de componentes
+6. Diseño detallado
+   6.1 Modelos formales (matemáticos) · 6.2 Modelos CAD · 6.3 Protocolos de control
+7. Verificación y validación
+8. Implementación y prototipado
+   (+ Transferencia y operación [R][A])
+9. Conclusiones y recomendaciones
+10. Bibliografía (ISO 690 [P])
+11. Apéndices / anexos
 ```
 
-## Patrones comunes de las referencias
+## Capítulo 1
 
-- Construcción de lo general a lo específico.
-- Contexto antes de entrar al problema puntual.
-- Evidencia presentada antes de formular el problema.
-- Formulación breve después de la demostración.
-- Árbol de problemas como síntesis causal, no como fuente de problemas nuevos.
-- Correspondencia directa entre problema central y objetivo general.
-- Objetivos específicos organizados como una secuencia de desarrollo.
-- Tablas y figuras con función argumentativa, no decorativa.
-- Cierre del capítulo mediante límites y alcances.
-- Alcances vinculados con resultados o entregables verificables.
+### 1. Introducción (texto inicial)
+- **Función:** presentar qué se desarrolla, para quién, con qué base y para qué. [P]
+- **Orden:** rubro de panaderías y pastelerías y su papel para la población (1–2 párr.) → Panadería San Miguel: productos, mercados, datos externos (1–2 párr.) → etapa estudiada (dosificación de harina) y concepto de solución gravimétrica, en forma breve. [R]
+- **Evidencia:** fuentes externas y bibliografía; sin mediciones propias, recetas ni flujos de planta. [R]
+- **Profundidad:** media (≈1,5–2 páginas).
+- **No replicar (ref. 04):** adelantar y repetir objetivos o justificación.
 
-## Particularidades útiles que conviene conservar
+### 1.1 Metas de la empresa
+- **Función:** meta de la Panadería San Miguel y cómo se alinea el proyecto. [P]
+- **Evidencia:** información de la propia panadería (entrevista o comunicación documentada). No inventar metas.
+- **Profundidad:** baja (1–2 párr.).
 
-- Para este proyecto, separar claramente **Introducción** de **Antecedentes del problema**: la evidencia de campo requiere mayor desarrollo que el contexto general.
-- Mantener la secuencia docente de **proceso → evidencia → problema → causas/efectos → objetivos**.
-- Separar **demostración del problema** de **formulación del problema**.
-- Concentrar en el cuerpo principal únicamente la evidencia necesaria para comprender y demostrar la problemática; trasladar registros extensos a anexos.
-- Utilizar DFD, croquis, fotografías, tablas y diagramas solo cuando expliquen o demuestren algo concreto.
-- Mantener trazabilidad entre **problema → objetivo → pruebas → resultados**.
-- No convertir tecnologías, componentes o ausencia de automatización en el problema central.
-- No asumir como definitivos parámetros o selecciones técnicas todavía abiertos.
-- Mantener Motivación y Justificación breves para evitar repetir antecedentes o prometer beneficios aún no evaluados.
+### 1.2 Objetivos de la empresa alineados al proyecto
+- **Función:** traducir las metas en desafíos y cualidades que el producto debe atender (p. ej., precisión, repetibilidad, menor intervención). [P]
+- **Recurso:** lista breve de desafíos o cualidades; anticipa requerimientos y casa de calidad.
+- **Profundidad:** baja.
+
+### 1.3 Problema y justificación del proyecto
+- **Fórmula del problema:** [variable independiente] + [efecto en la variable dependiente] + [condiciones] + [contexto]. [P]
+- **Tres representaciones:** [P][R]
+  1. **Descriptiva textual:** condiciones del proceso con cifras clave y su respaldo (remitir a 4.0 y anexos).
+  2. **Diagrama causa-efecto (Ishikawa):** reutilizar causas y efectos del árbol de problemas actual.
+  3. **Tabla de inconformidades:** característica: subcaracterística de calidad (ISO 9126 / ISO/IEC 25010 u otra) → inconformidad, con la especificación de referencia que se incumple.
+- **Oración del problema:** imprecisión + falta de estandarización + uso no óptimo de recursos, sobre el proceso, no el operario. [R]
+- **Justificación:** en ejes breves dentro de esta sección [P]; priorizar la económica con precios puestos en Bolivia; la tecnológica solo si hay tecnología nueva. [R]
+- **No replicar (ref. 04):** afirmar cumplimiento normativo sin demostrarlo; problema sin cifras.
+
+### 1.4 Objetivos
+- **Objetivo general:** verbo + qué + para qué + con qué (base científica, técnica, normativa) [P]; responde a la oración del problema. [R]
+- **Objetivos específicos por etapa del Modelo en V:** [R]
+  contextualizar → determinar requerimientos → diseñar modelos detallados → implementar → verificar → validar → mantener/operar.
+  (El ejemplo de la plantilla inicia en «especificar requerimientos»; prevalece la revisión del docente.)
+
+### 1.5 Alcance (por ejes)
+- **Ejes:** técnico · funcional · normativo · temporal · de usuarios · de limitaciones. [P]
+- **Contenido:** capacidad útil, dimensiones, número de pruebas, condiciones de validación [R]; valores solo si están sustentados (D-009).
+- **Limitaciones:** los límites actuales pasan a este eje.
+
+### 1.6 Metodología de desarrollo
+- Modelo en V (y, si aplica, PDCA/RUP como en la plantilla) [P]; etapas en formato «etapa → descripción»; correspondencia etapa ↔ objetivo ↔ capítulo. Figura del modelo recomendable.
+
+## Capítulos 2–11
+
+### 2. Estudios preliminares
+- Tabla: **factibilidad** (el autor: técnica, recursos, cronograma) · **viabilidad** (la panadería: económica, operativa, cronograma) · **deseabilidad** (valor social, ambiental, competitivo); columna cumple / no cumple. [P]
+
+### 3. Estado del arte
+- **30** proyectos o productos (académicos, comerciales, patentes). [P]
+- **Criterios de inclusión/exclusión** explícitos (p. ej., año, costo, tiempo de parada). [P]
+- Por elemento: problema, objetivo, resultados (académicos); objetivo, garantías, costos, mantenimiento, importación (comerciales). [P]
+- Tabla comparativa de precio puesto en Bolivia, mantenibilidad, eficiencia y ventaja de la propuesta. [R]
+
+### 4. Diseño y desarrollo técnico mecatrónico
+- **4.0 Contextualización [R][A]:** proceso de elaboración del pan, proporciones, características de la harina (tamaño de grano, densidad), máquinas existentes, distribución de planta, procedimiento manual, mediciones del relevamiento («argumento con datos»). Ubicación por confirmar con el docente.
+- **4.1 Árbol de objetivos del producto** (cómo / por qué). [P]
+- **4.2 Caja negra y caja transparente** (energía, materia, señales; subfunciones). [P]
+- **4.3 RF y RNF:** tablas ID | requerimiento | O/D (obligatorio/deseable) | descripción | valor técnico o norma. [P]
+
+### 5. Diseño de alto nivel
+- Casa de calidad (QFD) → matriz morfológica con caminos y justificación → diagrama de bloques → matriz cualitativa y cuantitativa de alternativas → definición de componentes. [P]
+
+### 6. Diseño detallado
+- Modelos formales (matemáticos del proceso de dosificación) · CAD · protocolos y estrategia de control. [P][R] Ver A-007.
+
+### 7. Verificación y validación
+- **Verificación:** tabla ID RF/RNF | requerimiento | diseño final | cumple / no cumple; pruebas unitarias, integrales, funcionales y de cumplimiento normativo; análisis de resultados; diseño vs. real. [P]
+- **Validación:** frente a requerimientos y frente al procedimiento manual bajo condiciones comparables (D-008).
+
+### 8. Implementación y prototipado
+- Fabricación · integración electrónica y de control · evaluación del funcionamiento. [P]
+- **Transferencia y operación [R][A]:** mantenimiento, operación y control.
+- Nota: la plantilla numera Implementación después de V&V; aclarar el orden real del Modelo en V en 1.6 o consultar.
+
+### 9–11.
+- Conclusiones y recomendaciones · Bibliografía en ISO 690 [P] (verificar compatibilidad con el estilo biblatex actual) · Anexos: planos, cálculos, registros, código.
+
+## Reubicación del contenido actual de `marcoref.tex`
+
+| Contenido actual | Destino en DS |
+|---|---|
+| Introducción: caso de estudio, proceso general del pan (Cauvain), figura, OIML R 61-1, enfoque | 1. Introducción (se conserva; se agrega bloque macro) |
+| Introducción: párrafo de registros de campo y diferencias | 1.3 Problema (textual) o 4.0 |
+| Antecedentes: procedimiento, DFD, croquis, fotografías, recorridos | 4.0 Contextualización |
+| Antecedentes: tablas de cantidades y tiempos, proyecciones | 4.0 (argumento con datos); cifras clave citadas en 1.3; registros a anexos |
+| Formulación del problema | 1.3 Oración del problema (sobre el proceso) |
+| Árbol de problemas | 1.3 Ishikawa (reutilizar causas y efectos) |
+| Objetivos | 1.4 (reordenar según Modelo en V) |
+| Justificación tecnológica / social / económica | 1.3 Justificación (revisar tecnológica; reforzar económica) |
+| Límites y alcances | 1.5 Alcance por ejes (límites → eje de limitaciones) |
+| Tabla RUICHUAN / Trust-Long | 1.3 justificación económica y 3. Estado del arte |
+
+## Reglas transversales
+
+- **medición → cálculo derivado → proyección → hipótesis/requisito** (D-006).
+- Trazabilidad **problema → objetivo → requerimiento → verificación/validación**.
+- No convertir tecnologías ni ausencia de automatización en el problema.
+- No asumir parámetros técnicos abiertos (D-009, A-004); los «valores técnicos esperados» de RF/RNF deben derivarse de datos, normas o bibliografía.
+- No copiar contenido ni valores del ejemplo de la plantilla.
+- Registros extensos a anexos, con remisión expresa desde el cuerpo.

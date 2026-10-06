@@ -1,5 +1,9 @@
 # AGENTS.md
 
+> Documento de **Diseño Superior** (docente: Ing. Ivan Mendoza). Mismo proyecto que la tesis de
+> Taller de Grado I. El contenido heredado es base revisable: se reubica, adapta y amplía; no se
+> descarta ni se reescribe desde cero (DS-001).
+
 ## Lectura inicial
 
 Antes de trabajar:
@@ -10,10 +14,13 @@ Antes de trabajar:
 
 Según la tarea:
 
-- `context/PROFESSOR_NOTES.md` — criterios académicos y del docente.
-- `context/THESIS_STRUCTURE.md` — función, orden y profundidad de capítulos/secciones.
+- `context/PROFESSOR_NOTES.md` — criterios del docente de Diseño Superior.
+- `research/docente/criterios_taller_I.md` — criterios de Taller de Grado I, complementarios.
+- `context/THESIS_STRUCTURE.md` — estructura DS: función, orden y profundidad de secciones.
+- `research/referencias_estructurales/04_Referencia_Microsistema_Hidrostatico.md` — referencia estructural principal (documento DS).
 - `redacción.md` — reglas de estilo y redacción académica del proyecto.
-- `docs/template/Template - Perfil de Proyecto- Final.md` — requisitos institucionales de estructura y formato.
+- `docs/template/Template_Diseno_Superior.md` — plantilla DS: estructura, numeración y recursos de cada sección.
+- `docs/template/Template - Perfil de Proyecto- Final.md` — plantilla de Taller I; referencia de formato institucional donde DS no lo defina.
 - `research/` — evidencia, registros, fuentes originales o referencias necesarias.
 
 No leer `research/` completo por defecto.
@@ -22,15 +29,17 @@ No leer `research/` completo por defecto.
 
 1. instrucción actual del usuario;
 2. `context/DECISIONS.md`;
-3. `context/PROFESSOR_NOTES.md`;
+3. `context/PROFESSOR_NOTES.md` (DS);
 4. `context/PROJECT_CONTEXT.md`;
-5. fuentes originales de `research/`;
-6. referencias estructurales.
+5. fuentes originales de `research/`, incluidos los criterios de Taller I como aportes complementarios;
+6. referencias estructurales (la 04 antes que las 01–03).
 
 Si el conflicto no puede resolverse con estas fuentes, señalarlo. No elegir arbitrariamente.
 
-Para estructura y formato institucional, la plantilla oficial prevalece sobre
-`THESIS_STRUCTURE.md` y las referencias estructurales.
+Para estructura y numeración del documento DS prevalece `docs/template/Template_Diseno_Superior.md`,
+aplicada al proyecto en `THESIS_STRUCTURE.md`. La revisión del docente puede ajustar la plantilla
+(p. ej., objetivos por etapa del Modelo en V); si ambas difieren, señalarlo. El contenido del ejemplo
+de la plantilla no se copia. La ref. 04 es un ejemplo de cómo se llena la plantilla.
 
 Para redacción, aplicar `redacción.md` siempre que no contradiga decisiones,
 criterios docentes o requisitos institucionales.
@@ -69,7 +78,7 @@ El documento fuente está en `docs/thesis/`.
 Al modificar `.tex`:
 
 - respetar la plantilla y estructura existentes;
-- consultar `docs/template/Template - Perfil de Proyecto- Final.md` antes de cambiar estructura, organización o formato institucional;
+- consultar `docs/template/Template_Diseno_Superior.md` y `context/THESIS_STRUCTURE.md` antes de cambiar estructura u organización;
 - aplicar `redacción.md` cuando la tarea implique redacción académica;
 - revisar antes patrones ya utilizados para figuras, tablas, ecuaciones, labels y referencias;
 - usar `docs/thesis/bibliography/referencias.bib` como base bibliográfica;
@@ -117,4 +126,4 @@ Si el usuario restringió explícitamente la tarea a determinados archivos, resp
 
 ## Regla principal
 
-**No inventar, no asumir y no modificar fuera del alcance solicitado.**
+**No inventar, no asumir y no modificar fuera del alcance solicitado.**

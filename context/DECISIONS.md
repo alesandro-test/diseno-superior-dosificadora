@@ -101,6 +101,15 @@ Las referencias históricas de **5–15 kg**, **40–50 kg** y **+20 g** son ún
 
 ---
 
+### DS-001 — Documento de Diseño Superior sobre el mismo proyecto
+
+**Estado:** Confirmada (2026-10-06)  
+**Decisión:** El documento de Diseño Superior desarrolla el mismo proyecto que la tesis de Taller de Grado I, con la estructura y metodología (Modelo en V) indicadas por el docente de DS, Ing. Ivan Mendoza. El contenido heredado se conserva como base y se reubica o amplía; no se reescribe desde cero.  
+**Motivo:** Distinta materia y docente; mismo caso de estudio, evidencia y concepto de solución.  
+**Impacto:** Las decisiones D-001 a D-009 siguen vigentes para el proyecto. Los criterios de Taller I (`research/docente/criterios_taller_I.md`) se toman como aportes complementarios, no como reglas que prevalezcan sobre DS ni que DS anule automáticamente; los conflictos se señalan.
+
+---
+
 ## Decisiones abiertas
 
 Los siguientes asuntos están **NO DECIDIDOS** y ningún agente debe cerrarlos sin nueva evidencia, decisión del estudiante o indicación docente.
@@ -117,6 +126,8 @@ formarán parte del título o de los requerimientos definitivos.
 La revisión docente más reciente no aprueba definitivamente el título. Si se conserva
 `bajo costo`, debe definirse previamente un criterio comparativo defendible frente a
 soluciones comerciales de funcionalidad comparable, considerando prestaciones y precio.
+
+**Actualización 2026-10-06 (DS):** el docente de DS cuestiona «bajo costo» y «diseño» y sugiere «dosificadora gravimétrica automatizada para ingredientes secos en cumplimiento de la normativa OIML R60 / R76». Sugerencia, no título aprobado; ver A-005 y A-006.
 
 ---
 
@@ -170,3 +181,36 @@ borrador no convierte automáticamente ninguno de estos elementos en requisito.
 
 El ejemplo docente de `50 kg` fue únicamente pedagógico y no constituye un
 requerimiento del prototipo. El rango deberá derivarse de los datos de campo y del diseño.
+
+---
+
+### A-005 — Harina o ingredientes secos
+
+**Estado:** NO DECIDIDO
+
+El docente de DS propone «ingredientes secos» en el título y en el diagrama causa-efecto.
+D-002 delimita el desarrollo a la harina, y los límites actuales excluyen otros ingredientes;
+en la clase también se citó como límite «no se realizará la dosificación de otros ingredientes».
+El título actual de `main.tex` ya dice «ingredientes secos». No cambiar D-002 ni el título sin decisión
+explícita; una opción a evaluar es diseño orientado a ingredientes secos con validación en harina.
+
+---
+
+### A-006 — Referencia normativa en el título y alcance normativo
+
+**Estado:** NO DECIDIDO
+
+El docente sugiere «en cumplimiento de la normativa OIML R60 / R76». El documento cita actualmente
+OIML R 61-1 (instrumentos automáticos de llenado gravimétrico). Debe verificarse qué recomendación
+aplica a cada parte (celda de carga, instrumento de pesaje, instrumento automático) y si el prototipo
+puede demostrar cumplimiento o solo tomarlas como referencia de diseño y verificación.
+
+---
+
+### A-007 — Modelamiento matemático
+
+**Estado:** NO DECIDIDO
+
+Los límites actuales excluyen el modelamiento matemático del sistema (exclusión solicitada por el autor),
+mientras que la revisión de DS incluye modelos matemáticos en el diseño detallado. Resolver antes de
+reformular objetivos y alcance.

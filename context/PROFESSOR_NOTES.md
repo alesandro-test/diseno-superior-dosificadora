@@ -1,65 +1,91 @@
-# PROFESSOR_NOTES
+# PROFESSOR_NOTES — Diseño Superior
 
-> Reglas activas del docente para desarrollar y revisar la tesis.  
-> No contiene cifras, decisiones del proyecto ni estado de avance.
+> Criterios del docente de Diseño Superior (Ing. Ivan Mendoza) para el documento de DS.
+> No contiene cifras del proyecto, decisiones ni estado de avance.
+>
+> **Fuentes y confiabilidad:**
+> - **(R)** revisión escrita del 29/09/2026 — `research/docente/revision_DS_2026-09-29.md`. Fuente principal.
+> - **(C)** clase del 29/09/2026, extracción automática NotebookLM — `research/docente/notebooklm_DS_clase_2026-09-29.md`. Útil para matices; cifras y números de normas pueden estar mal transcritos.
+>
+> - **(P)** plantilla DS — `docs/template/Template_Diseno_Superior.md`. Define estructura y recursos.
+>
+> **Criterios de Taller de Grado I:** `research/docente/criterios_taller_I.md`. Mismo proyecto, otra materia:
+> son complementarios y se aplican cuando aportan (rigor de evidencia, redacción, trazabilidad).
+> Si contradicen un criterio de aquí, señalar el conflicto en lugar de elegir en silencio.
 
-## Problema y diagnóstico
+## Título y portada
 
-- **Problema único:** formular un solo problema central; las demás condiciones deben organizarse como causas, efectos o indicadores.
-- **Problema medible:** sustentar la formulación con evidencia cuantificada y derivarla de los datos obtenidos, no únicamente de una descripción cualitativa.
-- **Problema ≠ solución:** no formular el problema como “falta de automatización”, “ausencia de máquina” o carencia de una tecnología.
-- **Condición manual:** que una operación sea manual no constituye por sí sola un problema; demostrar sus efectos mediante evidencia.
-- **Evidencia antes del problema:** presentar y analizar primero los datos que justifican la condición problemática.
-- **Cuantificar antes de calificar:** no usar términos como `elevado`, `excesivo`, `lento`, `deficiente` o similares sin referencia, comparación o consecuencia demostrada.
-- **Formulación:** expresar el problema central de forma compacta, preferentemente en una frase, sin repetir el procedimiento ni los antecedentes.
-- **Coherencia:** el problema debe corresponder con lo que la solución modifica y con lo que posteriormente pueda evaluarse.
-- **Dimensiones del problema:** revisar conjuntamente el tiempo/intervención del operario y la diferencia o exceso de harina; no denominar `desperdicio` a la diferencia cuando la harina no se pierde.
-- **Estructura causal:** mantener en el árbol la relación causas → problema central → efectos; no convertir un efecto en el problema central.
-- **Impacto temporal acumulado:** cuando el tiempo por ciclo no muestre claramente el impacto, presentar su efecto acumulado, preferentemente hasta escala mensual, identificado expresamente como proyección derivada de las observaciones y no como medición mensual.
-- **Cambio del problema:** si cambia el problema central, revisar inmediatamente árbol, objetivos y estrategia de validación.
+- **Título (sugerencia, no aprobado):** el docente cuestiona «bajo costo» y «diseño» y sugiere orientarlo a «dosificadora gravimétrica automatizada para ingredientes secos en cumplimiento de la normativa OIML R60 / R76 (metrología legal)». (R) Ver A-001, A-005 y A-006 en `DECISIONS.md`.
+- **Fecha de portada:** diciembre. (R)
 
-## Evidencia y metodología
+## Estructura y fórmulas de la plantilla
 
-- **Introducción:** presentar primero la problemática o necesidad y después la solución propuesta. Incluir empresa, actividad, proceso general y ubicación de la etapa estudiada sin duplicar allí la demostración detallada del problema.
-- **Estado del arte:** ubicar allí la revisión detallada de otras máquinas o dosificadoras, no en el desarrollo principal de la Introducción.
-- **Antecedentes:** concentrar la evidencia necesaria para reconstruir el proceso estudiado y justificar el problema.
-- **Nivel de evidencia:** dejar explícito si un resultado corresponde a medición, cálculo derivado, proyección o hipótesis/requisito.
-- **Medición:** indicar qué se midió, bajo qué condiciones, cuántas veces, mediante qué procedimiento y qué representa el valor.
-- **Desagregación:** si se atribuye un resultado a una actividad concreta, medir esa actividad y no depender únicamente de un tiempo global.
-- **Trazabilidad:** conservar el vínculo entre cada resultado y su evidencia original: registro, fotografía, video, instrumento o anotación.
-- **Proyecciones:** derivarlas de datos reales, declarar sus supuestos y no presentarlas como mediciones reales del periodo proyectado.
-- **Análisis:** una tabla, gráfica o figura no demuestra el problema por sí sola; explicar qué muestra y por qué es relevante.
-- **Fuentes:** respaldar afirmaciones técnicas relevantes con documentación oficial, fabricante, normativa o bibliografía técnica apropiada.
-- **Nuevos relevamientos:** preparar preguntas específicas dirigidas a obtener variables o evidencias faltantes.
-- **Cuerpo vs. anexos:** mantener en el cuerpo la evidencia indispensable y trasladar registros extensos o desgloses secundarios a anexos.
-- **Remisión a anexos:** los registros detallados son complementarios; mencionarlos expresamente desde el cuerpo cuando se trasladen a apéndices o anexos.
-- **Entrevista documentada:** puede considerarse como evidencia adicional solo si queda información de campo esencial sin otro respaldo; no constituye un requisito obligatorio ni se exige por defecto una entrevista firmada.
+- **Estructura:** seguir la numeración de la plantilla DS (1.1 Metas de la empresa … 11. Anexos), aplicada en `THESIS_STRUCTURE.md`. (P)
+- **Título:** responder ¿qué? ¿quién? ¿con qué? ¿para qué? (P)
+- **Objetivo general:** verbo + qué + para qué + con qué (base científica, técnica, normativa). (P)
+- **Problema:** [variable independiente] + [efecto en la variable dependiente] + [condiciones] + [contexto]. (P)
+- **Empresa:** incluir metas de la empresa y objetivos de la empresa alineados al proyecto. (P)
+- **Alcance:** por ejes — técnico, funcional, normativo, temporal, de usuarios y de limitaciones. (P)
+- **Estudios preliminares:** factibilidad, viabilidad y deseabilidad con cumple / no cumple. (P)
+- **Estado del arte:** 30 proyectos o productos (académicos, comerciales, patentes) con criterios de inclusión y exclusión. (P)
+- **Requerimientos:** tablas RF/RNF con ID, O/D (obligatorio/deseable), descripción y valor técnico o norma. (P)
+- **Verificación:** tabla requerimiento → diseño final → cumple / no cumple. (P)
+- **Bibliografía:** ISO 690. (P)
 
-## Redacción y presentación
+## Introducción
 
-- **Claridad:** priorizar que el documento pueda ser comprendido por un lector que no conoce previamente el proyecto.
-- **Términos técnicos:** introducir y explicar siglas, equipos o conceptos antes de utilizarlos como parte esencial del argumento.
-- **Redacción:** mantener estilo técnico e impersonal y revisar puntuación, concordancia y referencias ambiguas.
-- **Tablas y figuras:** introducir, explicar e interpretar cada elemento en el texto; aclarar variables, unidades, indicadores, leyendas y subfiguras, además de la conclusión que aporta al diagnóstico.
-- **Figuras modificadas:** indicar `adaptada de` cuando se modifique una figura externa, incluso si solo se traducen etiquetas.
-- **Terminología espacial:** utilizar referencias coherentes con la instalación; no usar `vertical` para una dirección en planta si puede interpretarse como altura.
-- **Formato:** respetar numeración, títulos, leyendas y referencias cruzadas definidas por la plantilla institucional.
-- **Plantilla institucional:** utilizar el template oficial de Taller de Grado I, no el de Taller II.
-- **Fuentes verificables:** toda afirmación relevante y toda fuente deben poder verificarse; parafrasear o resumir en lugar de copiar textualmente y citar correctamente lo utilizado.
-- **Representación temporal:** evaluar, sin tratarlo como requisito, si un gráfico comunica mejor los datos temporales que una tabla extensa; conservar los registros completos en anexos cuando corresponda.
+- **De macro a micro:** partir del rubro y llegar a la empresa o unidad funcional. (R)
+- **Macro (1–2 párrafos):** panaderías y pastelerías, su finalidad y su papel para la población. (R)
+- **Micro (1–2 párrafos):** Panadería San Miguel — tipos de productos, mercados y datos externos a la panadería. (R)
+- **Fuera de la Introducción:** descripción técnica operativa, flujos de planta, recetas y mediciones; corresponden a Contextualización. (C)
 
-## Diagramas, objetivos y alcance
+## Problema
 
-- **Proceso:** comprender primero el flujo completo y después detallar únicamente las etapas relevantes para el problema.
-- **Diagramas:** separar el nivel general del detalle operativo cuando combinarlos dificulte la lectura.
-- **Trazabilidad del flujo:** debe identificarse claramente dónde inicia el proceso, qué actividades ocurren y dónde se ubica la etapa estudiada.
-- **Árbol de problemas:** construirlo alrededor de un único problema central, con causas y efectos; no introducir soluciones tecnológicas. El problema central debe representarse en un único cuadro, integrando las dimensiones sustentadas por el diagnóstico.
-- **Objetivo general:** debe corresponder directamente con el título y expresar el resultado principal; reservar la medición, comprobación y evaluación para los objetivos específicos.
-- **Objetivos específicos:** formular logros medibles y verificables en secuencia lógica; la validación o evaluación debe ubicarse después del desarrollo del elemento que se evaluará.
-- **Objetivo ≠ actividad:** entrevistas, mediciones, revisión bibliográfica o recopilación de datos pueden ser actividades sin constituir objetivos específicos.
-- **Funciones adicionales:** no incluir características “como plus” si después no serán construidas y demostradas.
-- **Alcance y límites:** el alcance define hasta dónde llega técnica y funcionalmente el sistema; los límites declaran qué queda fuera. No tratarlos como objetivos o entregables ni incorporar capacidades o rangos todavía no sustentados.
-- **Validación en el alcance:** declarar expresamente las condiciones bajo las cuales se realizará la validación.
-- **Factibilidad:** antes de cerrar una solución técnica considerar construcción, componentes, infraestructura, costo, tiempo y posibilidad real de ensayo.
-- **Bajo costo:** si se mantiene esta expresión en el proyecto, demostrarla mediante comparación con soluciones comerciales de funcionalidad comparable. Utilizar precios o cotizaciones verificables y contrastar explícitamente prestaciones y costo, preferentemente mediante una tabla comparativa; no basta declararla en el título.
+- **Tres capas:** descripción textual → diagrama causa-efecto → no conformidades. (R)
+- **No conformidades:** usar ISO 9126 u otra técnica de calidad. (R) Nota: ISO/IEC 9126 fue sustituida por ISO/IEC 25010; confirmar con el docente cuál emplear.
+- **Oración del problema:** condensar el problema en una oración que integre imprecisión, falta de estandarización y uso no óptimo de recursos. (R)(C)
+- **Correspondencia:** el objetivo general responde directamente a esa oración; si no hay correspondencia, no hay proyecto. (R)(C)
+- **Procesos, no personas:** formular problema y causas sobre el proceso, no sobre el operario. (C)
+- **Datos:** toda afirmación del diagnóstico se respalda con datos y toda cifra muestra su cálculo o fuente; sin datos es una opinión. (C)
+- **Indicadores relativos:** expresar desvíos de tiempo también como porcentaje respecto de una referencia definida. (C)
+- **Ejemplos del docente:** los valores numéricos de la revisión (und/h, recipientes, peso por pieza, −200 und) ilustran el formato; no se usan como datos del caso sin verificación.
 
+## Objetivos y metodología
+
+- **Metodología:** Modelo en V. (R)
+- **Objetivos específicos por etapa:** (R)
+  1. Contextualizar el modelo del sistema actual.
+  2. Determinar los requerimientos.
+  3. Diseñar los modelos detallados (CAD, P&ID, modelos matemáticos, SolidWorks).
+  4. Implementar (prototipar, modelo funcional, simular).
+  5. Verificar (normas internas, externas, locales, científicas).
+  6. Validar.
+  7. Mantener / controlar / operar.
+- **Objetivo general:** respuesta directa a la oración del problema. (R)
+
+## Desarrollo según Modelo en V
+
+- **Contextualizar:** procesos de elaboración del pan; proporciones de ingredientes; características de la harina (tamaño de grano, densidad); máquinas existentes. (R)
+- **Argumento (datos):** evidencia cuantitativa del sistema actual. (R)
+- **Requerimientos:** caja negra → QFD → lista de requerimientos funcionales y no funcionales. (R)
+- **Diseño detallado:** mockup o bosquejo, planos, modelos matemáticos. (R)
+- **Implementación → Verificación → Validación → Transferencia y operación.** (R)
+
+## Justificación, alcance y estado del arte
+
+- **Justificación:** económica; no plantear justificación tecnológica salvo que se desarrolle una tecnología nueva. (C)
+- **Comparación económica:** precios de competidores puestos en Bolivia (transporte, aduana, importación). (C)
+- **Alcance:** capacidad útil, dimensiones y número de pruebas de funcionamiento; no repetir objetivos. (C)
+- **Límites:** declarar explícitamente lo que no se hará. (C)
+- **Estado del arte:** comparar con la competencia en precio, mantenibilidad y eficiencia y demostrar la ventaja de la propuesta. (C)
+
+## Normativa
+
+- **Metrología legal:** OIML R60 y OIML R76 señaladas por el docente. (R)
+- **Mencionadas en clase:** inocuidad alimentaria, seguridad de máquinas (Directiva 2006/42/CE, ISO 12100), grado IP, protección antiexplosión, HACCP y una norma «193/2004» no identificable en la transcripción. (C)
+- **Cumplimiento:** no afirmar cumplimiento normativo sin verificarlo; distinguir norma de referencia de norma verificada.
+
+## Presentación oral
+
+- Láminas ordenadas y poco cargadas; incluir fotografía de la fachada; agrupar imágenes relacionadas en una sola lámina. (C)
+- Preferir gráfica de tiempo acumulado a tablas extensas, diferenciando por color medición y proyección. (C)
