@@ -4,27 +4,118 @@
 \chapter{Introducción}
 \label{sec:introduction}
 
-La Panadería San Miguel, ubicada en Santa Cruz de la Sierra, constituye
-el caso de estudio del proyecto. Dentro de su proceso de elaboración,
-el estudio se concentra en la dosificación de harina previa al mezclado
-y amasado.
+% --- MACRO 1: el pan y las panaderías ---------------------------------------
+\textcite{ribet2025bread} y \textcite{allipour2023bread} describen el pan
+como un alimento básico y como uno de los productos de cereales de mayor
+consumo en el mundo. \textcite{ribet2025bread} señalan, además, que el pan
+aporta no menos del 10\,\% de los requerimientos energéticos de la población
+mundial. En ocho países de América Latina, sin incluir a Bolivia,
+\textcite{kovalskys2022breakfast} registraron que el grupo de panes blancos,
+bollos y tortillas fue el de mayor consumo en el desayuno de la población
+urbana (60\,\%). La elaboración de pan abarca desde plantas industriales
+hasta talleres artesanales de pequeña escala, como muestran
+\textcite{drozd2023systemic} en Polonia y \textcite{esponda2023saberes} en
+México. En los talleres documentados en Chiapas y Barcelona, la medición de
+los ingredientes queda a cargo de quien elabora el pan.
+\textcite{esponda2023saberes} recogieron el testimonio de una panadera que
+emplea el puño de la mano como patrón de medida, y \textcite{rogerio2018sabor}
+observó el pesaje en básculas digitales previo al amasado, con errores
+ocasionales que la panadera corrige durante el proceso.
+% VERIFICAR en PDF. Páginas de respaldo (no se imprimen): cifra del 10 % en
+% Ribet et al. (por confirmar). Allipour-Birgani et al. p. 20. Kovalskys et al.
+% p. 1099. Esponda-Pérez et al. pp. 13--15 y 38. Rogério pp. 58 y 169.
 
-La elaboración de pan comprende la preparación y dosificación de
-ingredientes, el mezclado y amasado, la división y formado de la masa,
-la fermentación y la cocción, con variaciones según el producto y el
-método empleado \parencite{cauvain2015technology}.
+% --- MACRO 2: Bolivia y Santa Cruz -------------------------------------------
+De acuerdo con \textcite{fao2026fbs}, el suministro de trigo y productos
+derivados para alimentación humana en Bolivia se situó entre 43,76 y
+60,46~kg por persona y año en el período 2018--2023. Según el
+\textcite{mdpyep2023trigo}, la producción nacional de trigo alcanzó
+310\,730~t en 2022. La Figura~\ref{fig:produccion_trigo_departamento}
+presenta esa producción por departamento. Santa Cruz aportó 233\,769~t, el
+75,2\,\% del total, seguida de Cochabamba con el 8,2\,\% y de Potosí con el
+6,2\,\%. Los demás departamentos aportaron, cada uno, el 5\,\% o menos.
+% VERIFICAR: valor 2023 de FAOSTAT (43,76 kg). Páginas de respaldo del MDPyEP
+% (no se imprimen): producción y Santa Cruz pp. 25--26 y 31 (Tabla 2).
 
-La Figura~\ref{fig:proceso_general_pan} presenta las etapas generales de
-elaboración del pan. En la preparación se reúnen los ingredientes requeridos
-para la elaboración. La dosificación establece la cantidad de cada ingrediente
-que ingresa al proceso. Durante el mezclado y amasado, los ingredientes se
-integran para formar la masa. Luego, la masa se divide y se forma según el
-producto elaborado. Posteriormente se realiza la fermentación y, finalmente,
-la cocción. El recuadro de líneas discontinuas delimita la dosificación de
-ingredientes y destaca la harina como la materia prima comprendida en el
-proyecto.
+\begin{figure}[H]
+    \centering
 
-\begin{figure}[htb]
+    {\setlength{\fboxsep}{6pt}
+    \fbox{%
+        \input{images/ds/produccion_trigo_departamento.tex}
+    }}
+
+    \caption{Producción de trigo por departamento, año 2022.}
+    \label{fig:produccion_trigo_departamento}
+
+    \vspace{0.2em}
+    {\footnotesize Fuente: Adaptado de \textcite{mdpyep2023trigo}.}
+
+\end{figure}
+% NOTA: en la Tabla 2 de la fuente, la suma departamental (310 154 t) no
+% coincide con el total (310 730 t). Potosí figura con 18 655 t y 6,2 %.
+
+El mismo informe registra importaciones de harina de trigo por 145\,151~t en
+2022, con Argentina como principal país de origen. El informe señala también
+que la Empresa de Apoyo a la Producción de Alimentos (EMAPA) ejecuta la
+política de subvención a los derivados del trigo establecida por el Decreto
+Supremo 255, con la cual los precios al consumidor se mantienen
+relativamente estables. En el registro de comercio de 2022, la industria de
+productos de panadería comprendía 354 unidades productivas formales. La
+Figura~\ref{fig:empresas_panaderia_departamento} presenta la distribución de
+esas unidades por departamento. Santa Cruz registró 126 unidades, el
+36\,\%, seguida de La Paz con 86 (24\,\%) y de Cochabamba con 83 (23\,\%).
+Santa Cruz concentra, por tanto, la mayor parte de la producción nacional de
+trigo y la mayor proporción de las unidades productivas de panadería
+registradas en el país.
+% Páginas de respaldo del MDPyEP (no se imprimen): importación pp. 81--82.
+% EMAPA y DS 255 pp. 20 y 86. Unidades productivas pp. 58--59 (Tabla 9).
+% NOTA: el MDPyEP indica 99 % de origen argentino y 93 mil t para 2022, cifra
+% que no coincide con el total de 145 151 t. Por eso se escribe "principal
+% país de origen" sin porcentaje. Las 354 unidades son solo las registradas
+% formalmente y no incluyen panaderías informales.
+% VERIFICAR: la Tabla 9 de la fuente no indica el año. El texto usa 2022
+% (registro de comercio) según la extracción del informe.
+
+\begin{figure}[H]
+    \centering
+
+    {\setlength{\fboxsep}{6pt}
+    \fbox{%
+        \input{images/ds/empresas_panaderia_departamento.tex}
+    }}
+
+    \caption{Unidades productivas de panadería por departamento.}
+    \label{fig:empresas_panaderia_departamento}
+
+    \vspace{0.2em}
+    {\footnotesize Fuente: Adaptado de \textcite{mdpyep2023trigo}.}
+
+\end{figure}
+
+% --- MICRO: Panadería San Miguel ---------------------------------------------
+La Panadería San Miguel, ubicada en Santa Cruz de la Sierra, constituye el
+caso de estudio del proyecto. El establecimiento elabora pan casero,
+marraqueta y pan francés, además de una masa común destinada a empanadas y
+rollos de queso. Los sábados, la producción incluye también cuñapé, masaco y
+pan de arroz.
+% PENDIENTE (entrevista documentada con el propietario): mercado (dónde y a
+% quién vende), años de funcionamiento y otro dato externo verificable.
+% Mientras no exista, no agregar oraciones sobre mercado o trayectoria.
+
+% --- Proceso general y etapa estudiada ----------------------------------------
+\textcite{cauvain2015technology} describe que la elaboración de pan
+comprende la preparación y dosificación de ingredientes, el mezclado y
+amasado, la división y formado de la masa, la fermentación y la cocción, con
+variaciones según el producto y el método empleado. La
+Figura~\ref{fig:proceso_general_pan} presenta estas etapas. Dentro de ellas,
+la dosificación establece la cantidad de cada ingrediente que ingresa al
+proceso, y el recuadro de líneas discontinuas de la figura la delimita y
+destaca la harina como la materia prima comprendida en el proyecto. El
+estudio se concentra en la dosificación de harina previa al mezclado y
+amasado, etapa que en la Panadería San Miguel se realiza de forma manual.
+
+\begin{figure}[H]
     \centering
 
     \resizebox{0.95\textwidth}{!}{%
@@ -41,34 +132,34 @@ proyecto.
     {\footnotesize Fuente: Adaptado de \textcite{lim2019spc}.}
 
 \end{figure}
+% VERIFICAR: el texto cita a Cauvain y la figura a Lim y Antony. Confirmar la
+% fuente real del diagrama.
 
-En la Panadería San Miguel, la dosificación de harina se realiza de forma
-manual. El operario prepara el pesaje, transporta e incorpora la harina y
-comprueba la cantidad obtenida en cada ciclo. Los registros del caso de
-estudio muestran, además, diferencias entre la cantidad objetivo y la
-cantidad final de harina. La caracterización presentada a continuación
-considera de manera conjunta la intervención y el tiempo asociados al
-procedimiento, así como esta diferencia registrada.
+% --- Concepto de solución y delimitación --------------------------------------
+El proyecto adopta como concepto de solución la dosificación gravimétrica
+automatizada, que utiliza el pesaje para determinar la cantidad suministrada
+respecto de una cantidad objetivo. La \textcite{oiml2017r61} describe este
+principio en la recomendación OIML R 61-1, referida a instrumentos
+automáticos de llenado gravimétrico que integran funciones de alimentación,
+pesaje, control y descarga.
 
-A partir de esta necesidad, el proyecto adopta como concepto de solución
-la dosificación gravimétrica automatizada. Este principio utiliza el
-pesaje para determinar la cantidad suministrada respecto de una cantidad
-objetivo, tal como describe la recomendación OIML R 61-1 para
-instrumentos automáticos de llenado gravimétrico que integran funciones
-de alimentación, pesaje, control y descarga \parencite{oiml2017r61}.
+El proyecto desarrolla un prototipo automatizado de dosificación
+gravimétrica de harina para la Panadería San Miguel, que mide la cantidad
+dosificada y controla la alimentación hasta alcanzar una cantidad objetivo
+establecida por el operario. El desarrollo se delimita a la dosificación
+previa al mezclado y amasado, y el desempeño del prototipo se evalúa frente
+al procedimiento manual bajo condiciones comparables.
 
-El proyecto aborda el diseño y construcción de un prototipo automatizado
-de dosificación gravimétrica de harina para la Panadería San Miguel. El
-desarrollo se delimita a la dosificación previa al mezclado y amasado y
-comprende la definición de requerimientos, el diseño, la construcción e
-integración del prototipo y su evaluación experimental frente al
-procedimiento manual bajo condiciones comparables.
-
-% REVISAR: tras la reestructuración DS, la caracterización del procedimiento
-% se ubica en la Sección~4.0 (Contextualización), no en la sección siguiente.
-La sección siguiente presenta la caracterización del procedimiento actual
-de dosificación de harina y la evidencia de campo utilizada para sustentar
-la formulación del problema.
+% TRASLADAR (01A, a 1.3 o 4.0): párrafo retirado de la Introducción por
+% contener evidencia de campo (criterio docente: sin mediciones en la Introducción).
+% Texto original conservado:
+% «En la Panadería San Miguel, la dosificación de harina se realiza de forma
+% manual. El operario prepara el pesaje, transporta e incorpora la harina y
+% comprueba la cantidad obtenida en cada ciclo. Los registros del caso de
+% estudio muestran, además, diferencias entre la cantidad objetivo y la
+% cantidad final de harina. La caracterización presentada a continuación
+% considera de manera conjunta la intervención y el tiempo asociados al
+% procedimiento, así como esta diferencia registrada.»
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 1.1 METAS DE LA EMPRESA
@@ -96,7 +187,7 @@ la formulación del problema.
 \section{Problema y justificación del proyecto}
 \label{sec:problema}
 
-% PENDIENTE: descripción textual con la fórmula VI + efecto en VD + condiciones + contexto;
+% PENDIENTE: descripción textual con la fórmula VI + efecto en VD + condiciones + contexto.
 % oración del problema sobre el proceso (imprecisión, falta de estandarización,
 % uso no óptimo de recursos). Datos de respaldo en la Sección~4.0.
 
@@ -112,7 +203,7 @@ procedimiento manual de dosificación de harina, en el cual se acumula una
 diferencia positiva de $1{,}976\ \mathrm{kg}$ respecto de las cantidades
 objetivo.
 % REVISAR: las cifras de 1 h 59 min y 1,976 kg son proyecciones calculadas en la
-% Sección~4.0 (Contextualización); explicitarlo al redactar 1.3.
+% Sección~4.0 (Contextualización). explicitarlo al redactar 1.3.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ÁRBOL DE PROBLEMAS
@@ -121,7 +212,7 @@ objetivo.
 \subsection{Árbol de Problemas}
 \label{subsec:arbol_problemas}
 
-% PENDIENTE: base para el diagrama causa-efecto (Ishikawa); reutilizar causas y efectos.
+% PENDIENTE: base para el diagrama causa-efecto (Ishikawa). reutilizar causas y efectos.
 
 Como se observa en la Figura~\ref{fig:arbol_problemas}, el árbol de problemas se construyó a partir de la caracterización del procedimiento manual de dosificación de harina y de la evidencia obtenida durante el levantamiento de campo. La estructura organiza la problemática en tres niveles: causas, problema central y efectos.
 
@@ -175,7 +266,7 @@ desperdicio de harina, costo o calidad del producto.
 \subsection{Justificación}
 \label{sec:justificacion}
 
-% PENDIENTE: priorizar la justificación económica con precios puestos en Bolivia;
+% PENDIENTE: priorizar la justificación económica con precios puestos en Bolivia.
 % revisar la tecnológica (solo si hay tecnología nueva).
 
 \subsubsection{Justificación Tecnológica}
@@ -190,7 +281,7 @@ El aporte consiste en evaluar esta integración frente al procedimiento
 manual, considerando el tiempo de dosificación, la intervención del
 operario, la diferencia respecto de la cantidad objetivo y la
 repetibilidad. Esta comparación aporta evidencia sobre el desempeño de
-la solución en el caso de estudio; las mejoras esperadas requieren
+la solución en el caso de estudio. Las mejoras esperadas requieren
 comprobación experimental.
 
 \subsubsection{Justificación Social}
@@ -295,7 +386,7 @@ evaluar la condición de bajo costo.
 \section{Objetivos}
 \label{sec:objetivos}
 
-% PENDIENTE: OG con verbo + qué + para qué + con qué; OE por etapa del Modelo en V.
+% PENDIENTE: OG con verbo + qué + para qué + con qué. OE por etapa del Modelo en V.
 
 \subsection{Objetivo General}
 \label{subsec:objetivo_general}
@@ -362,7 +453,7 @@ harina para la Panadería San Miguel.
     período de recuperación de la inversión ni costos de producción
     comercial en serie.
 
-    % Exclusión solicitada por el autor; susceptible de revisión posterior.
+    % Exclusión solicitada por el autor. susceptible de revisión posterior.
     \item No se realizará el modelamiento matemático del sistema de dosificación.
 
 \end{itemize}
@@ -404,7 +495,7 @@ harina para la Panadería San Miguel.
 \section{Metodología de desarrollo del proyecto}
 \label{sec:metodologia}
 
-% PENDIENTE: Modelo en V; etapa → descripción; correspondencia etapa ↔ objetivo ↔ capítulo;
+% PENDIENTE: Modelo en V. etapa → descripción. correspondencia etapa ↔ objetivo ↔ capítulo.
 % figura del modelo.
 
 
