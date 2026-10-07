@@ -1,0 +1,413 @@
+% Evitar que los bloques de figuras estiren los espacios entre párrafos.
+\raggedbottom
+
+\chapter{Introducción}
+\label{sec:introduction}
+
+La Panadería San Miguel, ubicada en Santa Cruz de la Sierra, constituye
+el caso de estudio del proyecto. Dentro de su proceso de elaboración,
+el estudio se concentra en la dosificación de harina previa al mezclado
+y amasado.
+
+La elaboración de pan comprende la preparación y dosificación de
+ingredientes, el mezclado y amasado, la división y formado de la masa,
+la fermentación y la cocción, con variaciones según el producto y el
+método empleado \parencite{cauvain2015technology}.
+
+La Figura~\ref{fig:proceso_general_pan} presenta las etapas generales de
+elaboración del pan. En la preparación se reúnen los ingredientes requeridos
+para la elaboración. La dosificación establece la cantidad de cada ingrediente
+que ingresa al proceso. Durante el mezclado y amasado, los ingredientes se
+integran para formar la masa. Luego, la masa se divide y se forma según el
+producto elaborado. Posteriormente se realiza la fermentación y, finalmente,
+la cocción. El recuadro de líneas discontinuas delimita la dosificación de
+ingredientes y destaca la harina como la materia prima comprendida en el
+proyecto.
+
+\begin{figure}[htb]
+    \centering
+
+    \resizebox{0.95\textwidth}{!}{%
+        {\setlength{\fboxsep}{10pt}
+        \fbox{%
+            \input{images/marcoref/proceso_general_pan.tex}
+        }}
+    }
+
+    \caption{Proceso general de elaboración del pan.}
+    \label{fig:proceso_general_pan}
+
+    \vspace{0.2em}
+    {\footnotesize Fuente: Adaptado de \textcite{lim2019spc}.}
+
+\end{figure}
+
+En la Panadería San Miguel, la dosificación de harina se realiza de forma
+manual. El operario prepara el pesaje, transporta e incorpora la harina y
+comprueba la cantidad obtenida en cada ciclo. Los registros del caso de
+estudio muestran, además, diferencias entre la cantidad objetivo y la
+cantidad final de harina. La caracterización presentada a continuación
+considera de manera conjunta la intervención y el tiempo asociados al
+procedimiento, así como esta diferencia registrada.
+
+A partir de esta necesidad, el proyecto adopta como concepto de solución
+la dosificación gravimétrica automatizada. Este principio utiliza el
+pesaje para determinar la cantidad suministrada respecto de una cantidad
+objetivo, tal como describe la recomendación OIML R 61-1 para
+instrumentos automáticos de llenado gravimétrico que integran funciones
+de alimentación, pesaje, control y descarga \parencite{oiml2017r61}.
+
+El proyecto aborda el diseño y construcción de un prototipo automatizado
+de dosificación gravimétrica de harina para la Panadería San Miguel. El
+desarrollo se delimita a la dosificación previa al mezclado y amasado y
+comprende la definición de requerimientos, el diseño, la construcción e
+integración del prototipo y su evaluación experimental frente al
+procedimiento manual bajo condiciones comparables.
+
+% REVISAR: tras la reestructuración DS, la caracterización del procedimiento
+% se ubica en la Sección~4.0 (Contextualización), no en la sección siguiente.
+La sección siguiente presenta la caracterización del procedimiento actual
+de dosificación de harina y la evidencia de campo utilizada para sustentar
+la formulación del problema.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1.1 METAS DE LA EMPRESA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Metas de la empresa}
+\label{sec:metas_empresa}
+
+% PENDIENTE: meta de la Panadería San Miguel y alineación del proyecto.
+% Requiere información documentada de la panadería (no inventar metas).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1.2 OBJETIVOS DE LA EMPRESA ALINEADOS AL PROYECTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Objetivos de la empresa alineados al proyecto}
+\label{sec:objetivos_empresa}
+
+% PENDIENTE: desafíos y cualidades que el producto debe atender.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1.3 PROBLEMA Y JUSTIFICACIÓN DEL PROYECTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Problema y justificación del proyecto}
+\label{sec:problema}
+
+% PENDIENTE: descripción textual con la fórmula VI + efecto en VD + condiciones + contexto;
+% oración del problema sobre el proceso (imprecisión, falta de estandarización,
+% uso no óptimo de recursos). Datos de respaldo en la Sección~4.0.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FORMULACIÓN DEL PROBLEMA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Formulación del Problema}
+\label{subsec:formulacion_problema}
+
+En la Panadería San Miguel, el operario destina $1\ \mathrm{h}\ 59\ \mathrm{min}$ al
+procedimiento manual de dosificación de harina, en el cual se acumula una
+diferencia positiva de $1{,}976\ \mathrm{kg}$ respecto de las cantidades
+objetivo.
+% REVISAR: las cifras de 1 h 59 min y 1,976 kg son proyecciones calculadas en la
+% Sección~4.0 (Contextualización); explicitarlo al redactar 1.3.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ÁRBOL DE PROBLEMAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Árbol de Problemas}
+\label{subsec:arbol_problemas}
+
+% PENDIENTE: base para el diagrama causa-efecto (Ishikawa); reutilizar causas y efectos.
+
+Como se observa en la Figura~\ref{fig:arbol_problemas}, el árbol de problemas se construyó a partir de la caracterización del procedimiento manual de dosificación de harina y de la evidencia obtenida durante el levantamiento de campo. La estructura organiza la problemática en tres niveles: causas, problema central y efectos.
+
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \input{images/marcoref/arbol_problemas.tex}%
+    }
+    \caption{Árbol de problemas.}
+    \label{fig:arbol_problemas}
+    \vspace{0.2em}
+    {\footnotesize Fuente: Elaboración propia.}
+\end{figure}
+
+El tiempo registrado comprendió la preparación inicial, las cargas
+sucesivas, los traslados entre almacenamiento y pesaje, además del ajuste
+con comprobación final. Las cargas principales y los retornos requeridos
+para completar la dosificación acumularon $259{,}7\ \mathrm{s}$,
+equivalentes al $63{,}0\%$ del tiempo total registrado. Este bloque
+incluyó la recogida, el transporte y la descarga de harina. En cada ciclo
+se realizaron tres o cuatro cargas principales.
+
+La diferencia positiva de harina se produjo durante el ajuste final. En
+los siete ciclos registrados, la lectura posterior a la última carga
+principal permaneció por debajo de la cantidad objetivo. El ajuste final
+incorporó una cantidad superior a la restante para alcanzar dicho objetivo,
+por lo que las lecturas finales quedaron entre $+0{,}011$ y
+$+0{,}038\ \mathrm{kg}$ por encima de las cantidades establecidas para
+cada preparación.
+
+Como consecuencia del tiempo dedicado a la dosificación, el operario
+dispone de menor tiempo para realizar otras actividades mientras ejecuta
+el procedimiento. Asimismo, la diferencia positiva modifica la cantidad
+de harina establecida para la preparación respecto de la cantidad objetivo.
+Los registros disponibles no permiten establecer consecuencias sobre
+desperdicio de harina, costo o calidad del producto.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TABLA DE INCONFORMIDADES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Tabla de inconformidades}
+\label{subsec:inconformidades}
+
+% PENDIENTE: característica/subcaracterística de calidad (ISO 9126 / ISO/IEC 25010)
+% → inconformidad → especificación de referencia incumplida (ver A-004).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% JUSTIFICACIÓN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Justificación}
+\label{sec:justificacion}
+
+% PENDIENTE: priorizar la justificación económica con precios puestos en Bolivia;
+% revisar la tecnológica (solo si hay tecnología nueva).
+
+\subsubsection{Justificación Tecnológica}
+\label{subsec:justificacion_tecnologica}
+
+El proyecto propone aplicar la dosificación gravimétrica automatizada
+a las condiciones de operación de la Panadería San Miguel. La integración
+del pesaje con el control de alimentación busca reducir la intervención
+requerida para alcanzar la cantidad objetivo de harina.
+
+El aporte consiste en evaluar esta integración frente al procedimiento
+manual, considerando el tiempo de dosificación, la intervención del
+operario, la diferencia respecto de la cantidad objetivo y la
+repetibilidad. Esta comparación aporta evidencia sobre el desempeño de
+la solución en el caso de estudio; las mejoras esperadas requieren
+comprobación experimental.
+
+\subsubsection{Justificación Social}
+\label{subsec:justificacion_social}
+
+El operario encargado de la dosificación de harina en la Panadería San
+Miguel constituye el beneficiario directo del proyecto. El procedimiento
+registrado requiere su intervención en la preparación del pesaje, las
+cargas y los traslados, así como en el ajuste y la comprobación final.
+La automatización propuesta busca reducir la intervención necesaria
+durante la alimentación y el pesaje, con la expectativa de disponer de
+tiempo para otras actividades del establecimiento.
+
+Este beneficio esperado se limita al caso de estudio y requiere
+comprobación mediante la comparación experimental con el procedimiento
+manual. Los registros actuales no permiten afirmar mejoras en salud
+ocupacional, empleo o calidad de vida.
+
+\subsubsection{Justificación Económica}
+\label{subsec:justificacion_economica}
+
+El proyecto considera el costo de construcción e integración del prototipo
+frente a soluciones comerciales de funcionalidad comparable. RUICHUAN se
+seleccionó por su principio gravimétrico y control automático, mientras que
+Trust-Long se incluyó por su operación por lotes de harina. La
+Tabla~\ref{tab:comparativa_economica} presenta las características y los
+precios publicados de ambas referencias.
+
+\begin{table}[H]
+    \centering
+    \caption{Referencias comerciales para la evaluación económica del proyecto.}
+    \label{tab:comparativa_economica}
+    \footnotesize
+    \setstretch{1}
+    \setlength{\tabcolsep}{4pt}
+    \renewcommand{\arraystretch}{1.35}
+
+    \begin{tabularx}{\textwidth}{
+        >{\raggedright\arraybackslash}p{0.28\textwidth}
+        >{\raggedright\arraybackslash}X
+        >{\raggedright\arraybackslash}X}
+        \toprule[1pt]
+
+        \textbf{Criterio} &
+        \textbf{RUICHUAN} &
+        \textbf{Trust-Long} \\
+        \midrule[1pt]
+
+        Modelo publicado &
+        Serie SZC-T &
+        TLP-500 / TLP-5000 \\
+        \midrule
+
+        Tipo de operación &
+        Continua / por lotes &
+        Por lotes \\
+        \midrule
+
+        Material declarado &
+        Harina y polvos de baja fluidez &
+        Harina y otros materiales pulverulentos \\
+        \midrule
+
+        Principio de dosificación &
+        Pérdida de peso con celdas de carga &
+        Pesaje digital y alimentación mediante tornillo \\
+        \midrule
+
+        Rango por lote publicado &
+        No especificado &
+        $0{,}5$--$15\ \mathrm{kg}$\textsuperscript{a} \\
+        \midrule
+
+        Nivel de automatización &
+        Control automático mediante PLC &
+        Operación semiautomática \\
+        \midrule
+
+        Precio publicado para una unidad &
+        USD~$2\,000$ &
+        USD~$2\,600$ para TLP-500 y
+        USD~$3\,800$ para TLP-5000 \\
+        \bottomrule[1pt]
+    \end{tabularx}
+
+    \vspace{0.5em}
+
+    {\footnotesize
+    Fuente: Elaboración propia con base en las publicaciones comerciales de
+    RUICHUAN~\parencite{UnidadDosificadoraGravimetrica} y
+    Trust-Long~\parencite{MaquinaLlenadoPolvo}.}
+\end{table}
+
+La comparación del costo documentado del prototipo con estas referencias,
+junto con sus diferencias funcionales y técnicas, establece el criterio para
+evaluar la condición de bajo costo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OBJETIVOS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+% PENDIENTE: OG con verbo + qué + para qué + con qué; OE por etapa del Modelo en V.
+
+\subsection{Objetivo General}
+\label{subsec:objetivo_general}
+
+Desarrollar un prototipo automatizado de dosificación gravimétrica de
+harina para la Panadería San Miguel.
+
+\subsection{Objetivos Específicos}
+\label{subsec:objetivos_especificos}
+
+\begin{itemize}
+
+    \item Determinar los requerimientos funcionales y técnicos del
+    prototipo a partir de las condiciones de operación del procedimiento
+    manual de dosificación de harina.
+
+    \item Diseñar los subsistemas mecánico, de medición gravimétrica y de
+    control del prototipo conforme a los requerimientos establecidos.
+
+    \item Implementar un prototipo funcional de dosificación gravimétrica
+    automatizada conforme al diseño del sistema.
+
+    \item Verificar el cumplimiento de los requerimientos funcionales y
+    técnicos del prototipo mediante pruebas de funcionamiento.
+
+    \item Comparar el desempeño del prototipo con el procedimiento manual de dosificación de harina bajo condiciones comparables.
+
+    \item Determinar el costo de construcción e integración del prototipo
+    mediante un desglose documentado de materiales, componentes y procesos
+    de fabricación y montaje.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1.5 ALCANCE DEL PROYECTO (antes «Delimitación»)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Alcance del proyecto}
+\label{sec:delimitacion}
+
+% PENDIENTE: organizar por ejes (técnico, funcional, normativo, temporal, de usuarios,
+% de limitaciones). Los límites pasan al eje de limitaciones. Los valores de
+% Alcances (5–15 kg, 5 g, ±0,5 %, 50 kg) contradicen D-009 / A-004.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LÍMITES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Límites}
+\label{subsec:limites}
+
+\begin{itemize}
+
+    \item No se realizará la validación del prototipo en otros
+    establecimientos.
+
+    \item No se automatizará la dosificación de ingredientes distintos
+    de la harina.
+
+    \item No se automatizarán el mezclado y amasado, la división y formado,
+    la fermentación ni la cocción del producto.
+
+    \item No se realizará un análisis de rentabilidad del establecimiento,
+    período de recuperación de la inversión ni costos de producción
+    comercial en serie.
+
+    % Exclusión solicitada por el autor; susceptible de revisión posterior.
+    \item No se realizará el modelamiento matemático del sistema de dosificación.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ALCANCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Alcances}
+\label{subsec:alcances}
+
+\begin{itemize}
+
+    \item El prototipo comprende la dosificación gravimétrica automatizada
+    de harina en lotes comprendidos, de manera preliminar, entre
+    $5$ y $15\ \mathrm{kg}$.
+
+    \item La cantidad objetivo de harina es configurable por el operario
+    antes de iniciar cada ciclo de dosificación.
+
+    \item El sistema de pesaje se plantea con una resolución de
+    $5\ \mathrm{g}$ o mejor y una tolerancia preliminar de dosificación
+    de $\pm 0{,}5\%$ respecto de la cantidad objetivo.
+
+    \item La tolva se dimensiona para una capacidad útil aproximada de
+    $50\ \mathrm{kg}$ de harina. El volumen geométrico se establece a
+    partir de la densidad aparente del producto utilizado.
+
+    \item El ciclo comprende el control automático de la alimentación y
+    el pesaje desde el inicio de la dosificación hasta alcanzar la cantidad
+    objetivo. La reposición de harina en la tolva se realiza de forma manual.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1.6 METODOLOGÍA DE DESARROLLO DEL PROYECTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Metodología de desarrollo del proyecto}
+\label{sec:metodologia}
+
+% PENDIENTE: Modelo en V; etapa → descripción; correspondencia etapa ↔ objetivo ↔ capítulo;
+% figura del modelo.
+
+
+% Restaurar la composición de los capítulos siguientes.
+\clearpage
+\flushbottom
