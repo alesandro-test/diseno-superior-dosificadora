@@ -1,0 +1,77 @@
+% Diagrama de causa y efecto (Ishikawa) de la dosificación manual de harina.
+% Elaboración propia a partir del árbol de problemas y de la descripción
+% textual (Sección 1.3). Categorías del procedimiento: método, entorno,
+% instrumento y medición. Se omite «mano de obra» (criterio docente:
+% procesos, no personas) y «materiales» (sin datos de la harina, ver 4.0).
+\begin{tikzpicture}[
+    >=Latex,
+    font=\footnotesize,
+    categoria/.style={draw, thick, fill=black!10, minimum width=2.4cm,
+        minimum height=0.7cm, align=center, font=\footnotesize\bfseries},
+    efecto/.style={draw, very thick, text width=3.0cm, minimum height=2.2cm,
+        align=center, font=\footnotesize\bfseries,
+        execute at begin node={\hyphenpenalty=10000}},
+    causa/.style={align=right, anchor=east, inner sep=1pt},
+    espina/.style={-{Latex[width=7pt,length=6pt]}, very thick},
+    hueso/.style={thick},
+    flecha/.style={-{Latex[width=4pt,length=4pt]}}
+]
+
+% Espina central y efecto
+\node[efecto] (efecto) at (12.0,0)
+    {Dosificación no regulada respecto de la cantidad objetivo y ajuste
+     final no estandarizado};
+\draw[espina] (0,0) -- (efecto.west);
+
+% Huesos superiores
+\coordinate (mA) at (2.2,3.6);  \coordinate (mB) at (4.2,0);
+\coordinate (eA) at (6.9,3.6);  \coordinate (eB) at (8.9,0);
+% Huesos inferiores
+\coordinate (iA) at (2.2,-3.6); \coordinate (iB) at (4.2,0);
+\coordinate (dA) at (6.9,-3.6); \coordinate (dB) at (8.9,0);
+
+\foreach \a/\b in {mA/mB, eA/eB, iA/iB, dA/dB}
+    \draw[hueso] (\a) -- (\b);
+
+\node[categoria, above=1pt of mA] {Método};
+\node[categoria, above=1pt of eA] {Entorno};
+\node[categoria, below=1pt of iA] {Instrumento};
+\node[categoria, below=1pt of dA] {Medición};
+
+% Causas: \t es la fracción del hueso desde la categoría hacia la espina
+\foreach \t/\txt in {
+    0.18/{Cargas sucesivas\\(3 o 4 por ciclo)},
+    0.50/{Retornos para\\cargas adicionales},
+    0.82/{Ajuste final posterior\\a la última carga}}
+{
+    \coordinate (p) at ($(mA)!\t!(mB)$);
+    \draw[flecha] ($(p)+(-1.1,0)$) -- (p);
+    \node[causa] at ($(p)+(-1.15,0)$) {\txt};
+}
+
+\foreach \t/\txt in {
+    0.58/{Separación entre\\almacenamiento\\y pesaje}}
+{
+    \coordinate (p) at ($(eA)!\t!(eB)$);
+    \draw[flecha] ($(p)+(-1.1,0)$) -- (p);
+    \node[causa] at ($(p)+(-1.15,0)$) {\txt};
+}
+
+\foreach \t/\txt in {
+    0.25/{Balanza de indicación sin\\control de la alimentación},
+    0.70/{Preparación y puesta\\a cero en cada ciclo}}
+{
+    \coordinate (p) at ($(iA)!\t!(iB)$);
+    \draw[flecha] ($(p)+(-1.1,0)$) -- (p);
+    \node[causa] at ($(p)+(-1.15,0)$) {\txt};
+}
+
+\foreach \t/\txt in {
+    0.58/{Comparación\\visual con la\\cantidad objetivo}}
+{
+    \coordinate (p) at ($(dA)!\t!(dB)$);
+    \draw[flecha] ($(p)+(-1.1,0)$) -- (p);
+    \node[causa] at ($(p)+(-1.15,0)$) {\txt};
+}
+
+\end{tikzpicture}
