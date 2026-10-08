@@ -26,7 +26,7 @@ Trabajo activo: **01C — Introducción**.
 1. **01C — Introducción, 1.1 y 1.2:** búsqueda de fuentes (Bolivia → región → internacional), redacción macro → micro, metas y objetivos de la empresa.
 2. **01A — 1.3 Problema y 4.0 Contextualización:** reubicar Antecedentes en 4.0; descripción textual con la fórmula VI + efecto VD + condiciones + contexto; Ishikawa desde el árbol actual; tabla de inconformidades con especificación de referencia; oración del problema sobre el proceso; justificación económica.
 3. **01B — 1.4 Objetivos, 1.5 Alcance por ejes, 1.6 Metodología:** OE por etapa del Modelo en V (7 etapas); OG con fórmula verbo + qué + para qué + con qué; alcance por ejes solo con valores sustentados.
-4. **04 — 2. Estudios preliminares:** tabla factibilidad / viabilidad / deseabilidad.
+4. **04 — 2. Estudios preliminares:** redactado (Tabla 2.1, 2026-10-08). Pendiente: cronograma (apéndice vacío), suministro eléctrico junto a la zona de pesaje, texto oficial SENASAG 019/2003, Reglamento (CE) 1935/2004 y A-006.
 5. **02 — Investigación:** precios puestos en Bolivia; mantenibilidad y eficiencia de competidores; OIML R60 / R76 / R61 y su aplicabilidad; reglamentación municipal citada por el docente (peso de pan); ISO 9126 vs. ISO/IEC 25010.
 6. **03 — Diagramas y presentación:** Ishikawa; figura del Modelo en V; gráfica de tiempo acumulado medición/proyección; láminas con fachada e imágenes agrupadas.
 7. **Portada:** fecha diciembre según el docente (actualmente automática; no modificada en 00B). Etiqueta del docente en `main.tex` corregida. Queda el texto de portada en `packages/ucbimt.sty` («…habilitación a Taller de Grado I»), no modificado por indicación del estudiante.

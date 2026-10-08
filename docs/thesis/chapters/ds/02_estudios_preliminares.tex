@@ -5,4 +5,168 @@
 \chapter{Estudios preliminares}
 \label{cap:estudios_preliminares}
 
-% PENDIENTE: tabla de factibilidad (autor), viabilidad (panadería) y deseabilidad; columna cumple / no cumple.
+% Estructura (plantilla DS): factibilidad (autor), viabilidad (panadería) y
+% deseabilidad en una sola tabla. Base de cumplimiento breve (2-3 oraciones),
+% sin columna cumple / no cumple (decisión del estudiante).
+% Categorías: la plantilla pide técnica, recursos y cronograma (factibilidad),
+% económica, operativa y cronograma (viabilidad) y valor social, ambiental, de
+% competencia u otro (deseabilidad). Se agregan Legal o normas y Riesgos, como
+% en la referencia estructural 04. Ambiental se trata en el texto, sin fila,
+% porque el proyecto no declara un aporte ambiental.
+
+Los estudios preliminares evalúan las condiciones para desarrollar el
+prototipo de dosificación gravimétrica de harina en tres dimensiones. La
+factibilidad examina la capacidad técnica, los recursos, el marco normativo y
+el cronograma del autor. La viabilidad examina la capacidad económica,
+operativa y de cronograma de la Panadería San Miguel para aplicar y operar el
+prototipo, y los riesgos de la aplicación. La deseabilidad examina el valor
+social y competitivo del entregable. La
+Tabla~\ref{tab:estudios_preliminares} presenta cada categoría con la pregunta
+de evaluación y la base de cumplimiento.
+
+{\footnotesize
+\setstretch{1}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.35}
+
+\begin{xltabular}{\textwidth}{
+    >{\raggedright\arraybackslash}p{0.14\textwidth}
+    >{\raggedright\arraybackslash}p{0.26\textwidth}
+    >{\raggedright\arraybackslash}X}
+    \caption{Estudios preliminares del prototipo de dosificación gravimétrica
+    de harina.}
+    \label{tab:estudios_preliminares} \\
+    \toprule[1pt]
+    \textbf{Categoría} &
+    \textbf{Pregunta de evaluación} &
+    \textbf{Base de cumplimiento} \\
+    \midrule[1pt]
+    \endfirsthead
+    \toprule[1pt]
+    \textbf{Categoría} &
+    \textbf{Pregunta de evaluación} &
+    \textbf{Base de cumplimiento} \\
+    \midrule[1pt]
+    \endhead
+
+    \midrule
+    \endfoot
+
+    \bottomrule[1pt]
+    \multicolumn{3}{l}{Fuente: Elaboración propia.} \\
+    \endlastfoot
+
+    % --- FACTIBILIDAD ---------------------------------------------------------
+    \multicolumn{3}{l}{\textbf{Factibilidad (autor)}} \\
+    \midrule
+
+    Técnica &
+    ¿Existe la tecnología adecuada para el desarrollo del proyecto?
+    ¿Los componentes son accesibles?
+    ¿El autor cuenta con los conocimientos necesarios? &
+    La dosificación gravimétrica es un principio establecido en la
+    recomendación OIML R~61-1 (\citeyear{oiml2017r61}) y aplicado a la
+    harina en equipos comerciales. El prototipo emplea componentes de uso
+    general en mecatrónica disponibles en Santa Cruz de la Sierra. El autor
+    cuenta con formación en diseño mecánico, instrumentación y control. \\
+    \midrule
+
+    Recursos &
+    ¿Se dispone del equipo y la infraestructura necesarios?
+    ¿El presupuesto es suficiente? &
+    El autor financia el prototipo con un presupuesto inferior al precio de
+    las referencias comerciales, de USD~$2\,000$ a $3\,800$
+    (Tabla~\ref{tab:comparativa_economica}). Se cuenta con SolidWorks,
+    MATLAB y el laboratorio de la Universidad Católica Boliviana para la
+    fabricación y las pruebas. \\
+    \midrule
+
+    Legal o normas &
+    ¿El proyecto se ajusta a la normativa aplicable? &
+    Se toman como referencias de diseño, sin certificar el cumplimiento, la
+    RA~019/2003 de \textcite{senasag2003ra019} y el Reglamento (CE)
+    1935/2004 (\citeyear{ue2004reg1935}) para el contacto con alimentos,
+    ISO~14159 (\citeyear{iso2002iso14159}) y EN~1672-2
+    (\citeyear{cen2020en1672}) para el diseño higiénico, ISO~12100
+    (\citeyear{iso2010iso12100}) para la seguridad de máquinas y OIML R~61-1
+    (\citeyear{oiml2017r61}) para la verificación metrológica. \\
+    % VERIFICAR: artículos 16 y 17 de la RA SENASAG 019/2003 leídos en una
+    % copia no oficial. Confirmar con el texto oficial.
+    % VERIFICAR: «193/2004» de la clase identificado como Reglamento (CE)
+    % 1935/2004 (inferencia, confirmar con el docente). OIML R 60/R 76: A-006.
+    \midrule
+
+    Temporal &
+    ¿El cronograma de trabajo es realista? &
+    La contextualización, los requerimientos y el diseño se desarrollan en
+    Diseño Superior hasta diciembre de 2026. La implementación, la
+    verificación y la validación se desarrollan en Taller de Grado~II, según
+    las ramas del Modelo en V. \\
+    % PENDIENTE: elaborar el cronograma (apéndice cronograma.tex vacío).
+    \midrule[1pt]
+
+    % --- VIABILIDAD -----------------------------------------------------------
+    \multicolumn{3}{l}{\textbf{Viabilidad (Panadería San Miguel)}} \\
+    \midrule
+
+    Económica &
+    ¿El costo de desarrollo es razonable frente a los beneficios?
+    ¿El mantenimiento es sostenible? &
+    El autor asume la inversión, por lo que la panadería no requiere
+    capacidad de inversión. El diseño considera partes desmontables para la
+    limpieza y repuestos disponibles en Santa Cruz de la Sierra. \\
+    \midrule
+
+    Operativa &
+    ¿Se integra con los sistemas o procesos existentes? &
+    El prototipo reemplaza únicamente la dosificación manual de harina, sin
+    modificar el amasado, la división ni la cocción. El operario configura la
+    cantidad objetivo y repone la harina, y el equipo se ubica junto a la
+    zona de pesaje (Figura~\ref{fig:croquis_panaderia}). \\
+    % VERIFICAR: suministro eléctrico junto a la zona de pesaje.
+    \midrule
+
+    Riesgos &
+    ¿Se identifican y controlan los riesgos de la aplicación del sistema? &
+    Los riesgos son la interrupción de la producción, los materiales no aptos
+    para alimentos, las partes móviles cerca del operario y la variación del
+    flujo de harina. Se controlan con pruebas fuera del horario de
+    producción, materiales aptos para alimentos, resguardos según ISO~12100 y
+    ensayos de flujo previos. \\
+    \midrule
+
+    Cronograma &
+    ¿La panadería dispone del tiempo para aplicar y operar el entregable? &
+    La panadería facilitó el relevamiento de dos jornadas. La instalación y
+    la validación se acuerdan con la panadería al inicio de Taller de
+    Grado~II, con el diseño concluido. \\
+    \midrule[1pt]
+
+    % --- DESEABILIDAD ---------------------------------------------------------
+    \multicolumn{3}{l}{\textbf{Deseabilidad}} \\
+    \midrule
+
+    Social &
+    ¿El proyecto beneficia a la comunidad o a la industria? &
+    El beneficiario directo es el operario de dosificación. Las cargas y los
+    retornos concentraron el $63{,}0$\,\% del tiempo registrado
+    (Sección~\ref{sec:contextualizacion}). El prototipo asume la alimentación
+    y el ajuste final, y la reducción de la intervención se comprueba en la
+    validación. \\
+    \midrule
+
+    Competencia &
+    ¿El entregable aporta una ventaja frente a las alternativas existentes? &
+    Las alternativas comerciales son importadas, y su precio aumenta con los
+    costos de importación. La propuesta ofrece menor costo y repuestos
+    locales. En 2022 se registraron 126 unidades productivas formales de
+    panadería en Santa Cruz, según \textcite{mdpyep2023trigo}. \\
+\end{xltabular}
+}
+
+El proyecto no declara un aporte ambiental, porque la diferencia positiva de
+harina registrada se incorpora a la masa y los registros no documentan
+desperdicio. Las condiciones que permanecen pendientes son la comparación del
+costo del prototipo con el precio puesto en Bolivia y el acuerdo de
+instalación y validación con la panadería, que se resuelven en las etapas de
+implementación y validación.

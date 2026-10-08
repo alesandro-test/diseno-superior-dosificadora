@@ -88,7 +88,7 @@ Portada ............................................ fecha: diciembre [R]
 ## Capítulos 2–11
 
 ### 2. Estudios preliminares
-- Tabla: **factibilidad** (el autor: técnica, recursos, cronograma) · **viabilidad** (la panadería: económica, operativa, cronograma) · **deseabilidad** (valor social, ambiental, competitivo); columna cumple / no cumple. [P]
+- Tabla única: **factibilidad** (el autor: técnica, recursos, cronograma) · **viabilidad** (la panadería: económica, operativa, cronograma) · **deseabilidad** (valor social, ambiental, competitivo). [P] La columna «base de cumplimiento» resuelve el cumple / no cumple; sin columna de evaluación aparte (decisión del estudiante, 2026-10-08).
 
 ### 3. Estado del arte
 - **30** proyectos o productos (académicos, comerciales, patentes). [P]
