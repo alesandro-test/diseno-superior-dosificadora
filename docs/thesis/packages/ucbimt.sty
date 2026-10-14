@@ -17,6 +17,7 @@
 
 % Customize sections, subsections, chapters
 \usepackage{titlesec}
+\usepackage{etoolbox}
 \usepackage[spanish, mexico]{babel}
 \usepackage{comment}
 
@@ -331,6 +332,34 @@
     {0pt}
     {50pt}
     {40pt}
+}
+
+% Estilo Diseño Superior: "3. Estado del arte" en linea y sin salto de pagina,
+% el capitulo continua a renglon seguido del anterior.
+\newcommand*{\myChapterStyleDS}{%
+    \titleformat{\chapter}[hang]
+    {\normalfont\fontsize{14}{17}\bfseries}
+    {\thechapter.}
+    {0.5em}
+    {}
+
+    \titlespacing*{\chapter}
+    {0pt}
+    {18pt}
+    {12pt}
+
+    \patchcmd{\chapter}
+    {\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}}
+    {\par}
+    {}{\PackageWarning{ucbimt}{No se pudo quitar el salto de pagina de \string\chapter}}
+}
+
+% Restaura el salto de pagina antes de cada capitulo (bibliografia, apendices).
+\newcommand*{\chapterNewPage}{%
+    \patchcmd{\chapter}
+    {\par\global\@topnum}
+    {\if@openright\cleardoublepage\else\clearpage\fi\thispagestyle{plain}\global\@topnum}
+    {}{}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

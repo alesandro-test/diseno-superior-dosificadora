@@ -118,7 +118,8 @@ DOSIFICADORA GRAVIMÉTRICA AUTOMATIZADA PARA INGREDIENTES SECOS EN PANADERÍAS A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \tableofcontents
-\cleardoublepage
+\newpage
+% \cleardoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapters custom
@@ -126,37 +127,28 @@ DOSIFICADORA GRAVIMÉTRICA AUTOMATIZADA PARA INGREDIENTES SECOS EN PANADERÍAS A
 
 % Set new custom chapter and section styles
 \pagestyle{fancy}
-\myChapterStyle
+\myChapterStyleDS
 \mySectionStyle
 
 % Chapters here (estructura de Diseño Superior, ver context/THESIS_STRUCTURE.md)
 % chapters/marcoref.tex se conserva como respaldo del contenido heredado de Taller I.
 \input{chapters/ds/01_introduccion}
-\cleardoublepage
 
 \input{chapters/ds/02_estudios_preliminares}
-\cleardoublepage
 
 \input{chapters/ds/03_estado_arte}
-\cleardoublepage
 
 \input{chapters/ds/04_diseno_tecnico}
-\cleardoublepage
 
 \input{chapters/ds/05_diseno_alto_nivel}
-\cleardoublepage
 
 % \input{chapters/ds/06_diseno_detallado}
-% \cleardoublepage
 
 % \input{chapters/ds/07_verificacion_validacion}
-% \cleardoublepage
 
 % \input{chapters/ds/08_implementacion}
-% \cleardoublepage
 
 % \input{chapters/ds/09_conclusiones}
-% \cleardoublepage
 
 %\input{chapters/marcoteorico}
 %\cleardoublepage
@@ -171,9 +163,14 @@ DOSIFICADORA GRAVIMÉTRICA AUTOMATIZADA PARA INGREDIENTES SECOS EN PANADERÍAS A
 % Bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Bibliografia y apendices vuelven a iniciar en pagina nueva
+% \cleardoublepage
+\chapterNewPage
+\myChapterStyle
+
 \printbibliography
 \addcontentsline{toc}{chapter}{Bibliografia}
-\cleardoublepage
+% \cleardoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Appendix configuration
